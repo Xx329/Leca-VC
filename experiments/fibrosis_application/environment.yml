@@ -1,0 +1,12 @@
+name: gse267904-fibrosis-v3
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - gcc_linux-64>=11
+  - gxx_linux-64>=11
+  - make>=4.3
+  - cmake>=3.22
+  - pip:
+      - -r requirements.txt

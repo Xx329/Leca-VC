@@ -1,0 +1,37 @@
+method,sample_id,response,therapy,cell_type,proportion,statistical_unit,semantics
+CellRank_terminal_proxy,Pre_P24,Responder,anti-PD1,B cell,0.3589344480769535,source Pre sample,fate-weighted broad-type mapping of Pre-only terminal lineages
+CellRank_terminal_proxy,Pre_P24,Responder,anti-PD1,Plasma cell,0.0699215527734522,source Pre sample,fate-weighted broad-type mapping of Pre-only terminal lineages
+CellRank_terminal_proxy,Pre_P24,Responder,anti-PD1,Monocyte/Macrophage,0.5112261379220886,source Pre sample,fate-weighted broad-type mapping of Pre-only terminal lineages
+CellRank_terminal_proxy,Pre_P24,Responder,anti-PD1,Dendritic cell,0.0599178612275057,source Pre sample,fate-weighted broad-type mapping of Pre-only terminal lineages
+CellRank_terminal_proxy,Pre_P24,Responder,anti-PD1,T cell,0.0,source Pre sample,fate-weighted broad-type mapping of Pre-only terminal lineages
+CellRank_terminal_proxy,Pre_P24,Responder,anti-PD1,NK cell,0.0,source Pre sample,fate-weighted broad-type mapping of Pre-only terminal lineages
+CellRank_terminal_proxy,Pre_P29,Responder,anti-PD1,B cell,0.3814413555697157,source Pre sample,fate-weighted broad-type mapping of Pre-only terminal lineages
+CellRank_terminal_proxy,Pre_P29,Responder,anti-PD1,Plasma cell,0.0701199001268881,source Pre sample,fate-weighted broad-type mapping of Pre-only terminal lineages
+CellRank_terminal_proxy,Pre_P29,Responder,anti-PD1,Monocyte/Macrophage,0.508325080504347,source Pre sample,fate-weighted broad-type mapping of Pre-only terminal lineages
+CellRank_terminal_proxy,Pre_P29,Responder,anti-PD1,Dendritic cell,0.0401136637990491,source Pre sample,fate-weighted broad-type mapping of Pre-only terminal lineages
+CellRank_terminal_proxy,Pre_P29,Responder,anti-PD1,T cell,0.0,source Pre sample,fate-weighted broad-type mapping of Pre-only terminal lineages
+CellRank_terminal_proxy,Pre_P29,Responder,anti-PD1,NK cell,0.0,source Pre sample,fate-weighted broad-type mapping of Pre-only terminal lineages
+CellRank_terminal_proxy,Pre_P35,Responder,anti-PD1,B cell,0.6187414427170792,source Pre sample,fate-weighted broad-type mapping of Pre-only terminal lineages
+CellRank_terminal_proxy,Pre_P35,Responder,anti-PD1,Plasma cell,0.055936338479756,source Pre sample,fate-weighted broad-type mapping of Pre-only terminal lineages
+CellRank_terminal_proxy,Pre_P35,Responder,anti-PD1,Monocyte/Macrophage,0.2959499990612808,source Pre sample,fate-weighted broad-type mapping of Pre-only terminal lineages
+CellRank_terminal_proxy,Pre_P35,Responder,anti-PD1,Dendritic cell,0.0293722197418839,source Pre sample,fate-weighted broad-type mapping of Pre-only terminal lineages
+CellRank_terminal_proxy,Pre_P35,Responder,anti-PD1,T cell,0.0,source Pre sample,fate-weighted broad-type mapping of Pre-only terminal lineages
+CellRank_terminal_proxy,Pre_P35,Responder,anti-PD1,NK cell,0.0,source Pre sample,fate-weighted broad-type mapping of Pre-only terminal lineages
+CellRank_terminal_proxy,Pre_P2,Non-responder,anti-PD1,B cell,0.3420830100500119,source Pre sample,fate-weighted broad-type mapping of Pre-only terminal lineages
+CellRank_terminal_proxy,Pre_P2,Non-responder,anti-PD1,Plasma cell,0.0706225661972901,source Pre sample,fate-weighted broad-type mapping of Pre-only terminal lineages
+CellRank_terminal_proxy,Pre_P2,Non-responder,anti-PD1,Monocyte/Macrophage,0.5445908612197331,source Pre sample,fate-weighted broad-type mapping of Pre-only terminal lineages
+CellRank_terminal_proxy,Pre_P2,Non-responder,anti-PD1,Dendritic cell,0.0427035625329647,source Pre sample,fate-weighted broad-type mapping of Pre-only terminal lineages
+CellRank_terminal_proxy,Pre_P2,Non-responder,anti-PD1,T cell,0.0,source Pre sample,fate-weighted broad-type mapping of Pre-only terminal lineages
+CellRank_terminal_proxy,Pre_P2,Non-responder,anti-PD1,NK cell,0.0,source Pre sample,fate-weighted broad-type mapping of Pre-only terminal lineages
+CellRank_terminal_proxy,Pre_P3,Non-responder,anti-PD1,B cell,0.3491307859008886,source Pre sample,fate-weighted broad-type mapping of Pre-only terminal lineages
+CellRank_terminal_proxy,Pre_P3,Non-responder,anti-PD1,Plasma cell,0.0649582435167236,source Pre sample,fate-weighted broad-type mapping of Pre-only terminal lineages
+CellRank_terminal_proxy,Pre_P3,Non-responder,anti-PD1,Monocyte/Macrophage,0.5292069013137103,source Pre sample,fate-weighted broad-type mapping of Pre-only terminal lineages
+CellRank_terminal_proxy,Pre_P3,Non-responder,anti-PD1,Dendritic cell,0.0567040692686773,source Pre sample,fate-weighted broad-type mapping of Pre-only terminal lineages
+CellRank_terminal_proxy,Pre_P3,Non-responder,anti-PD1,T cell,0.0,source Pre sample,fate-weighted broad-type mapping of Pre-only terminal lineages
+CellRank_terminal_proxy,Pre_P3,Non-responder,anti-PD1,NK cell,0.0,source Pre sample,fate-weighted broad-type mapping of Pre-only terminal lineages
+CellRank_terminal_proxy,Pre_P27,Non-responder,anti-PD1,B cell,0.3603349190469935,source Pre sample,fate-weighted broad-type mapping of Pre-only terminal lineages
+CellRank_terminal_proxy,Pre_P27,Non-responder,anti-PD1,Plasma cell,0.0632809322626978,source Pre sample,fate-weighted broad-type mapping of Pre-only terminal lineages
+CellRank_terminal_proxy,Pre_P27,Non-responder,anti-PD1,Monocyte/Macrophage,0.5111640282849675,source Pre sample,fate-weighted broad-type mapping of Pre-only terminal lineages
+CellRank_terminal_proxy,Pre_P27,Non-responder,anti-PD1,Dendritic cell,0.0652201204053412,source Pre sample,fate-weighted broad-type mapping of Pre-only terminal lineages
+CellRank_terminal_proxy,Pre_P27,Non-responder,anti-PD1,T cell,0.0,source Pre sample,fate-weighted broad-type mapping of Pre-only terminal lineages
+CellRank_terminal_proxy,Pre_P27,Non-responder,anti-PD1,NK cell,0.0,source Pre sample,fate-weighted broad-type mapping of Pre-only terminal lineages

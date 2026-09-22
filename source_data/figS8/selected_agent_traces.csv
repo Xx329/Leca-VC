@@ -1,0 +1,13 @@
+panel,agent_id,cell_type,decision,interval,dominant_program,displayed_output,agent_output_field,agent_output,physicell_field,physicell_writeback
+A,micro_agent_032,fibroblast_myofibroblast,Decision 1,0,matrix_remodeling,TGFβ-like output,TGFb_like_signal,0.12,TGFb_secretion,0.12
+A,micro_agent_032,fibroblast_myofibroblast,Decision 1,0,matrix_remodeling,Matrix-remodeling output,fibrosis_signal,0.18,fibrosis_secretion,0.18
+A,micro_agent_032,fibroblast_myofibroblast,Decision 2,1,matrix_remodeling,TGFβ-like output,TGFb_like_signal,0.32,TGFb_secretion,0.32
+A,micro_agent_032,fibroblast_myofibroblast,Decision 2,1,matrix_remodeling,Matrix-remodeling output,fibrosis_signal,0.38,fibrosis_secretion,0.38
+B,micro_agent_014,macrophage,Decision 1,0,inflammatory_recruitment,Inflammatory output,inflammatory_signal,0.42,inflammatory_secretion,0.42
+B,micro_agent_014,macrophage,Decision 1,0,inflammatory_recruitment,Resolution output,resolution_signal,0.08,resolution_secretion,0.08
+B,micro_agent_014,macrophage,Decision 2,1,resolution_transition,Inflammatory output,inflammatory_signal,0.12,inflammatory_secretion,0.12
+B,micro_agent_014,macrophage,Decision 2,1,resolution_transition,Resolution output,resolution_signal,0.42,resolution_secretion,0.42
+C,micro_agent_007,alveolar_epithelial_AT1_AT2,Decision 1,0,homeostatic_epithelial_maintenance,Damage-associated output,damage_signal,0.05,damage_secretion,0.05
+C,micro_agent_007,alveolar_epithelial_AT1_AT2,Decision 1,0,homeostatic_epithelial_maintenance,Resolution output,resolution_signal,0.06,resolution_secretion,0.06
+C,micro_agent_007,alveolar_epithelial_AT1_AT2,Decision 2,1,stress_adaptive_repair,Damage-associated output,damage_signal,0.12,damage_secretion,0.12
+C,micro_agent_007,alveolar_epithelial_AT1_AT2,Decision 2,1,stress_adaptive_repair,Resolution output,resolution_signal,0.22,resolution_secretion,0.22

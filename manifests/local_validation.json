@@ -1,0 +1,22 @@
+{
+  "date": "2026-09-22",
+  "status": "PASS_PRIVATE_GITHUB_RC_WITH_DISCLOSED_RUNTIME_PROVENANCE_LIMITATION",
+  "checks": {
+    "canonical_pdf_mapping": "PASS: final main v6 and final Supplement S1-S8 recorded by SHA256",
+    "ready_figure_renderers": "PASS: fig2-fig6 and figS1-figS8",
+    "reference_pixel_comparison": "PASS: all quick-tier figures pixel-identical to their frozen release references; fig6 is exact raster preservation and figS6 is runtime-record validated",
+    "two_pass_determinism": "PASS: independent Figure 6 renders produced identical PNG, PDF, SVG, and audit hashes; the existing ready-figure preview checks remain deterministic",
+    "figure5_completeness": "PASS: final six metric panels and six-by-four spatial block included",
+    "contamination_probe_offline": "PASS: 30 calls; 1 correct, 6 incorrect, 23 unknown; final numbering figS7",
+    "supported_code_dependency_contract": "PASS",
+    "unit_tests": "PASS: 12 tests",
+    "secret_path_large_file_scan": "PASS after artifact-hash refresh"
+  },
+  "not_executed": [
+    "full DeepSeek reruns",
+    "full PhysiCell simulation runs",
+    "COMMOT runtime",
+    "paused collaborator fibrosis-application V3 qualification/formal rerun",
+    "remote GitHub or Zenodo operations"
+  ]
+}

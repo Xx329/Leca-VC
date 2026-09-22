@@ -1,0 +1,199 @@
+{
+  "status": "PASS_GSE230538_MULTIMETHOD_STATE_COMPOSITION_PROXY_FIGURE_NO_TRADITIONAL",
+  "new_external_model_runs": 0,
+  "new_simulation_runs": 0,
+  "historical_outputs_overwritten": false,
+  "days": [
+    4,
+    33
+  ],
+  "states": [
+    "proliferative_sensitive",
+    "early_drug_response",
+    "P2RX7_ion_signal_response",
+    "senescent_like",
+    "immune_like_resistant",
+    "intrinsic_resistant",
+    "stress_adaptive",
+    "apoptotic_or_dying"
+  ],
+  "methods": [
+    "Observed",
+    "scGen",
+    "WOT",
+    "CellRank",
+    "Leca-VC"
+  ],
+  "external_proxy_methods": [
+    "scGen",
+    "WOT",
+    "CellRank"
+  ],
+  "external_native_single_cell_composition_claimed": false,
+  "external_proxy_formula": "simplex-expand frozen cell-line mean log1p(CP10K) available-marker targets over matched Day0 cells; anchor to source library sizes; apply available-common-panel raw-log marker/module argmax",
+  "marker_coverage": {
+    "proliferation": {
+      "requested": [
+        "MKI67",
+        "TOP2A",
+        "PCNA",
+        "CCNB1",
+        "CDK1"
+      ],
+      "available": [
+        "MKI67",
+        "TOP2A",
+        "PCNA",
+        "CCNB1",
+        "CDK1"
+      ],
+      "missing_from_frozen_7576_panel": []
+    },
+    "early_stress_MAPK": {
+      "requested": [
+        "DUSP1",
+        "DUSP5",
+        "JUN",
+        "FOS",
+        "ATF3"
+      ],
+      "available": [
+        "JUN",
+        "FOS",
+        "ATF3"
+      ],
+      "missing_from_frozen_7576_panel": [
+        "DUSP1",
+        "DUSP5"
+      ]
+    },
+    "P2RX7_ion_response": {
+      "requested": [
+        "P2RX7",
+        "ATP2B1",
+        "ITPR1",
+        "CALM1"
+      ],
+      "available": [
+        "P2RX7",
+        "ATP2B1",
+        "ITPR1",
+        "CALM1"
+      ],
+      "missing_from_frozen_7576_panel": []
+    },
+    "senescence": {
+      "requested": [
+        "CDKN1A",
+        "CDKN2A",
+        "SERPINE1",
+        "IL6",
+        "CXCL8"
+      ],
+      "available": [
+        "CDKN1A"
+      ],
+      "missing_from_frozen_7576_panel": [
+        "CDKN2A",
+        "SERPINE1",
+        "IL6",
+        "CXCL8"
+      ]
+    },
+    "immune_IFN_like": {
+      "requested": [
+        "ISG15",
+        "IFIT1",
+        "IFIT3",
+        "MX1",
+        "HLA-A",
+        "HLA-B"
+      ],
+      "available": [
+        "ISG15",
+        "IFIT1",
+        "IFIT3",
+        "MX1",
+        "HLA-A",
+        "HLA-B"
+      ],
+      "missing_from_frozen_7576_panel": []
+    },
+    "invasive_resistant": {
+      "requested": [
+        "AXL",
+        "VIM",
+        "ZEB1",
+        "NGFR",
+        "FN1"
+      ],
+      "available": [
+        "VIM",
+        "NGFR",
+        "FN1"
+      ],
+      "missing_from_frozen_7576_panel": [
+        "AXL",
+        "ZEB1"
+      ]
+    },
+    "melanocytic_sensitive": {
+      "requested": [
+        "MITF",
+        "MLANA",
+        "PMEL",
+        "TYR"
+      ],
+      "available": [
+        "MITF",
+        "MLANA",
+        "PMEL",
+        "TYR"
+      ],
+      "missing_from_frozen_7576_panel": []
+    },
+    "apoptosis_dying": {
+      "requested": [
+        "BAX",
+        "CASP3",
+        "CASP7",
+        "BBC3"
+      ],
+      "available": [
+        "BAX",
+        "CASP3"
+      ],
+      "missing_from_frozen_7576_panel": [
+        "CASP7",
+        "BBC3"
+      ]
+    }
+  },
+  "wot_target_derived": true,
+  "cellrank_day_invariant_untreated_only_proxy": true,
+  "error_bar_semantics": {
+    "Observed_scGen_WOT_CellRank": "population SD across four cell lines",
+    "Leca-VC": "population SD across three frozen simulation seeds"
+  },
+  "rmse_semantics": "RMSE between displayed method-mean and displayed observed-mean state vectors",
+  "maximum_external_marker_target_mean_error": 3.361755318564974e-13,
+  "source_hashes": {
+    "harmonized_expression_npz": "43800738d7d533ffe7a21a6209c3705d07bc5fec7f22893fa809c925d4c7871e",
+    "observed_metadata": "d96362b6005de34d1dd3f386f4c5812b5742dcaa97e42f97e65fb8b6aa095bbe",
+    "simulation_v7_cell_like_agent_dynamic_seed_0": "3675cad49f80099eea599b881fbdb0807e91ca78b82969c49ce3e58b8688dd65",
+    "simulation_v7_cell_like_agent_dynamic_seed_1": "f4a111ead7b87f2f026bb9290fdeb31ab03a6ae6c93993b7c8e1e0f50a17b0f3",
+    "simulation_v7_cell_like_agent_dynamic_seed_2": "df17731582d51975b4fb452a26acd96ba0ab8359fdaa0420532a6af9111187b9"
+  },
+  "outputs": [
+    "outputs/GSE230538_cell_state_composition_supp_v2_multimethod_proxy/GSE230538_cell_state_composition_multimethod_proxy_preview.png",
+    "outputs/GSE230538_cell_state_composition_supp_v2_multimethod_proxy/GSE230538_cell_state_composition_multimethod_proxy_600dpi.png",
+    "outputs/GSE230538_cell_state_composition_supp_v2_multimethod_proxy/GSE230538_cell_state_composition_multimethod_proxy_vector.pdf",
+    "outputs/GSE230538_cell_state_composition_supp_v2_multimethod_proxy/GSE230538_cell_state_composition_multimethod_proxy.svg",
+    "outputs/GSE230538_cell_state_composition_supp_v2_multimethod_proxy/unit_level_compositions.csv",
+    "outputs/GSE230538_cell_state_composition_supp_v2_multimethod_proxy/plotting_source.csv",
+    "outputs/GSE230538_cell_state_composition_supp_v2_multimethod_proxy/bar_mean_rmse.csv",
+    "outputs/GSE230538_cell_state_composition_supp_v2_multimethod_proxy/external_proxy_audit.csv",
+    "outputs/GSE230538_cell_state_composition_supp_v2_multimethod_proxy/caption.txt",
+    "outputs/GSE230538_cell_state_composition_supp_v2_multimethod_proxy/figure_audit.json"
+  ]
+}

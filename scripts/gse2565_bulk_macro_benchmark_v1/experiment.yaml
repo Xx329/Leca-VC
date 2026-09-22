@@ -1,0 +1,47 @@
+experiment_id: gse2565_bulk_macro_benchmark_v1
+time_mapping:
+  physicell_minutes_per_real_hour: 60
+  smoke_max_hours: 12
+  final_max_hours: 72
+  output_hours: [0, 0.5, 1, 4, 8, 12, 24, 48, 72]
+  policy_checkpoint_hours: [0, 4, 8]
+seeds:
+  smoke: [256501]
+  pilot: [256501, 256502, 256503]
+  final: [256501, 256502, 256503, 256504, 256505, 256506]
+conditions: [virtual_air_control, virtual_phosgene_injury]
+dynamic_models: [traditional_rule_physicell, agent_physicell_full]
+agent_types:
+  - AT1
+  - AT2
+  - injured_Krt8_epithelial
+  - resident_macrophage
+  - recruited_monocyte_macrophage
+  - neutrophil
+  - endothelial
+  - fibroblast_stromal
+  - lymphoid_immune
+  - airway_epithelial
+workers_per_agent: 5
+domain:
+  min: -600
+  max: 600
+  spacing: 40
+substrates:
+  toxicant_proxy: {diffusion: 2500.0, decay: 0.020, meaning: normalized_phosgene_exposure_proxy}
+  oxidative_stress: {diffusion: 900.0, decay: 0.006, meaning: local_redox_stress}
+  epithelial_injury: {diffusion: 500.0, decay: 0.004, meaning: epithelial_damage_and_barrier_loss}
+  inflammation: {diffusion: 1800.0, decay: 0.006, meaning: local_inflammatory_recruitment_signal}
+  edema_proxy: {diffusion: 700.0, decay: 0.002, meaning: vascular_permeability_and_edema_proxy}
+  death_signal: {diffusion: 400.0, decay: 0.004, meaning: apoptosis_or_cell_death_signal}
+  repair_signal: {diffusion: 700.0, decay: 0.002, meaning: repair_and_resolution_signal}
+qualification:
+  finite_nonnegative_fraction: 1.0
+  agent_worker_coverage_min: 1.0
+  abundance_relative_error_max: 1.0e-6
+  common_gene_coverage_min: 10000
+  virtual_air_max_mean_injury_change: 0.15
+  virtual_injury_min_early_injury_change: 0.05
+  pilot_seed_variance_min: 1.0e-10
+  pilot_seed_cv_max: 0.50
+

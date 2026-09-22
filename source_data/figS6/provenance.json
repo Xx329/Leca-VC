@@ -1,0 +1,17 @@
+{
+  "status": "VALIDATED_AGAINST_COLLABORATOR_RUNTIME_RECORD",
+  "canonical_source": "Leca_VC_supplemental_overleaf_v1.pdf",
+  "figure": "S6",
+  "semantics": "Representative myofibroblast agent at step 60",
+  "sample_context": "GSM8281384 V10A20-072-A1, agent 027",
+  "delivery_archive_sha256": "9acfaae2bcac349edaec5cdfbf67abb1eb9925a6a60840335eefb3cb47f16daa",
+  "prompt_record_sha256": "926c3d3b832626b430a6f9224d97fff946d4c52a2620752dd0f9c5630d98ed2d",
+  "response_record_sha256": "4eb527461b2b4af53c65593317fd8e79412117a58a5653823353a376c103ccca",
+  "prompt_sha256": "b4beb7dee28ba1af4ddb287b0911af798497f1c26601ccaa8fb5bf698684d27e",
+  "reported_model": "deepseek-v4-flash",
+  "validation": "The five input values match current_local_substrates/current_cell_state and the five output values match the strict-JSON response. Full-precision input values are retained in the release CSV; displayed labels round to two decimals.",
+  "original_renderer": "experiments/fibrosis_application/provenance/collaborator_renderers/plot_case_study.py",
+  "original_reference_png": "source_data/figS6/original_delivery/Leca_VC_Case_Study_Step60.png",
+  "original_reference_pdf": "source_data/figS6/original_delivery/Leca_VC_Case_Study_Step60.pdf",
+  "raw_record_policy": "The full prompt/response remains outside Git and belongs in the separately audited runtime archive."
+}

@@ -1,0 +1,305 @@
+day,method,unit,unit_type,state,proportion,native_or_proxy
+4,Observed,IPC-298,observed cell line,proliferative_sensitive,0.38433333333333336,native observed marker/module state
+4,Observed,IPC-298,observed cell line,early_drug_response,0.0,native observed marker/module state
+4,Observed,IPC-298,observed cell line,P2RX7_ion_signal_response,0.1,native observed marker/module state
+4,Observed,IPC-298,observed cell line,senescent_like,0.001,native observed marker/module state
+4,Observed,IPC-298,observed cell line,immune_like_resistant,0.14133333333333334,native observed marker/module state
+4,Observed,IPC-298,observed cell line,intrinsic_resistant,0.37266666666666665,native observed marker/module state
+4,Observed,IPC-298,observed cell line,stress_adaptive,0.0,native observed marker/module state
+4,Observed,IPC-298,observed cell line,apoptotic_or_dying,0.0006666666666666666,native observed marker/module state
+4,Observed,M20,observed cell line,proliferative_sensitive,0.548,native observed marker/module state
+4,Observed,M20,observed cell line,early_drug_response,0.001,native observed marker/module state
+4,Observed,M20,observed cell line,P2RX7_ion_signal_response,0.041666666666666664,native observed marker/module state
+4,Observed,M20,observed cell line,senescent_like,0.001,native observed marker/module state
+4,Observed,M20,observed cell line,immune_like_resistant,0.018333333333333333,native observed marker/module state
+4,Observed,M20,observed cell line,intrinsic_resistant,0.389,native observed marker/module state
+4,Observed,M20,observed cell line,stress_adaptive,0.0,native observed marker/module state
+4,Observed,M20,observed cell line,apoptotic_or_dying,0.001,native observed marker/module state
+4,Observed,MEL-JUSO,observed cell line,proliferative_sensitive,0.017333333333333333,native observed marker/module state
+4,Observed,MEL-JUSO,observed cell line,early_drug_response,0.004666666666666667,native observed marker/module state
+4,Observed,MEL-JUSO,observed cell line,P2RX7_ion_signal_response,0.07933333333333334,native observed marker/module state
+4,Observed,MEL-JUSO,observed cell line,senescent_like,0.0,native observed marker/module state
+4,Observed,MEL-JUSO,observed cell line,immune_like_resistant,0.043666666666666666,native observed marker/module state
+4,Observed,MEL-JUSO,observed cell line,intrinsic_resistant,0.8543333333333333,native observed marker/module state
+4,Observed,MEL-JUSO,observed cell line,stress_adaptive,0.0,native observed marker/module state
+4,Observed,MEL-JUSO,observed cell line,apoptotic_or_dying,0.0006666666666666666,native observed marker/module state
+4,Observed,SK-MEL-30,observed cell line,proliferative_sensitive,0.37266666666666665,native observed marker/module state
+4,Observed,SK-MEL-30,observed cell line,early_drug_response,0.009333333333333334,native observed marker/module state
+4,Observed,SK-MEL-30,observed cell line,P2RX7_ion_signal_response,0.11866666666666667,native observed marker/module state
+4,Observed,SK-MEL-30,observed cell line,senescent_like,0.004666666666666667,native observed marker/module state
+4,Observed,SK-MEL-30,observed cell line,immune_like_resistant,0.045,native observed marker/module state
+4,Observed,SK-MEL-30,observed cell line,intrinsic_resistant,0.44566666666666666,native observed marker/module state
+4,Observed,SK-MEL-30,observed cell line,stress_adaptive,0.0,native observed marker/module state
+4,Observed,SK-MEL-30,observed cell line,apoptotic_or_dying,0.004,native observed marker/module state
+33,Observed,IPC-298,observed cell line,proliferative_sensitive,0.2856666666666667,native observed marker/module state
+33,Observed,IPC-298,observed cell line,early_drug_response,0.0006666666666666666,native observed marker/module state
+33,Observed,IPC-298,observed cell line,P2RX7_ion_signal_response,0.06566666666666666,native observed marker/module state
+33,Observed,IPC-298,observed cell line,senescent_like,0.0,native observed marker/module state
+33,Observed,IPC-298,observed cell line,immune_like_resistant,0.133,native observed marker/module state
+33,Observed,IPC-298,observed cell line,intrinsic_resistant,0.5146666666666667,native observed marker/module state
+33,Observed,IPC-298,observed cell line,stress_adaptive,0.0,native observed marker/module state
+33,Observed,IPC-298,observed cell line,apoptotic_or_dying,0.0003333333333333333,native observed marker/module state
+33,Observed,M20,observed cell line,proliferative_sensitive,0.554,native observed marker/module state
+33,Observed,M20,observed cell line,early_drug_response,0.009,native observed marker/module state
+33,Observed,M20,observed cell line,P2RX7_ion_signal_response,0.07633333333333334,native observed marker/module state
+33,Observed,M20,observed cell line,senescent_like,0.009666666666666667,native observed marker/module state
+33,Observed,M20,observed cell line,immune_like_resistant,0.07233333333333333,native observed marker/module state
+33,Observed,M20,observed cell line,intrinsic_resistant,0.27166666666666667,native observed marker/module state
+33,Observed,M20,observed cell line,stress_adaptive,0.0,native observed marker/module state
+33,Observed,M20,observed cell line,apoptotic_or_dying,0.007,native observed marker/module state
+33,Observed,MEL-JUSO,observed cell line,proliferative_sensitive,0.024666666666666667,native observed marker/module state
+33,Observed,MEL-JUSO,observed cell line,early_drug_response,0.015666666666666666,native observed marker/module state
+33,Observed,MEL-JUSO,observed cell line,P2RX7_ion_signal_response,0.16033333333333333,native observed marker/module state
+33,Observed,MEL-JUSO,observed cell line,senescent_like,0.0013333333333333333,native observed marker/module state
+33,Observed,MEL-JUSO,observed cell line,immune_like_resistant,0.23533333333333334,native observed marker/module state
+33,Observed,MEL-JUSO,observed cell line,intrinsic_resistant,0.5546666666666666,native observed marker/module state
+33,Observed,MEL-JUSO,observed cell line,stress_adaptive,0.0,native observed marker/module state
+33,Observed,MEL-JUSO,observed cell line,apoptotic_or_dying,0.008,native observed marker/module state
+33,Observed,SK-MEL-30,observed cell line,proliferative_sensitive,0.646,native observed marker/module state
+33,Observed,SK-MEL-30,observed cell line,early_drug_response,0.004333333333333333,native observed marker/module state
+33,Observed,SK-MEL-30,observed cell line,P2RX7_ion_signal_response,0.03966666666666667,native observed marker/module state
+33,Observed,SK-MEL-30,observed cell line,senescent_like,0.001,native observed marker/module state
+33,Observed,SK-MEL-30,observed cell line,immune_like_resistant,0.08266666666666667,native observed marker/module state
+33,Observed,SK-MEL-30,observed cell line,intrinsic_resistant,0.22266666666666668,native observed marker/module state
+33,Observed,SK-MEL-30,observed cell line,stress_adaptive,0.0,native observed marker/module state
+33,Observed,SK-MEL-30,observed cell line,apoptotic_or_dying,0.0036666666666666666,native observed marker/module state
+4,scGen,IPC-298,cell-line expression proxy,proliferative_sensitive,0.058666666666666666,deterministic cell-expanded expression-derived composition proxy
+4,scGen,IPC-298,cell-line expression proxy,early_drug_response,0.0006666666666666666,deterministic cell-expanded expression-derived composition proxy
+4,scGen,IPC-298,cell-line expression proxy,P2RX7_ion_signal_response,0.008666666666666666,deterministic cell-expanded expression-derived composition proxy
+4,scGen,IPC-298,cell-line expression proxy,senescent_like,0.002,deterministic cell-expanded expression-derived composition proxy
+4,scGen,IPC-298,cell-line expression proxy,immune_like_resistant,0.004333333333333333,deterministic cell-expanded expression-derived composition proxy
+4,scGen,IPC-298,cell-line expression proxy,intrinsic_resistant,0.9243333333333333,deterministic cell-expanded expression-derived composition proxy
+4,scGen,IPC-298,cell-line expression proxy,stress_adaptive,0.0,deterministic cell-expanded expression-derived composition proxy
+4,scGen,IPC-298,cell-line expression proxy,apoptotic_or_dying,0.0013333333333333333,deterministic cell-expanded expression-derived composition proxy
+4,WOT,IPC-298,cell-line expression proxy,proliferative_sensitive,0.16133333333333333,deterministic cell-expanded expression-derived composition proxy
+4,WOT,IPC-298,cell-line expression proxy,early_drug_response,0.0003333333333333333,deterministic cell-expanded expression-derived composition proxy
+4,WOT,IPC-298,cell-line expression proxy,P2RX7_ion_signal_response,0.029666666666666668,deterministic cell-expanded expression-derived composition proxy
+4,WOT,IPC-298,cell-line expression proxy,senescent_like,0.0003333333333333333,deterministic cell-expanded expression-derived composition proxy
+4,WOT,IPC-298,cell-line expression proxy,immune_like_resistant,0.025333333333333333,deterministic cell-expanded expression-derived composition proxy
+4,WOT,IPC-298,cell-line expression proxy,intrinsic_resistant,0.7813333333333333,deterministic cell-expanded expression-derived composition proxy
+4,WOT,IPC-298,cell-line expression proxy,stress_adaptive,0.0,deterministic cell-expanded expression-derived composition proxy
+4,WOT,IPC-298,cell-line expression proxy,apoptotic_or_dying,0.0016666666666666668,deterministic cell-expanded expression-derived composition proxy
+4,CellRank,IPC-298,cell-line expression proxy,proliferative_sensitive,0.281,deterministic cell-expanded expression-derived composition proxy
+4,CellRank,IPC-298,cell-line expression proxy,early_drug_response,0.005666666666666667,deterministic cell-expanded expression-derived composition proxy
+4,CellRank,IPC-298,cell-line expression proxy,P2RX7_ion_signal_response,0.056,deterministic cell-expanded expression-derived composition proxy
+4,CellRank,IPC-298,cell-line expression proxy,senescent_like,0.010333333333333333,deterministic cell-expanded expression-derived composition proxy
+4,CellRank,IPC-298,cell-line expression proxy,immune_like_resistant,0.021333333333333333,deterministic cell-expanded expression-derived composition proxy
+4,CellRank,IPC-298,cell-line expression proxy,intrinsic_resistant,0.5653333333333334,deterministic cell-expanded expression-derived composition proxy
+4,CellRank,IPC-298,cell-line expression proxy,stress_adaptive,0.0,deterministic cell-expanded expression-derived composition proxy
+4,CellRank,IPC-298,cell-line expression proxy,apoptotic_or_dying,0.060333333333333336,deterministic cell-expanded expression-derived composition proxy
+33,scGen,IPC-298,cell-line expression proxy,proliferative_sensitive,0.112,deterministic cell-expanded expression-derived composition proxy
+33,scGen,IPC-298,cell-line expression proxy,early_drug_response,0.001,deterministic cell-expanded expression-derived composition proxy
+33,scGen,IPC-298,cell-line expression proxy,P2RX7_ion_signal_response,0.013333333333333334,deterministic cell-expanded expression-derived composition proxy
+33,scGen,IPC-298,cell-line expression proxy,senescent_like,0.003,deterministic cell-expanded expression-derived composition proxy
+33,scGen,IPC-298,cell-line expression proxy,immune_like_resistant,0.009666666666666667,deterministic cell-expanded expression-derived composition proxy
+33,scGen,IPC-298,cell-line expression proxy,intrinsic_resistant,0.8593333333333333,deterministic cell-expanded expression-derived composition proxy
+33,scGen,IPC-298,cell-line expression proxy,stress_adaptive,0.0,deterministic cell-expanded expression-derived composition proxy
+33,scGen,IPC-298,cell-line expression proxy,apoptotic_or_dying,0.0016666666666666668,deterministic cell-expanded expression-derived composition proxy
+33,WOT,IPC-298,cell-line expression proxy,proliferative_sensitive,0.16733333333333333,deterministic cell-expanded expression-derived composition proxy
+33,WOT,IPC-298,cell-line expression proxy,early_drug_response,0.0,deterministic cell-expanded expression-derived composition proxy
+33,WOT,IPC-298,cell-line expression proxy,P2RX7_ion_signal_response,0.01,deterministic cell-expanded expression-derived composition proxy
+33,WOT,IPC-298,cell-line expression proxy,senescent_like,0.0006666666666666666,deterministic cell-expanded expression-derived composition proxy
+33,WOT,IPC-298,cell-line expression proxy,immune_like_resistant,0.017666666666666667,deterministic cell-expanded expression-derived composition proxy
+33,WOT,IPC-298,cell-line expression proxy,intrinsic_resistant,0.8026666666666666,deterministic cell-expanded expression-derived composition proxy
+33,WOT,IPC-298,cell-line expression proxy,stress_adaptive,0.0,deterministic cell-expanded expression-derived composition proxy
+33,WOT,IPC-298,cell-line expression proxy,apoptotic_or_dying,0.0016666666666666668,deterministic cell-expanded expression-derived composition proxy
+33,CellRank,IPC-298,cell-line expression proxy,proliferative_sensitive,0.281,deterministic cell-expanded expression-derived composition proxy
+33,CellRank,IPC-298,cell-line expression proxy,early_drug_response,0.005666666666666667,deterministic cell-expanded expression-derived composition proxy
+33,CellRank,IPC-298,cell-line expression proxy,P2RX7_ion_signal_response,0.056,deterministic cell-expanded expression-derived composition proxy
+33,CellRank,IPC-298,cell-line expression proxy,senescent_like,0.010333333333333333,deterministic cell-expanded expression-derived composition proxy
+33,CellRank,IPC-298,cell-line expression proxy,immune_like_resistant,0.021333333333333333,deterministic cell-expanded expression-derived composition proxy
+33,CellRank,IPC-298,cell-line expression proxy,intrinsic_resistant,0.5653333333333334,deterministic cell-expanded expression-derived composition proxy
+33,CellRank,IPC-298,cell-line expression proxy,stress_adaptive,0.0,deterministic cell-expanded expression-derived composition proxy
+33,CellRank,IPC-298,cell-line expression proxy,apoptotic_or_dying,0.060333333333333336,deterministic cell-expanded expression-derived composition proxy
+4,scGen,M20,cell-line expression proxy,proliferative_sensitive,0.04666666666666667,deterministic cell-expanded expression-derived composition proxy
+4,scGen,M20,cell-line expression proxy,early_drug_response,0.003,deterministic cell-expanded expression-derived composition proxy
+4,scGen,M20,cell-line expression proxy,P2RX7_ion_signal_response,0.013666666666666667,deterministic cell-expanded expression-derived composition proxy
+4,scGen,M20,cell-line expression proxy,senescent_like,0.015666666666666666,deterministic cell-expanded expression-derived composition proxy
+4,scGen,M20,cell-line expression proxy,immune_like_resistant,0.014333333333333333,deterministic cell-expanded expression-derived composition proxy
+4,scGen,M20,cell-line expression proxy,intrinsic_resistant,0.904,deterministic cell-expanded expression-derived composition proxy
+4,scGen,M20,cell-line expression proxy,stress_adaptive,0.0,deterministic cell-expanded expression-derived composition proxy
+4,scGen,M20,cell-line expression proxy,apoptotic_or_dying,0.0026666666666666666,deterministic cell-expanded expression-derived composition proxy
+4,WOT,M20,cell-line expression proxy,proliferative_sensitive,0.17566666666666667,deterministic cell-expanded expression-derived composition proxy
+4,WOT,M20,cell-line expression proxy,early_drug_response,0.0003333333333333333,deterministic cell-expanded expression-derived composition proxy
+4,WOT,M20,cell-line expression proxy,P2RX7_ion_signal_response,0.007,deterministic cell-expanded expression-derived composition proxy
+4,WOT,M20,cell-line expression proxy,senescent_like,0.015,deterministic cell-expanded expression-derived composition proxy
+4,WOT,M20,cell-line expression proxy,immune_like_resistant,0.003,deterministic cell-expanded expression-derived composition proxy
+4,WOT,M20,cell-line expression proxy,intrinsic_resistant,0.796,deterministic cell-expanded expression-derived composition proxy
+4,WOT,M20,cell-line expression proxy,stress_adaptive,0.0,deterministic cell-expanded expression-derived composition proxy
+4,WOT,M20,cell-line expression proxy,apoptotic_or_dying,0.003,deterministic cell-expanded expression-derived composition proxy
+4,CellRank,M20,cell-line expression proxy,proliferative_sensitive,0.3373333333333333,deterministic cell-expanded expression-derived composition proxy
+4,CellRank,M20,cell-line expression proxy,early_drug_response,0.008333333333333333,deterministic cell-expanded expression-derived composition proxy
+4,CellRank,M20,cell-line expression proxy,P2RX7_ion_signal_response,0.041666666666666664,deterministic cell-expanded expression-derived composition proxy
+4,CellRank,M20,cell-line expression proxy,senescent_like,0.13366666666666666,deterministic cell-expanded expression-derived composition proxy
+4,CellRank,M20,cell-line expression proxy,immune_like_resistant,0.006,deterministic cell-expanded expression-derived composition proxy
+4,CellRank,M20,cell-line expression proxy,intrinsic_resistant,0.42233333333333334,deterministic cell-expanded expression-derived composition proxy
+4,CellRank,M20,cell-line expression proxy,stress_adaptive,0.0,deterministic cell-expanded expression-derived composition proxy
+4,CellRank,M20,cell-line expression proxy,apoptotic_or_dying,0.050666666666666665,deterministic cell-expanded expression-derived composition proxy
+33,scGen,M20,cell-line expression proxy,proliferative_sensitive,0.023333333333333334,deterministic cell-expanded expression-derived composition proxy
+33,scGen,M20,cell-line expression proxy,early_drug_response,0.0016666666666666668,deterministic cell-expanded expression-derived composition proxy
+33,scGen,M20,cell-line expression proxy,P2RX7_ion_signal_response,0.006,deterministic cell-expanded expression-derived composition proxy
+33,scGen,M20,cell-line expression proxy,senescent_like,0.007,deterministic cell-expanded expression-derived composition proxy
+33,scGen,M20,cell-line expression proxy,immune_like_resistant,0.024666666666666667,deterministic cell-expanded expression-derived composition proxy
+33,scGen,M20,cell-line expression proxy,intrinsic_resistant,0.935,deterministic cell-expanded expression-derived composition proxy
+33,scGen,M20,cell-line expression proxy,stress_adaptive,0.0,deterministic cell-expanded expression-derived composition proxy
+33,scGen,M20,cell-line expression proxy,apoptotic_or_dying,0.0023333333333333335,deterministic cell-expanded expression-derived composition proxy
+33,WOT,M20,cell-line expression proxy,proliferative_sensitive,0.23666666666666666,deterministic cell-expanded expression-derived composition proxy
+33,WOT,M20,cell-line expression proxy,early_drug_response,0.0016666666666666668,deterministic cell-expanded expression-derived composition proxy
+33,WOT,M20,cell-line expression proxy,P2RX7_ion_signal_response,0.008,deterministic cell-expanded expression-derived composition proxy
+33,WOT,M20,cell-line expression proxy,senescent_like,0.08966666666666667,deterministic cell-expanded expression-derived composition proxy
+33,WOT,M20,cell-line expression proxy,immune_like_resistant,0.011,deterministic cell-expanded expression-derived composition proxy
+33,WOT,M20,cell-line expression proxy,intrinsic_resistant,0.6456666666666667,deterministic cell-expanded expression-derived composition proxy
+33,WOT,M20,cell-line expression proxy,stress_adaptive,0.0,deterministic cell-expanded expression-derived composition proxy
+33,WOT,M20,cell-line expression proxy,apoptotic_or_dying,0.007333333333333333,deterministic cell-expanded expression-derived composition proxy
+33,CellRank,M20,cell-line expression proxy,proliferative_sensitive,0.3373333333333333,deterministic cell-expanded expression-derived composition proxy
+33,CellRank,M20,cell-line expression proxy,early_drug_response,0.008333333333333333,deterministic cell-expanded expression-derived composition proxy
+33,CellRank,M20,cell-line expression proxy,P2RX7_ion_signal_response,0.041666666666666664,deterministic cell-expanded expression-derived composition proxy
+33,CellRank,M20,cell-line expression proxy,senescent_like,0.13366666666666666,deterministic cell-expanded expression-derived composition proxy
+33,CellRank,M20,cell-line expression proxy,immune_like_resistant,0.006,deterministic cell-expanded expression-derived composition proxy
+33,CellRank,M20,cell-line expression proxy,intrinsic_resistant,0.42233333333333334,deterministic cell-expanded expression-derived composition proxy
+33,CellRank,M20,cell-line expression proxy,stress_adaptive,0.0,deterministic cell-expanded expression-derived composition proxy
+33,CellRank,M20,cell-line expression proxy,apoptotic_or_dying,0.050666666666666665,deterministic cell-expanded expression-derived composition proxy
+4,scGen,MEL-JUSO,cell-line expression proxy,proliferative_sensitive,0.05433333333333333,deterministic cell-expanded expression-derived composition proxy
+4,scGen,MEL-JUSO,cell-line expression proxy,early_drug_response,0.0023333333333333335,deterministic cell-expanded expression-derived composition proxy
+4,scGen,MEL-JUSO,cell-line expression proxy,P2RX7_ion_signal_response,0.033,deterministic cell-expanded expression-derived composition proxy
+4,scGen,MEL-JUSO,cell-line expression proxy,senescent_like,0.011333333333333334,deterministic cell-expanded expression-derived composition proxy
+4,scGen,MEL-JUSO,cell-line expression proxy,immune_like_resistant,0.005,deterministic cell-expanded expression-derived composition proxy
+4,scGen,MEL-JUSO,cell-line expression proxy,intrinsic_resistant,0.8913333333333333,deterministic cell-expanded expression-derived composition proxy
+4,scGen,MEL-JUSO,cell-line expression proxy,stress_adaptive,0.0,deterministic cell-expanded expression-derived composition proxy
+4,scGen,MEL-JUSO,cell-line expression proxy,apoptotic_or_dying,0.0026666666666666666,deterministic cell-expanded expression-derived composition proxy
+4,WOT,MEL-JUSO,cell-line expression proxy,proliferative_sensitive,0.005333333333333333,deterministic cell-expanded expression-derived composition proxy
+4,WOT,MEL-JUSO,cell-line expression proxy,early_drug_response,0.007666666666666666,deterministic cell-expanded expression-derived composition proxy
+4,WOT,MEL-JUSO,cell-line expression proxy,P2RX7_ion_signal_response,0.011,deterministic cell-expanded expression-derived composition proxy
+4,WOT,MEL-JUSO,cell-line expression proxy,senescent_like,0.017666666666666667,deterministic cell-expanded expression-derived composition proxy
+4,WOT,MEL-JUSO,cell-line expression proxy,immune_like_resistant,0.014333333333333333,deterministic cell-expanded expression-derived composition proxy
+4,WOT,MEL-JUSO,cell-line expression proxy,intrinsic_resistant,0.9386666666666666,deterministic cell-expanded expression-derived composition proxy
+4,WOT,MEL-JUSO,cell-line expression proxy,stress_adaptive,0.0,deterministic cell-expanded expression-derived composition proxy
+4,WOT,MEL-JUSO,cell-line expression proxy,apoptotic_or_dying,0.005333333333333333,deterministic cell-expanded expression-derived composition proxy
+4,CellRank,MEL-JUSO,cell-line expression proxy,proliferative_sensitive,0.182,deterministic cell-expanded expression-derived composition proxy
+4,CellRank,MEL-JUSO,cell-line expression proxy,early_drug_response,0.015333333333333332,deterministic cell-expanded expression-derived composition proxy
+4,CellRank,MEL-JUSO,cell-line expression proxy,P2RX7_ion_signal_response,0.096,deterministic cell-expanded expression-derived composition proxy
+4,CellRank,MEL-JUSO,cell-line expression proxy,senescent_like,0.08366666666666667,deterministic cell-expanded expression-derived composition proxy
+4,CellRank,MEL-JUSO,cell-line expression proxy,immune_like_resistant,0.03766666666666667,deterministic cell-expanded expression-derived composition proxy
+4,CellRank,MEL-JUSO,cell-line expression proxy,intrinsic_resistant,0.5316666666666666,deterministic cell-expanded expression-derived composition proxy
+4,CellRank,MEL-JUSO,cell-line expression proxy,stress_adaptive,0.0,deterministic cell-expanded expression-derived composition proxy
+4,CellRank,MEL-JUSO,cell-line expression proxy,apoptotic_or_dying,0.05366666666666667,deterministic cell-expanded expression-derived composition proxy
+33,scGen,MEL-JUSO,cell-line expression proxy,proliferative_sensitive,0.07766666666666666,deterministic cell-expanded expression-derived composition proxy
+33,scGen,MEL-JUSO,cell-line expression proxy,early_drug_response,0.0013333333333333333,deterministic cell-expanded expression-derived composition proxy
+33,scGen,MEL-JUSO,cell-line expression proxy,P2RX7_ion_signal_response,0.03266666666666666,deterministic cell-expanded expression-derived composition proxy
+33,scGen,MEL-JUSO,cell-line expression proxy,senescent_like,0.010666666666666666,deterministic cell-expanded expression-derived composition proxy
+33,scGen,MEL-JUSO,cell-line expression proxy,immune_like_resistant,0.008,deterministic cell-expanded expression-derived composition proxy
+33,scGen,MEL-JUSO,cell-line expression proxy,intrinsic_resistant,0.8653333333333333,deterministic cell-expanded expression-derived composition proxy
+33,scGen,MEL-JUSO,cell-line expression proxy,stress_adaptive,0.0,deterministic cell-expanded expression-derived composition proxy
+33,scGen,MEL-JUSO,cell-line expression proxy,apoptotic_or_dying,0.004333333333333333,deterministic cell-expanded expression-derived composition proxy
+33,WOT,MEL-JUSO,cell-line expression proxy,proliferative_sensitive,0.0013333333333333333,deterministic cell-expanded expression-derived composition proxy
+33,WOT,MEL-JUSO,cell-line expression proxy,early_drug_response,0.012,deterministic cell-expanded expression-derived composition proxy
+33,WOT,MEL-JUSO,cell-line expression proxy,P2RX7_ion_signal_response,0.034,deterministic cell-expanded expression-derived composition proxy
+33,WOT,MEL-JUSO,cell-line expression proxy,senescent_like,0.023333333333333334,deterministic cell-expanded expression-derived composition proxy
+33,WOT,MEL-JUSO,cell-line expression proxy,immune_like_resistant,0.04733333333333333,deterministic cell-expanded expression-derived composition proxy
+33,WOT,MEL-JUSO,cell-line expression proxy,intrinsic_resistant,0.8733333333333333,deterministic cell-expanded expression-derived composition proxy
+33,WOT,MEL-JUSO,cell-line expression proxy,stress_adaptive,0.0,deterministic cell-expanded expression-derived composition proxy
+33,WOT,MEL-JUSO,cell-line expression proxy,apoptotic_or_dying,0.008666666666666666,deterministic cell-expanded expression-derived composition proxy
+33,CellRank,MEL-JUSO,cell-line expression proxy,proliferative_sensitive,0.182,deterministic cell-expanded expression-derived composition proxy
+33,CellRank,MEL-JUSO,cell-line expression proxy,early_drug_response,0.015333333333333332,deterministic cell-expanded expression-derived composition proxy
+33,CellRank,MEL-JUSO,cell-line expression proxy,P2RX7_ion_signal_response,0.096,deterministic cell-expanded expression-derived composition proxy
+33,CellRank,MEL-JUSO,cell-line expression proxy,senescent_like,0.08366666666666667,deterministic cell-expanded expression-derived composition proxy
+33,CellRank,MEL-JUSO,cell-line expression proxy,immune_like_resistant,0.03766666666666667,deterministic cell-expanded expression-derived composition proxy
+33,CellRank,MEL-JUSO,cell-line expression proxy,intrinsic_resistant,0.5316666666666666,deterministic cell-expanded expression-derived composition proxy
+33,CellRank,MEL-JUSO,cell-line expression proxy,stress_adaptive,0.0,deterministic cell-expanded expression-derived composition proxy
+33,CellRank,MEL-JUSO,cell-line expression proxy,apoptotic_or_dying,0.05366666666666667,deterministic cell-expanded expression-derived composition proxy
+4,scGen,SK-MEL-30,cell-line expression proxy,proliferative_sensitive,0.11466666666666667,deterministic cell-expanded expression-derived composition proxy
+4,scGen,SK-MEL-30,cell-line expression proxy,early_drug_response,0.002,deterministic cell-expanded expression-derived composition proxy
+4,scGen,SK-MEL-30,cell-line expression proxy,P2RX7_ion_signal_response,0.05566666666666667,deterministic cell-expanded expression-derived composition proxy
+4,scGen,SK-MEL-30,cell-line expression proxy,senescent_like,0.005333333333333333,deterministic cell-expanded expression-derived composition proxy
+4,scGen,SK-MEL-30,cell-line expression proxy,immune_like_resistant,0.02666666666666667,deterministic cell-expanded expression-derived composition proxy
+4,scGen,SK-MEL-30,cell-line expression proxy,intrinsic_resistant,0.7836666666666666,deterministic cell-expanded expression-derived composition proxy
+4,scGen,SK-MEL-30,cell-line expression proxy,stress_adaptive,0.0,deterministic cell-expanded expression-derived composition proxy
+4,scGen,SK-MEL-30,cell-line expression proxy,apoptotic_or_dying,0.012,deterministic cell-expanded expression-derived composition proxy
+4,WOT,SK-MEL-30,cell-line expression proxy,proliferative_sensitive,0.132,deterministic cell-expanded expression-derived composition proxy
+4,WOT,SK-MEL-30,cell-line expression proxy,early_drug_response,0.0036666666666666666,deterministic cell-expanded expression-derived composition proxy
+4,WOT,SK-MEL-30,cell-line expression proxy,P2RX7_ion_signal_response,0.05633333333333333,deterministic cell-expanded expression-derived composition proxy
+4,WOT,SK-MEL-30,cell-line expression proxy,senescent_like,0.0,deterministic cell-expanded expression-derived composition proxy
+4,WOT,SK-MEL-30,cell-line expression proxy,immune_like_resistant,0.010333333333333333,deterministic cell-expanded expression-derived composition proxy
+4,WOT,SK-MEL-30,cell-line expression proxy,intrinsic_resistant,0.794,deterministic cell-expanded expression-derived composition proxy
+4,WOT,SK-MEL-30,cell-line expression proxy,stress_adaptive,0.0,deterministic cell-expanded expression-derived composition proxy
+4,WOT,SK-MEL-30,cell-line expression proxy,apoptotic_or_dying,0.0036666666666666666,deterministic cell-expanded expression-derived composition proxy
+4,CellRank,SK-MEL-30,cell-line expression proxy,proliferative_sensitive,0.3253333333333333,deterministic cell-expanded expression-derived composition proxy
+4,CellRank,SK-MEL-30,cell-line expression proxy,early_drug_response,0.022,deterministic cell-expanded expression-derived composition proxy
+4,CellRank,SK-MEL-30,cell-line expression proxy,P2RX7_ion_signal_response,0.146,deterministic cell-expanded expression-derived composition proxy
+4,CellRank,SK-MEL-30,cell-line expression proxy,senescent_like,0.005666666666666667,deterministic cell-expanded expression-derived composition proxy
+4,CellRank,SK-MEL-30,cell-line expression proxy,immune_like_resistant,0.06,deterministic cell-expanded expression-derived composition proxy
+4,CellRank,SK-MEL-30,cell-line expression proxy,intrinsic_resistant,0.4066666666666667,deterministic cell-expanded expression-derived composition proxy
+4,CellRank,SK-MEL-30,cell-line expression proxy,stress_adaptive,0.0,deterministic cell-expanded expression-derived composition proxy
+4,CellRank,SK-MEL-30,cell-line expression proxy,apoptotic_or_dying,0.034333333333333334,deterministic cell-expanded expression-derived composition proxy
+33,scGen,SK-MEL-30,cell-line expression proxy,proliferative_sensitive,0.10333333333333333,deterministic cell-expanded expression-derived composition proxy
+33,scGen,SK-MEL-30,cell-line expression proxy,early_drug_response,0.003,deterministic cell-expanded expression-derived composition proxy
+33,scGen,SK-MEL-30,cell-line expression proxy,P2RX7_ion_signal_response,0.051,deterministic cell-expanded expression-derived composition proxy
+33,scGen,SK-MEL-30,cell-line expression proxy,senescent_like,0.005333333333333333,deterministic cell-expanded expression-derived composition proxy
+33,scGen,SK-MEL-30,cell-line expression proxy,immune_like_resistant,0.04533333333333334,deterministic cell-expanded expression-derived composition proxy
+33,scGen,SK-MEL-30,cell-line expression proxy,intrinsic_resistant,0.7763333333333333,deterministic cell-expanded expression-derived composition proxy
+33,scGen,SK-MEL-30,cell-line expression proxy,stress_adaptive,0.0,deterministic cell-expanded expression-derived composition proxy
+33,scGen,SK-MEL-30,cell-line expression proxy,apoptotic_or_dying,0.015666666666666666,deterministic cell-expanded expression-derived composition proxy
+33,WOT,SK-MEL-30,cell-line expression proxy,proliferative_sensitive,0.47933333333333333,deterministic cell-expanded expression-derived composition proxy
+33,WOT,SK-MEL-30,cell-line expression proxy,early_drug_response,0.0026666666666666666,deterministic cell-expanded expression-derived composition proxy
+33,WOT,SK-MEL-30,cell-line expression proxy,P2RX7_ion_signal_response,0.031,deterministic cell-expanded expression-derived composition proxy
+33,WOT,SK-MEL-30,cell-line expression proxy,senescent_like,0.003,deterministic cell-expanded expression-derived composition proxy
+33,WOT,SK-MEL-30,cell-line expression proxy,immune_like_resistant,0.03166666666666667,deterministic cell-expanded expression-derived composition proxy
+33,WOT,SK-MEL-30,cell-line expression proxy,intrinsic_resistant,0.44733333333333336,deterministic cell-expanded expression-derived composition proxy
+33,WOT,SK-MEL-30,cell-line expression proxy,stress_adaptive,0.0,deterministic cell-expanded expression-derived composition proxy
+33,WOT,SK-MEL-30,cell-line expression proxy,apoptotic_or_dying,0.005,deterministic cell-expanded expression-derived composition proxy
+33,CellRank,SK-MEL-30,cell-line expression proxy,proliferative_sensitive,0.3253333333333333,deterministic cell-expanded expression-derived composition proxy
+33,CellRank,SK-MEL-30,cell-line expression proxy,early_drug_response,0.022,deterministic cell-expanded expression-derived composition proxy
+33,CellRank,SK-MEL-30,cell-line expression proxy,P2RX7_ion_signal_response,0.146,deterministic cell-expanded expression-derived composition proxy
+33,CellRank,SK-MEL-30,cell-line expression proxy,senescent_like,0.005666666666666667,deterministic cell-expanded expression-derived composition proxy
+33,CellRank,SK-MEL-30,cell-line expression proxy,immune_like_resistant,0.06,deterministic cell-expanded expression-derived composition proxy
+33,CellRank,SK-MEL-30,cell-line expression proxy,intrinsic_resistant,0.4066666666666667,deterministic cell-expanded expression-derived composition proxy
+33,CellRank,SK-MEL-30,cell-line expression proxy,stress_adaptive,0.0,deterministic cell-expanded expression-derived composition proxy
+33,CellRank,SK-MEL-30,cell-line expression proxy,apoptotic_or_dying,0.034333333333333334,deterministic cell-expanded expression-derived composition proxy
+4,Leca-VC,seed_0,simulation seed,proliferative_sensitive,0.362,native frozen simulation state composition
+4,Leca-VC,seed_0,simulation seed,early_drug_response,0.018,native frozen simulation state composition
+4,Leca-VC,seed_0,simulation seed,P2RX7_ion_signal_response,0.022,native frozen simulation state composition
+4,Leca-VC,seed_0,simulation seed,senescent_like,0.002,native frozen simulation state composition
+4,Leca-VC,seed_0,simulation seed,immune_like_resistant,0.004,native frozen simulation state composition
+4,Leca-VC,seed_0,simulation seed,intrinsic_resistant,0.572,native frozen simulation state composition
+4,Leca-VC,seed_0,simulation seed,stress_adaptive,0.016,native frozen simulation state composition
+4,Leca-VC,seed_0,simulation seed,apoptotic_or_dying,0.004,native frozen simulation state composition
+33,Leca-VC,seed_0,simulation seed,proliferative_sensitive,0.2759999999999999,native frozen simulation state composition
+33,Leca-VC,seed_0,simulation seed,early_drug_response,0.0239999999999999,native frozen simulation state composition
+33,Leca-VC,seed_0,simulation seed,P2RX7_ion_signal_response,0.0119999999999999,native frozen simulation state composition
+33,Leca-VC,seed_0,simulation seed,senescent_like,0.0379999999999999,native frozen simulation state composition
+33,Leca-VC,seed_0,simulation seed,immune_like_resistant,0.0279999999999999,native frozen simulation state composition
+33,Leca-VC,seed_0,simulation seed,intrinsic_resistant,0.5599999999999999,native frozen simulation state composition
+33,Leca-VC,seed_0,simulation seed,stress_adaptive,0.0439999999999999,native frozen simulation state composition
+33,Leca-VC,seed_0,simulation seed,apoptotic_or_dying,0.0179999999999999,native frozen simulation state composition
+4,Leca-VC,seed_1,simulation seed,proliferative_sensitive,0.336,native frozen simulation state composition
+4,Leca-VC,seed_1,simulation seed,early_drug_response,0.06,native frozen simulation state composition
+4,Leca-VC,seed_1,simulation seed,P2RX7_ion_signal_response,0.036,native frozen simulation state composition
+4,Leca-VC,seed_1,simulation seed,senescent_like,0.01,native frozen simulation state composition
+4,Leca-VC,seed_1,simulation seed,immune_like_resistant,0.03,native frozen simulation state composition
+4,Leca-VC,seed_1,simulation seed,intrinsic_resistant,0.508,native frozen simulation state composition
+4,Leca-VC,seed_1,simulation seed,stress_adaptive,0.02,native frozen simulation state composition
+4,Leca-VC,seed_1,simulation seed,apoptotic_or_dying,0.0,native frozen simulation state composition
+33,Leca-VC,seed_1,simulation seed,proliferative_sensitive,0.086,native frozen simulation state composition
+33,Leca-VC,seed_1,simulation seed,early_drug_response,0.054,native frozen simulation state composition
+33,Leca-VC,seed_1,simulation seed,P2RX7_ion_signal_response,0.116,native frozen simulation state composition
+33,Leca-VC,seed_1,simulation seed,senescent_like,0.01,native frozen simulation state composition
+33,Leca-VC,seed_1,simulation seed,immune_like_resistant,0.014,native frozen simulation state composition
+33,Leca-VC,seed_1,simulation seed,intrinsic_resistant,0.56,native frozen simulation state composition
+33,Leca-VC,seed_1,simulation seed,stress_adaptive,0.156,native frozen simulation state composition
+33,Leca-VC,seed_1,simulation seed,apoptotic_or_dying,0.004,native frozen simulation state composition
+4,Leca-VC,seed_2,simulation seed,proliferative_sensitive,0.26,native frozen simulation state composition
+4,Leca-VC,seed_2,simulation seed,early_drug_response,0.068,native frozen simulation state composition
+4,Leca-VC,seed_2,simulation seed,P2RX7_ion_signal_response,0.044,native frozen simulation state composition
+4,Leca-VC,seed_2,simulation seed,senescent_like,0.002,native frozen simulation state composition
+4,Leca-VC,seed_2,simulation seed,immune_like_resistant,0.034,native frozen simulation state composition
+4,Leca-VC,seed_2,simulation seed,intrinsic_resistant,0.528,native frozen simulation state composition
+4,Leca-VC,seed_2,simulation seed,stress_adaptive,0.052,native frozen simulation state composition
+4,Leca-VC,seed_2,simulation seed,apoptotic_or_dying,0.012,native frozen simulation state composition
+33,Leca-VC,seed_2,simulation seed,proliferative_sensitive,0.08,native frozen simulation state composition
+33,Leca-VC,seed_2,simulation seed,early_drug_response,0.044,native frozen simulation state composition
+33,Leca-VC,seed_2,simulation seed,P2RX7_ion_signal_response,0.12,native frozen simulation state composition
+33,Leca-VC,seed_2,simulation seed,senescent_like,0.076,native frozen simulation state composition
+33,Leca-VC,seed_2,simulation seed,immune_like_resistant,0.002,native frozen simulation state composition
+33,Leca-VC,seed_2,simulation seed,intrinsic_resistant,0.508,native frozen simulation state composition
+33,Leca-VC,seed_2,simulation seed,stress_adaptive,0.058,native frozen simulation state composition
+33,Leca-VC,seed_2,simulation seed,apoptotic_or_dying,0.112,native frozen simulation state composition

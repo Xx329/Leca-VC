@@ -1,0 +1,108 @@
+{
+  "schema_version": 1,
+  "policy": "Only current manuscript workflows and the legacy base modules imported by those workflows are release dependencies. Runtime outputs and third-party checkouts are not repository source.",
+  "workflows": {
+    "quick_figure_reproduction": {
+      "entrypoint": "workflows/reproduce_figures.py",
+      "required_paths": [
+        "figures/main/fig2/render.py",
+        "figures/main/fig3/render.py",
+        "figures/main/fig4/render.py",
+        "figures/main/fig5/render.py",
+        "figures/main/fig6/render.py",
+        "figures/supplementary/figS1/render.py",
+        "figures/supplementary/figS2/render.py",
+        "figures/supplementary/figS3/render.py",
+        "figures/supplementary/figS4/render.py",
+        "figures/supplementary/heatmap_base.py",
+        "figures/supplementary/figS5/render.py",
+        "figures/supplementary/figS6/render.py",
+        "figures/supplementary/figS7/render.py",
+        "figures/supplementary/figS8/render.py",
+        "source_data/figS6/provenance.json",
+        "source_data/fig6/provenance.json"
+      ]
+    },
+    "gse2565": {
+      "entrypoint": "experiments/gse2565/run_pipeline.py",
+      "required_paths": [
+        "experiments/gse2565/render_paper_figure.py",
+        "scripts/gse2565_bulk_macro_benchmark_v1/physicell_engine.py",
+        "scripts/gse2565_bulk_macro_benchmark_v4_online_agent/online_controller.py",
+        "scripts/gse2565_bulk_macro_benchmark_v4_online_agent/runtime_bridge.py",
+        "scripts/gse2565_bulk_macro_benchmark_v4_online_agent/v4_online_engine.py",
+        "scripts/gse2565_bulk_macro_benchmark_v4_online_agent/v4_online_expression_amend004.py",
+        "scripts/gse2565_bulk_macro_benchmark_v4_online_agent/evaluate_amend004.py",
+        "scripts/gse2565_bulk_master_comparison_v5_1_bop_gpr/run_bopdmd_v5_1.py",
+        "scripts/gse2565_bulk_master_comparison_v5_2_bop_gpr/run_bopdmd_v5_2.py",
+        "scripts/gse2565_bulk_master_comparison_v5_bop_gpr/common.py",
+        "scripts/gse2565_bulk_master_comparison_v5_bop_gpr/build_v5.py",
+        "scripts/gse2565_bulk_master_comparison_v5_4_no_heatmap/plot_v5_4.py",
+        "scripts/gse2565_bulk_transcriptomic_response_benchmark_v5_4_4_no_rvagene/plot_v5_4_4.py",
+        "physicell/gse2565/custom.cpp",
+        "physicell/gse2565/PhysiCell_settings_base.xml"
+      ]
+    },
+    "gse120575": {
+      "entrypoint": "experiments/gse120575/run_pipeline.py",
+      "required_paths": [
+        "experiments/gse120575/online_inference_deidentified.py",
+        "experiments/gse120575/render_umap_response_figure.py",
+        "scripts/gse120575_full_online_celltype_v21/physicell_executor_v21.py",
+        "scripts/gse120575_cell_expanded_umap_figure_v3/run_v3.py",
+        "scripts/gse120575_cell_expanded_umap_figure_v4_expression_accuracy/run_v4.py",
+        "scripts/gse120575_cell_expanded_umap_figure_v4_1_layout_refined/run_v4_1.py",
+        "scripts/gse120575_cell_expanded_umap_figure_v4_2_response_metrics/run_v4_2.py",
+        "scripts/gse120575_cell_expanded_heterogeneity_audit_v1/run_analysis.py",
+        "physicell/gse120575/custom.cpp"
+      ]
+    },
+    "gse267904": {
+      "entrypoint": "experiments/gse267904/run_pipeline.py",
+      "required_paths": [
+        "scripts/gse267904_spatial_commot_agent/build_micro_agent_registry.py",
+        "scripts/gse267904_spatial_commot_agent/run_physicell_micro_agent_simulation.py",
+        "scripts/gse267904_spatial_commot_agent/build_virtual_commot_input.py",
+        "scripts/gse267904_spatial_commot_agent/run_virtual_commot.py",
+        "scripts/gse267904_spatial_commot_agent/evaluate_real_vs_virtual_commot.py",
+        "scripts/gse267904_agent_granularity_heterogeneity/run_analysis.py",
+        "scripts/gse267904_agentvc_worker_scgpt_cci_main_v1/prepare_workers.py",
+        "scripts/gse267904_agentvc_worker_scgpt_cci_main_v1/benchmark.py",
+        "scripts/gse267904_multimethod_cci_benchmark_v5_agentvc_lrra/pipeline.py",
+        "physicell/gse267904/custom.cpp"
+      ]
+    },
+    "contamination_probe": {
+      "entrypoint": "workflows/run_contamination_probe.py",
+      "required_paths": [
+        "scripts/leca_vc_prompt_isolation_v1/prompt_firewall.py",
+        "scripts/leca_vc_prompt_isolation_v1/run_exact_runtime_probe_v2.py",
+        "scripts/leca_vc_prompt_isolation_v1/render_exact_runtime_probe_paper_figure.py",
+        "figures/supplementary/figS7/render.py"
+      ]
+    },
+    "supplementary_analysis_lineage": {
+      "entrypoint": "figures/supplementary/figS1/render.py",
+      "release_state": "analysis scripts retained for provenance; quick tier uses frozen plotting tables",
+      "required_paths": [
+        "scripts/gse120575_external_baseline_unified_composition_v3_cellrank_proxy/plot_v3.py",
+        "scripts/gse230538_cell_state_composition_supp_v2_1_no_traditional/plot_v2_1.py",
+        "scripts/supplementary_standalone_heatmaps_final/build.py",
+        "scripts/gse267904_spatial_agent_granularity/plot_k100_pathway_commot_smoothed.py",
+        "figures/supplementary/figS5/prepare_source.py",
+        "source_data/figS6/provenance.json"
+      ]
+    },
+    "fibrosis_application": {
+      "entrypoint": "experiments/fibrosis_application/application/run_pipeline.py",
+      "release_state": "manual_paper_assembly_ready_full_runtime_rerun_fail_closed_pending_reconciled_evidence",
+      "required_paths": [
+        "experiments/fibrosis_application/tools/handoff_cli.py",
+        "experiments/fibrosis_application/provenance/delivery_audit.json",
+        "source_data/fig6/figure6_frozen_reference.png",
+        "source_data/fig6/provenance.json",
+        "physicell/fibrosis_application/custom.cpp"
+      ]
+    }
+  }
+}

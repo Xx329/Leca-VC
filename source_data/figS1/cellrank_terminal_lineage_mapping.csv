@@ -1,0 +1,5 @@
+terminal_lineage,mapped_broad_cell_type,terminal_cell_count,classifier_vote_fraction,stage0_annotation_fraction,mapping_semantics
+terminal_lineage_01_dpt_rank_1,Monocyte/Macrophage,30,1.0,1.0,post-hoc Pre-only terminal-lineage proxy; not native generated Post composition
+terminal_lineage_02_dpt_rank_2,Dendritic cell,30,1.0,1.0,post-hoc Pre-only terminal-lineage proxy; not native generated Post composition
+terminal_lineage_03_dpt_rank_3,B cell,30,1.0,1.0,post-hoc Pre-only terminal-lineage proxy; not native generated Post composition
+terminal_lineage_04_dpt_rank_4,Plasma cell,30,1.0,1.0,post-hoc Pre-only terminal-lineage proxy; not native generated Post composition

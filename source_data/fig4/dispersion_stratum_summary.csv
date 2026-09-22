@@ -1,0 +1,25 @@
+response,broad_cell_type,method,method_label,eligible_gene_count,median_log2_sd_ratio,median_absolute_log2_sd_ratio,observed_unit_count,observed_valid_cell_count,predicted_unit_count,predicted_valid_cell_count
+Responder,B cell,scGen,scGen,830,-0.5280190031315463,0.543118746259347,4,169,3,129
+Responder,B cell,CellRank_terminal_proxy,CellRank,830,-0.3737186786492819,0.38763779246762786,4,169,3,129
+Responder,B cell,AgentVC_proxy,Leca-VC,830,-0.04145689794989492,0.17647715111212875,4,169,3,129
+Responder,Monocyte/Macrophage,scGen,scGen,831,-0.36128942649912704,0.5029281752197242,4,44,2,17
+Responder,Monocyte/Macrophage,CellRank_terminal_proxy,CellRank,831,-0.24188139444888757,0.4313710875244121,4,44,2,17
+Responder,Monocyte/Macrophage,AgentVC_proxy,Leca-VC,831,0.07619686940310742,0.3531201832482658,4,44,2,17
+Responder,NK cell,scGen,scGen,834,-0.38841478050267275,0.3943892201492025,5,123,3,39
+Responder,NK cell,CellRank_terminal_proxy,CellRank,834,-0.24460062648238,0.28872701102327264,5,123,3,39
+Responder,NK cell,AgentVC_proxy,Leca-VC,834,0.042167395225952004,0.15124331913429356,5,123,3,39
+Responder,T cell,scGen,scGen,834,-0.4193113880745216,0.4193113880745216,5,1070,3,546
+Responder,T cell,CellRank_terminal_proxy,CellRank,834,-0.25365192401956893,0.25385858585330145,5,1070,3,546
+Responder,T cell,AgentVC_proxy,Leca-VC,834,0.01799362025451598,0.0535030891390411,5,1070,3,546
+Non-responder,B cell,scGen,scGen,834,-0.5050634573808104,0.5226811858793139,13,274,2,16
+Non-responder,B cell,CellRank_terminal_proxy,CellRank,834,-0.45023981821208603,0.4694588705105668,13,274,2,16
+Non-responder,B cell,AgentVC_proxy,Leca-VC,834,-0.060952079225518985,0.3366900893427052,13,274,2,16
+Non-responder,Monocyte/Macrophage,scGen,scGen,834,-0.23654996732461409,0.2731808881277426,18,426,3,71
+Non-responder,Monocyte/Macrophage,CellRank_terminal_proxy,CellRank,834,-0.22979089565085165,0.28074093479769857,18,426,3,71
+Non-responder,Monocyte/Macrophage,AgentVC_proxy,Leca-VC,834,0.07131330432049318,0.13880792412953719,18,426,3,71
+Non-responder,NK cell,scGen,scGen,834,-0.2677075629217052,0.2677075629217052,18,367,3,72
+Non-responder,NK cell,CellRank_terminal_proxy,CellRank,834,-0.25532217294879545,0.25906530520320303,18,367,3,72
+Non-responder,NK cell,AgentVC_proxy,Leca-VC,834,0.015599771040061937,0.08547271671658335,18,367,3,72
+Non-responder,T cell,scGen,scGen,834,-0.264219292147013,0.264219292147013,18,5016,3,750
+Non-responder,T cell,CellRank_terminal_proxy,CellRank,834,-0.22710545761296289,0.22733771506897618,18,5016,3,750
+Non-responder,T cell,AgentVC_proxy,Leca-VC,834,0.014877246910606183,0.03777296597700819,18,5016,3,750

@@ -1,0 +1,37 @@
+{
+  "stages": [
+    {
+      "index": 0,
+      "source": "real",
+      "stage": "d7_bleo",
+      "n": 4992
+    },
+    {
+      "index": 1,
+      "source": "virtual",
+      "stage": "virtual_early_bleo",
+      "n": 93
+    },
+    {
+      "index": 2,
+      "source": "real",
+      "stage": "d21_bleo",
+      "n": 4992
+    },
+    {
+      "index": 3,
+      "source": "virtual",
+      "stage": "virtual_late_bleo",
+      "n": 83
+    }
+  ],
+  "families": [
+    "TGFB",
+    "CCL",
+    "CXCL"
+  ],
+  "modes": [
+    "sender",
+    "receiver"
+  ]
+}

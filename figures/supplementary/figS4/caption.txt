@@ -1,0 +1,1 @@
+GSE2565 functional-program response profiles. Temporal z-scores for ten frozen functional modules are shown for Observed and five reconstruction methods across nine time points. Method input regimes are not equivalent, and the heatmaps are descriptive rather than an overall performance score.

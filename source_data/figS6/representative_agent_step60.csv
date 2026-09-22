@@ -1,0 +1,11 @@
+side,field,label,value,order
+input,TGFB_signal,TGFB_signal,0.566932,0
+input,inflammatory_signal,inflammatory_signal,0.525749,1
+input,injury_signal,injury_signal,0.455098,2
+input,ECM_fibrosis,ECM_fibrosis,0.349001,3
+input,fibrosis_memory,fibrosis_memory (Internal State),0.102145307811,4
+output,ecm_deposition,ecm_deposition,0.90,0
+output,survival,survival,0.80,1
+output,tgfb_response,tgfb_response,0.70,2
+output,memory_gain,memory_gain,0.70,3
+output,homeostasis_repair,homeostasis_repair,0.10,4

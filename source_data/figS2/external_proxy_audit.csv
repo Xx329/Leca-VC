@@ -1,0 +1,25 @@
+day,method,cell_line,source_cells,marker_gene_count,maximum_marker_target_mean_error,composition_sum,native_single_cell_prediction_claimed,state_rule
+4,scGen,IPC-298,3000,28,1.5432100042289676e-13,1.0,False,frozen-common-panel available-marker raw-log module argmax after source-library-size anchoring
+4,WOT,IPC-298,3000,28,2.731148640577885e-14,1.0,False,frozen-common-panel available-marker raw-log module argmax after source-library-size anchoring
+4,CellRank,IPC-298,3000,28,6.583622536027178e-14,1.0,False,frozen-common-panel available-marker raw-log module argmax after source-library-size anchoring
+33,scGen,IPC-298,3000,28,1.4788170688007085e-13,1.0,False,frozen-common-panel available-marker raw-log module argmax after source-library-size anchoring
+33,WOT,IPC-298,3000,28,1.5276668818842154e-13,1.0,False,frozen-common-panel available-marker raw-log module argmax after source-library-size anchoring
+33,CellRank,IPC-298,3000,28,6.583622536027178e-14,1.0,False,frozen-common-panel available-marker raw-log module argmax after source-library-size anchoring
+4,scGen,M20,3000,28,1.554312234475219e-14,1.0,False,frozen-common-panel available-marker raw-log module argmax after source-library-size anchoring
+4,WOT,M20,3000,28,1.4832579608992091e-13,1.0,False,frozen-common-panel available-marker raw-log module argmax after source-library-size anchoring
+4,CellRank,M20,3000,28,6.461498003318411e-14,1.0,False,frozen-common-panel available-marker raw-log module argmax after source-library-size anchoring
+33,scGen,M20,3000,28,2.348121697082206e-14,1.0,False,frozen-common-panel available-marker raw-log module argmax after source-library-size anchoring
+33,WOT,M20,3000,28,6.59472476627343e-14,1.0,False,frozen-common-panel available-marker raw-log module argmax after source-library-size anchoring
+33,CellRank,M20,3000,28,6.461498003318411e-14,1.0,False,frozen-common-panel available-marker raw-log module argmax after source-library-size anchoring
+4,scGen,MEL-JUSO,3000,28,1.5543122344752192e-13,1.0,False,frozen-common-panel available-marker raw-log module argmax after source-library-size anchoring
+4,WOT,MEL-JUSO,3000,28,3.361755318564974e-13,0.9999999999999999,False,frozen-common-panel available-marker raw-log module argmax after source-library-size anchoring
+4,CellRank,MEL-JUSO,3000,28,6.039613253960852e-14,0.9999999999999999,False,frozen-common-panel available-marker raw-log module argmax after source-library-size anchoring
+33,scGen,MEL-JUSO,3000,28,1.0458300891968975e-13,0.9999999999999999,False,frozen-common-panel available-marker raw-log module argmax after source-library-size anchoring
+33,WOT,MEL-JUSO,3000,28,1.0191847366058937e-13,1.0,False,frozen-common-panel available-marker raw-log module argmax after source-library-size anchoring
+33,CellRank,MEL-JUSO,3000,28,6.039613253960852e-14,0.9999999999999999,False,frozen-common-panel available-marker raw-log module argmax after source-library-size anchoring
+4,scGen,SK-MEL-30,3000,28,8.881784197001252e-14,0.9999999999999999,False,frozen-common-panel available-marker raw-log module argmax after source-library-size anchoring
+4,WOT,SK-MEL-30,3000,28,2.318145675417327e-13,1.0,False,frozen-common-panel available-marker raw-log module argmax after source-library-size anchoring
+4,CellRank,SK-MEL-30,3000,28,5.745404152435185e-14,1.0,False,frozen-common-panel available-marker raw-log module argmax after source-library-size anchoring
+33,scGen,SK-MEL-30,3000,28,5.00155472593633e-14,1.0,False,frozen-common-panel available-marker raw-log module argmax after source-library-size anchoring
+33,WOT,SK-MEL-30,3000,28,1.538769112130467e-13,1.0,False,frozen-common-panel available-marker raw-log module argmax after source-library-size anchoring
+33,CellRank,SK-MEL-30,3000,28,5.745404152435185e-14,1.0,False,frozen-common-panel available-marker raw-log module argmax after source-library-size anchoring

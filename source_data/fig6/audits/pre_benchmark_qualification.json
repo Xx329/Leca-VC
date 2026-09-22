@@ -1,0 +1,33 @@
+{
+  "GSE267904_d21_opened": false,
+  "qualification_animals": [
+    "d7_bleo_5",
+    "d7_bleo_6",
+    "d7_ctrl_3"
+  ],
+  "checks": {
+    "ctrl_stability": true,
+    "fibrosis_specific_trajectory": true,
+    "agent_vs_diffusion_ge_20pct": true,
+    "llm_vs_dynamic_rule_three_descriptors_ge_5pct": true,
+    "intervention_downstream_direction": true,
+    "finite_nonnegative_fields": true,
+    "sensitivity_runs_complete": true
+  },
+  "all_passed": true,
+  "agent_vs_diffusion_relative_difference": 0.09011247225692984,
+  "llm_vs_rule_relative_differences": {
+    "ECM_p90": 0.02242817110147006,
+    "ECM_high_area": 0.016148078708904657,
+    "niche_area": 0.2892299287292955,
+    "TGFB_ECM_colocalization": 0.028412969085501588,
+    "fibrosis_memory": 0.2903013271937278,
+    "myofibroblast_activation": 0.02703129551699414
+  },
+  "interventions": {
+    "TGFB_blockade": true,
+    "macrophage_SPP1_APOE_suppression": true,
+    "epithelial_repair_promotion": true,
+    "fibroblast_ECM_suppression": true
+  }
+}

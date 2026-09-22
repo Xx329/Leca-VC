@@ -1,0 +1,1 @@
+Mechanistic transparency of LLM-driven single-cell policy generation. A representative myofibroblast agent (GSM8281384 V10A20-072-A1, agent 027) is shown at step 60. The input panel summarizes the local microenvironment and internal memory supplied to the decision engine; the output panel shows the schema-constrained biological program returned by the LLM.

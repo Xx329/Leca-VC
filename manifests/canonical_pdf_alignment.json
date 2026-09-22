@@ -1,0 +1,30 @@
+{
+  "main_pdf": {
+    "name": "Short_Article_Title (6).pdf",
+    "sha256": "6d55ff7bec051ad130e38118b9ec49778454f101381250921f75a7b389ffe893",
+    "figures": {
+      "fig1": "DESIGN_ASSET_USER_EXEMPT",
+      "fig2": "VISUALLY_ALIGNED_AND_RELEASE_REFERENCE_PIXEL_VERIFIED",
+      "fig3": "VISUALLY_ALIGNED_AND_RELEASE_REFERENCE_PIXEL_VERIFIED",
+      "fig4": "VISUALLY_ALIGNED_AND_RELEASE_REFERENCE_PIXEL_VERIFIED",
+      "fig5": "VISUALLY_ALIGNED_COMPLETE_COMPOSITE_AND_RELEASE_REFERENCE_PIXEL_VERIFIED",
+      "fig6": "EXACT_AUTHOR_CONFIRMED_MANUAL_ASSEMBLY_ASSET_MAPPED"
+    }
+  },
+  "supplement_pdf": {
+    "name": "Leca_VC_supplemental_overleaf_v1.pdf",
+    "sha256": "843c7124162d4b21cc603c6583e4d0deddd386c8f8c43972404469520ddd46fb",
+    "figure_range": "S1-S8",
+    "renumbering_applied": {"former_release_figS8": "figS7", "former_release_figS9": "figS8"},
+    "figures": {
+      "figS1": "EXACT_LOCAL_FROZEN_OUTPUT_MAPPED",
+      "figS2": "EXACT_LOCAL_FROZEN_OUTPUT_MAPPED",
+      "figS3": "EXACT_LOCAL_FROZEN_OUTPUT_MAPPED",
+      "figS4": "EXACT_LOCAL_FROZEN_OUTPUT_MAPPED",
+      "figS5": "EXACT_LOCAL_FROZEN_OUTPUT_MAPPED",
+      "figS6": "COLLABORATOR_RENDERER_AND_RUNTIME_RECORD_VALIDATED",
+      "figS7": "EXACT_LOCAL_FROZEN_OUTPUT_MAPPED",
+      "figS8": "EXACT_LOCAL_FROZEN_OUTPUT_MAPPED"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+name: lecavc-figures
+channels: [conda-forge]
+dependencies:
+  - python=3.10
+  - numpy=1.26
+  - pandas=2.2
+  - scipy=1.13
+  - matplotlib=3.8
+  - pillow=10
+  - pyyaml=6
+  - pip
+

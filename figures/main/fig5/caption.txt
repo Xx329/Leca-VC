@@ -1,0 +1,1 @@
+GSE267904 spatial module-expression recovery across Agent granularities. Spatial heatmaps show observed references (Real) and reconstructed virtual tissues across increasing Agent resolutions (K = 20, 50, 100) for three key functional modules (TGF-beta response, inflammation, and fibrosis/ECM) across early (d7 / virtual early) and late (d21 / virtual late) stages.

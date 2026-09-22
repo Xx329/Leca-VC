@@ -1,0 +1,33 @@
+{
+  "status": "PASS_VISUALIZATION_WITH_DISCLOSED_CELLRANK_TERMINAL_LINEAGE_PROXY",
+  "historical_v2_outputs_overwritten": false,
+  "model_rerun": false,
+  "existing_v2_bar_values_and_intervals_reused_unchanged": true,
+  "cellrank_is_native_post_composition": false,
+  "cellrank_proxy_semantics": "Pre-only fate-weighted terminal-lineage-to-broad-type mapping",
+  "lineage_mapping_unanimous_terminal_cells": true,
+  "lineage_count": 4,
+  "terminal_cells_per_lineage": 30,
+  "bootstrap_iterations": 1000,
+  "bootstrap_unit": "source Pre sample for CellRank; frozen V2 units retained for other methods",
+  "source_hashes": {
+    "v2_group_means": "184188a9508b1dc14c7e404e264fd8fb876e1f72d199d57c6ab51b4ecde17896",
+    "v2_metrics": "e8b419d62f8d6ec467704ff9f940b36ffedc378e147fd5fc19b523c590475bc8",
+    "cellrank_fate_weights": "37fac4be594a4a7b86055f6fdd34c56de4cb32dbf2b98c81184ec7f742a218b2",
+    "cellrank_h5ad": "9af4c5a4ae2fa3167c9bc0fcbcec340bc71266264c43aca171332c2ed7fe9b45",
+    "scgen_gene_panel_container": "7050c67a5a98b3dadfe94766c055eb7f7d964a57df4baee1dc47a9ec545ec8ee",
+    "stage0_annotations": "e63d6b185bacfbbbf7689b9b8043cf4ccda6f52f935e1d67efaa545bfd2b1614"
+  },
+  "outputs": [
+    "outputs/GSE120575_external_baseline_unified_composition_v3_cellrank_proxy/GSE120575_celltype_composition_with_CellRank_proxy_preview.png",
+    "outputs/GSE120575_external_baseline_unified_composition_v3_cellrank_proxy/GSE120575_celltype_composition_with_CellRank_proxy_600dpi.png",
+    "outputs/GSE120575_external_baseline_unified_composition_v3_cellrank_proxy/GSE120575_celltype_composition_with_CellRank_proxy_vector.pdf",
+    "outputs/GSE120575_external_baseline_unified_composition_v3_cellrank_proxy/GSE120575_celltype_composition_with_CellRank_proxy.svg",
+    "outputs/GSE120575_external_baseline_unified_composition_v3_cellrank_proxy/plotting_source.csv",
+    "outputs/GSE120575_external_baseline_unified_composition_v3_cellrank_proxy/cellrank_sample_level_compositions.csv",
+    "outputs/GSE120575_external_baseline_unified_composition_v3_cellrank_proxy/cellrank_terminal_lineage_mapping.csv",
+    "outputs/GSE120575_external_baseline_unified_composition_v3_cellrank_proxy/rmse_summary.csv",
+    "outputs/GSE120575_external_baseline_unified_composition_v3_cellrank_proxy/caption.txt",
+    "outputs/GSE120575_external_baseline_unified_composition_v3_cellrank_proxy/audit.json"
+  ]
+}

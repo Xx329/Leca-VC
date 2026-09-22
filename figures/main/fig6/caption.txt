@@ -1,0 +1,1 @@
+Figure 6. Therapeutic perturbation via targeted ECM suppression. The exact author-confirmed manual six-panel assembly used by the canonical manuscript is preserved from the collaborator delivery. See source_data/fig6/provenance.json for component and run-audit provenance.

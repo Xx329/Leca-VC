@@ -1,0 +1,541 @@
+method,time_hours,module,temporal_z_score,evaluation_gene_count,display_method
+Real,0.0,oxidative_stress,-1.4844827702311048,7632,Observed
+Real,0.0,inflammation,-1.6172150640853356,7632,Observed
+Real,0.0,NFkB_TNF,-1.665779556059767,7632,Observed
+Real,0.0,apoptosis_cell_death,-1.7638660959361572,7632,Observed
+Real,0.0,hypoxia,0.9398095543131076,7632,Observed
+Real,0.0,alveolar_epithelial_injury_barrier,0.9269604764348328,7632,Observed
+Real,0.0,vascular_permeability_edema_proxy,-0.2149356876645251,7632,Observed
+Real,0.0,immune_recruitment,-1.8066306117253133,7632,Observed
+Real,0.0,tissue_repair,-0.1287273653503816,7632,Observed
+Real,0.0,ECM_remodeling,1.521391041418266,7632,Observed
+Real,0.5,oxidative_stress,-0.723676465163314,7632,Observed
+Real,0.5,inflammation,-1.6930232421064444,7632,Observed
+Real,0.5,NFkB_TNF,-1.5044230128179812,7632,Observed
+Real,0.5,apoptosis_cell_death,-1.308636856098342,7632,Observed
+Real,0.5,hypoxia,1.14351431928821,7632,Observed
+Real,0.5,alveolar_epithelial_injury_barrier,0.4353699521588784,7632,Observed
+Real,0.5,vascular_permeability_edema_proxy,-0.1100411194061405,7632,Observed
+Real,0.5,immune_recruitment,-1.626209440593043,7632,Observed
+Real,0.5,tissue_repair,-0.7241007578396782,7632,Observed
+Real,0.5,ECM_remodeling,-0.31442273217083,7632,Observed
+Real,1.0,oxidative_stress,-0.6582093217037437,7632,Observed
+Real,1.0,inflammation,-0.7141278347100796,7632,Observed
+Real,1.0,NFkB_TNF,-0.8213934096600688,7632,Observed
+Real,1.0,apoptosis_cell_death,-0.9717595737734718,7632,Observed
+Real,1.0,hypoxia,0.2608402467954026,7632,Observed
+Real,1.0,alveolar_epithelial_injury_barrier,-0.3321820203917747,7632,Observed
+Real,1.0,vascular_permeability_edema_proxy,-0.610499520286461,7632,Observed
+Real,1.0,immune_recruitment,-0.3965669915577781,7632,Observed
+Real,1.0,tissue_repair,-0.6026872686799933,7632,Observed
+Real,1.0,ECM_remodeling,0.6511100400753744,7632,Observed
+Real,4.0,oxidative_stress,1.0818831279799082,7632,Observed
+Real,4.0,inflammation,0.3374864501953775,7632,Observed
+Real,4.0,NFkB_TNF,0.1733858724503707,7632,Observed
+Real,4.0,apoptosis_cell_death,0.3563603893640765,7632,Observed
+Real,4.0,hypoxia,0.1221891197305138,7632,Observed
+Real,4.0,alveolar_epithelial_injury_barrier,-1.4510679992678606,7632,Observed
+Real,4.0,vascular_permeability_edema_proxy,-0.2346045355611536,7632,Observed
+Real,4.0,immune_recruitment,0.488250702370478,7632,Observed
+Real,4.0,tissue_repair,-1.1085855466472376,7632,Observed
+Real,4.0,ECM_remodeling,-0.8153302007605056,7632,Observed
+Real,8.0,oxidative_stress,1.681376371481711,7632,Observed
+Real,8.0,inflammation,0.8722831112762779,7632,Observed
+Real,8.0,NFkB_TNF,1.121805195740812,7632,Observed
+Real,8.0,apoptosis_cell_death,0.8582973115857723,7632,Observed
+Real,8.0,hypoxia,0.3072871055288764,7632,Observed
+Real,8.0,alveolar_epithelial_injury_barrier,-1.7605021102226432,7632,Observed
+Real,8.0,vascular_permeability_edema_proxy,0.3463010701799054,7632,Observed
+Real,8.0,immune_recruitment,0.1784149213959392,7632,Observed
+Real,8.0,tissue_repair,-1.1084407392629108,7632,Observed
+Real,8.0,ECM_remodeling,-1.860646196274104,7632,Observed
+Real,12.0,oxidative_stress,0.8884925214302106,7632,Observed
+Real,12.0,inflammation,0.5889283192375996,7632,Observed
+Real,12.0,NFkB_TNF,0.69601556164274,7632,Observed
+Real,12.0,apoptosis_cell_death,0.8080458321218863,7632,Observed
+Real,12.0,hypoxia,0.5998815416472657,7632,Observed
+Real,12.0,alveolar_epithelial_injury_barrier,-0.2599242354252561,7632,Observed
+Real,12.0,vascular_permeability_edema_proxy,0.984208446822956,7632,Observed
+Real,12.0,immune_recruitment,0.5748795079500538,7632,Observed
+Real,12.0,tissue_repair,0.0791769333359913,7632,Observed
+Real,12.0,ECM_remodeling,-0.8517558465291937,7632,Observed
+Real,24.0,oxidative_stress,0.4806751232492858,7632,Observed
+Real,24.0,inflammation,0.6341859885783836,7632,Observed
+Real,24.0,NFkB_TNF,0.5639044225105726,7632,Observed
+Real,24.0,apoptosis_cell_death,1.158549660916695,7632,Observed
+Real,24.0,hypoxia,0.1604245143695678,7632,Observed
+Real,24.0,alveolar_epithelial_injury_barrier,1.3630114470832462,7632,Observed
+Real,24.0,vascular_permeability_edema_proxy,2.149813276772061,7632,Observed
+Real,24.0,immune_recruitment,0.6211169543660521,7632,Observed
+Real,24.0,tissue_repair,1.820301121047428,7632,Observed
+Real,24.0,ECM_remodeling,0.222838328426856,7632,Observed
+Real,48.0,oxidative_stress,-0.7328953403859876,7632,Observed
+Real,48.0,inflammation,0.5527412388405722,7632,Observed
+Real,48.0,NFkB_TNF,0.4314299403913667,7632,Observed
+Real,48.0,apoptosis_cell_death,0.4501375137979119,7632,Observed
+Real,48.0,hypoxia,-1.7373307575910728,7632,Observed
+Real,48.0,alveolar_epithelial_injury_barrier,0.2850777745383804,7632,Observed
+Real,48.0,vascular_permeability_edema_proxy,-0.8952672207014701,7632,Observed
+Real,48.0,immune_recruitment,1.066219001463529,7632,Observed
+Real,48.0,tissue_repair,1.497526968397131,7632,Observed
+Real,48.0,ECM_remodeling,0.3962891707306575,7632,Observed
+Real,72.0,oxidative_stress,-0.5331632466569655,7632,Observed
+Real,72.0,inflammation,1.0387410327736486,7632,Observed
+Real,72.0,NFkB_TNF,1.005054985802072,7632,Observed
+Real,72.0,apoptosis_cell_death,0.4128718180217662,7632,Observed
+Real,72.0,hypoxia,-1.7966156440818712,7632,Observed
+Real,72.0,alveolar_epithelial_injury_barrier,0.7932567150920229,7632,Observed
+Real,72.0,vascular_permeability_edema_proxy,-1.4149747101551997,7632,Observed
+Real,72.0,immune_recruitment,0.9005259563300594,7632,Observed
+Real,72.0,tissue_repair,0.2755366549997006,7632,Observed
+Real,72.0,ECM_remodeling,1.050526395083403,7632,Observed
+chronODE-M,0.0,oxidative_stress,-2.5472419714217165,7632,chronODE-M
+chronODE-M,0.0,inflammation,-2.405184477184968,7632,chronODE-M
+chronODE-M,0.0,NFkB_TNF,-2.446944888456082,7632,chronODE-M
+chronODE-M,0.0,apoptosis_cell_death,-2.5243699525403267,7632,chronODE-M
+chronODE-M,0.0,hypoxia,-2.184344430468274,7632,chronODE-M
+chronODE-M,0.0,alveolar_epithelial_injury_barrier,-2.551162916550715,7632,chronODE-M
+chronODE-M,0.0,vascular_permeability_edema_proxy,-2.4775887184231564,7632,chronODE-M
+chronODE-M,0.0,immune_recruitment,-2.411864058978351,7632,chronODE-M
+chronODE-M,0.0,tissue_repair,-2.374266956614051,7632,chronODE-M
+chronODE-M,0.0,ECM_remodeling,-2.2783500387022606,7632,chronODE-M
+chronODE-M,0.5,oxidative_stress,-0.6575885884763035,7632,chronODE-M
+chronODE-M,0.5,inflammation,-0.8932373647060629,7632,chronODE-M
+chronODE-M,0.5,NFkB_TNF,-0.8506530334701173,7632,chronODE-M
+chronODE-M,0.5,apoptosis_cell_death,-0.7754048345963662,7632,chronODE-M
+chronODE-M,0.5,hypoxia,-0.0580084441118477,7632,chronODE-M
+chronODE-M,0.5,alveolar_epithelial_injury_barrier,-0.7171010283785796,7632,chronODE-M
+chronODE-M,0.5,vascular_permeability_edema_proxy,-0.5122307263971406,7632,chronODE-M
+chronODE-M,0.5,immune_recruitment,-0.9187269381754,7632,chronODE-M
+chronODE-M,0.5,tissue_repair,-0.8920766716106848,7632,chronODE-M
+chronODE-M,0.5,ECM_remodeling,-1.0124762329023995,7632,chronODE-M
+chronODE-M,1.0,oxidative_stress,-0.0878566728276668,7632,chronODE-M
+chronODE-M,1.0,inflammation,-0.3053151593107134,7632,chronODE-M
+chronODE-M,1.0,NFkB_TNF,-0.2492997403560555,7632,chronODE-M
+chronODE-M,1.0,apoptosis_cell_death,-0.1466362310959535,7632,chronODE-M
+chronODE-M,1.0,hypoxia,0.6859325048243357,7632,chronODE-M
+chronODE-M,1.0,alveolar_epithelial_injury_barrier,-0.1197603740316094,7632,chronODE-M
+chronODE-M,1.0,vascular_permeability_edema_proxy,0.1836291158338147,7632,chronODE-M
+chronODE-M,1.0,immune_recruitment,-0.29558888783509,7632,chronODE-M
+chronODE-M,1.0,tissue_repair,-0.3616100861993852,7632,chronODE-M
+chronODE-M,1.0,ECM_remodeling,-0.4616349828861789,7632,chronODE-M
+chronODE-M,4.0,oxidative_stress,0.2936231239682401,7632,chronODE-M
+chronODE-M,4.0,inflammation,0.3363119701382315,7632,chronODE-M
+chronODE-M,4.0,NFkB_TNF,0.3584023070460819,7632,chronODE-M
+chronODE-M,4.0,apoptosis_cell_death,0.4708905415439754,7632,chronODE-M
+chronODE-M,4.0,hypoxia,0.9999088231225968,7632,chronODE-M
+chronODE-M,4.0,alveolar_epithelial_injury_barrier,0.4412175395900524,7632,chronODE-M
+chronODE-M,4.0,vascular_permeability_edema_proxy,0.7628028732433447,7632,chronODE-M
+chronODE-M,4.0,immune_recruitment,0.4358503681257452,7632,chronODE-M
+chronODE-M,4.0,tissue_repair,0.2397704130673087,7632,chronODE-M
+chronODE-M,4.0,ECM_remodeling,0.2639072389859691,7632,chronODE-M
+chronODE-M,8.0,oxidative_stress,0.324058827553763,7632,chronODE-M
+chronODE-M,8.0,inflammation,0.456284718145112,7632,chronODE-M
+chronODE-M,8.0,NFkB_TNF,0.457902155346889,7632,chronODE-M
+chronODE-M,8.0,apoptosis_cell_death,0.5426022322728963,7632,chronODE-M
+chronODE-M,8.0,hypoxia,0.8256707793011574,7632,chronODE-M
+chronODE-M,8.0,alveolar_epithelial_injury_barrier,0.5306584423875964,7632,chronODE-M
+chronODE-M,8.0,vascular_permeability_edema_proxy,0.7859446675505672,7632,chronODE-M
+chronODE-M,8.0,immune_recruitment,0.5656856372595767,7632,chronODE-M
+chronODE-M,8.0,tissue_repair,0.4593579382406271,7632,chronODE-M
+chronODE-M,8.0,ECM_remodeling,0.5074813807505748,7632,chronODE-M
+chronODE-M,12.0,oxidative_stress,0.442646779678108,7632,chronODE-M
+chronODE-M,12.0,inflammation,0.5662221511530899,7632,chronODE-M
+chronODE-M,12.0,NFkB_TNF,0.5563314674536602,7632,chronODE-M
+chronODE-M,12.0,apoptosis_cell_death,0.6063217630698948,7632,chronODE-M
+chronODE-M,12.0,hypoxia,0.7479772267288384,7632,chronODE-M
+chronODE-M,12.0,alveolar_epithelial_injury_barrier,0.6177809767893793,7632,chronODE-M
+chronODE-M,12.0,vascular_permeability_edema_proxy,0.8099527333988327,7632,chronODE-M
+chronODE-M,12.0,immune_recruitment,0.6594298111625093,7632,chronODE-M
+chronODE-M,12.0,tissue_repair,0.6164722848455989,7632,chronODE-M
+chronODE-M,12.0,ECM_remodeling,0.640485013653462,7632,chronODE-M
+chronODE-M,24.0,oxidative_stress,0.6324163336228135,7632,chronODE-M
+chronODE-M,24.0,inflammation,0.7156480128741441,7632,chronODE-M
+chronODE-M,24.0,NFkB_TNF,0.6800814752772054,7632,chronODE-M
+chronODE-M,24.0,apoptosis_cell_death,0.6701024680915096,7632,chronODE-M
+chronODE-M,24.0,hypoxia,0.4164078771504164,7632,chronODE-M
+chronODE-M,24.0,alveolar_epithelial_injury_barrier,0.6905457952088971,7632,chronODE-M
+chronODE-M,24.0,vascular_permeability_edema_proxy,0.6937342650584032,7632,chronODE-M
+chronODE-M,24.0,immune_recruitment,0.7435258125510225,7632,chronODE-M
+chronODE-M,24.0,tissue_repair,0.8024865178407654,7632,chronODE-M
+chronODE-M,24.0,ECM_remodeling,0.8068720185604641,7632,chronODE-M
+chronODE-M,48.0,oxidative_stress,0.753098550312185,7632,chronODE-M
+chronODE-M,48.0,inflammation,0.7819932467807191,7632,chronODE-M
+chronODE-M,48.0,NFkB_TNF,0.7354639455727169,7632,chronODE-M
+chronODE-M,48.0,apoptosis_cell_death,0.6185199310416966,7632,chronODE-M
+chronODE-M,48.0,hypoxia,-0.3212781710447703,7632,chronODE-M
+chronODE-M,48.0,alveolar_epithelial_injury_barrier,0.6392890611147309,7632,chronODE-M
+chronODE-M,48.0,vascular_permeability_edema_proxy,0.1917335465676353,7632,chronODE-M
+chronODE-M,48.0,immune_recruitment,0.6723851419169032,7632,chronODE-M
+chronODE-M,48.0,tissue_repair,0.799222135467642,7632,chronODE-M
+chronODE-M,48.0,ECM_remodeling,0.8230559202010018,7632,chronODE-M
+chronODE-M,72.0,oxidative_stress,0.8468436175906271,7632,chronODE-M
+chronODE-M,72.0,inflammation,0.7472769021103878,7632,chronODE-M
+chronODE-M,72.0,NFkB_TNF,0.7587163115856365,7632,chronODE-M
+chronODE-M,72.0,apoptosis_cell_death,0.5379740822127506,7632,chronODE-M
+chronODE-M,72.0,hypoxia,-1.112266165502401,7632,chronODE-M
+chronODE-M,72.0,alveolar_epithelial_injury_barrier,0.4685325038703605,7632,chronODE-M
+chronODE-M,72.0,vascular_permeability_edema_proxy,-0.4379777568322492,7632,chronODE-M
+chronODE-M,72.0,immune_recruitment,0.5493031139730842,7632,chronODE-M
+chronODE-M,72.0,tissue_repair,0.7106444249622794,7632,chronODE-M
+chronODE-M,72.0,ECM_remodeling,0.7106596823393825,7632,chronODE-M
+RVAgene,0.0,oxidative_stress,-1.6251728266995595,7632,RVAgene
+RVAgene,0.0,inflammation,-1.836800579864684,7632,RVAgene
+RVAgene,0.0,NFkB_TNF,-1.9039848482786037,7632,RVAgene
+RVAgene,0.0,apoptosis_cell_death,-1.9930670506879584,7632,RVAgene
+RVAgene,0.0,hypoxia,0.7093337196194315,7632,RVAgene
+RVAgene,0.0,alveolar_epithelial_injury_barrier,0.6880537843067446,7632,RVAgene
+RVAgene,0.0,vascular_permeability_edema_proxy,-0.4226770243252306,7632,RVAgene
+RVAgene,0.0,immune_recruitment,-1.999693339187468,7632,RVAgene
+RVAgene,0.0,tissue_repair,-0.2389215405246198,7632,RVAgene
+RVAgene,0.0,ECM_remodeling,1.045990798494289,7632,RVAgene
+RVAgene,0.5,oxidative_stress,-0.5955608682029859,7632,RVAgene
+RVAgene,0.5,inflammation,-1.4288571857337211,7632,RVAgene
+RVAgene,0.5,NFkB_TNF,-1.2679603583772925,7632,RVAgene
+RVAgene,0.5,apoptosis_cell_death,-1.0066624270304554,7632,RVAgene
+RVAgene,0.5,hypoxia,1.2816517368353684,7632,RVAgene
+RVAgene,0.5,alveolar_epithelial_injury_barrier,0.7550564072229677,7632,RVAgene
+RVAgene,0.5,vascular_permeability_edema_proxy,0.1429757406449065,7632,RVAgene
+RVAgene,0.5,immune_recruitment,-1.367771635588395,7632,RVAgene
+RVAgene,0.5,tissue_repair,-0.4651690418090827,7632,RVAgene
+RVAgene,0.5,ECM_remodeling,0.3373774848255302,7632,RVAgene
+RVAgene,1.0,oxidative_stress,-0.5928367851865318,7632,RVAgene
+RVAgene,1.0,inflammation,-0.76291181279723,7632,RVAgene
+RVAgene,1.0,NFkB_TNF,-0.8947382647956765,7632,RVAgene
+RVAgene,1.0,apoptosis_cell_death,-0.9315337273151312,7632,RVAgene
+RVAgene,1.0,hypoxia,0.3572231055345016,7632,RVAgene
+RVAgene,1.0,alveolar_epithelial_injury_barrier,-0.2053419925785721,7632,RVAgene
+RVAgene,1.0,vascular_permeability_edema_proxy,-0.5148274286091742,7632,RVAgene
+RVAgene,1.0,immune_recruitment,-0.3841643305266243,7632,RVAgene
+RVAgene,1.0,tissue_repair,-0.6566461815449834,7632,RVAgene
+RVAgene,1.0,ECM_remodeling,0.6217960623922008,7632,RVAgene
+RVAgene,4.0,oxidative_stress,1.1962024556438489,7632,RVAgene
+RVAgene,4.0,inflammation,0.627926407317287,7632,RVAgene
+RVAgene,4.0,NFkB_TNF,0.5696332534302646,7632,RVAgene
+RVAgene,4.0,apoptosis_cell_death,0.65692486865477,7632,RVAgene
+RVAgene,4.0,hypoxia,0.2944466667538369,7632,RVAgene
+RVAgene,4.0,alveolar_epithelial_injury_barrier,-1.1490810811764904,7632,RVAgene
+RVAgene,4.0,vascular_permeability_edema_proxy,0.0226174641452108,7632,RVAgene
+RVAgene,4.0,immune_recruitment,0.678324135705951,7632,RVAgene
+RVAgene,4.0,tissue_repair,-0.934895417588556,7632,RVAgene
+RVAgene,4.0,ECM_remodeling,-0.2585635140871439,7632,RVAgene
+RVAgene,8.0,oxidative_stress,1.5096924085001608,7632,RVAgene
+RVAgene,8.0,inflammation,0.6186225583339404,7632,RVAgene
+RVAgene,8.0,NFkB_TNF,0.7395459853321468,7632,RVAgene
+RVAgene,8.0,apoptosis_cell_death,0.5348530676357148,7632,RVAgene
+RVAgene,8.0,hypoxia,0.2392723326212094,7632,RVAgene
+RVAgene,8.0,alveolar_epithelial_injury_barrier,-2.016362610961298,7632,RVAgene
+RVAgene,8.0,vascular_permeability_edema_proxy,0.0395537316410244,7632,RVAgene
+RVAgene,8.0,immune_recruitment,0.0021985465197311,7632,RVAgene
+RVAgene,8.0,tissue_repair,-1.3944618893936485,7632,RVAgene
+RVAgene,8.0,ECM_remodeling,-2.34537374172258,7632,RVAgene
+RVAgene,12.0,oxidative_stress,0.8708651265094761,7632,RVAgene
+RVAgene,12.0,inflammation,0.4971260329304731,7632,RVAgene
+RVAgene,12.0,NFkB_TNF,0.7678435816866752,7632,RVAgene
+RVAgene,12.0,apoptosis_cell_death,0.6997887994875289,7632,RVAgene
+RVAgene,12.0,hypoxia,0.4916572964766931,7632,RVAgene
+RVAgene,12.0,alveolar_epithelial_injury_barrier,-0.3649748670925366,7632,RVAgene
+RVAgene,12.0,vascular_permeability_edema_proxy,1.057754711608966,7632,RVAgene
+RVAgene,12.0,immune_recruitment,0.4587952524089697,7632,RVAgene
+RVAgene,12.0,tissue_repair,0.013149817304007,7632,RVAgene
+RVAgene,12.0,ECM_remodeling,-0.8564940976469523,7632,RVAgene
+RVAgene,24.0,oxidative_stress,0.5347166266165868,7632,RVAgene
+RVAgene,24.0,inflammation,0.7471739540796608,7632,RVAgene
+RVAgene,24.0,NFkB_TNF,0.5346777283637643,7632,RVAgene
+RVAgene,24.0,apoptosis_cell_death,1.2626034010814264,7632,RVAgene
+RVAgene,24.0,hypoxia,0.1726327724743513,7632,RVAgene
+RVAgene,24.0,alveolar_epithelial_injury_barrier,1.294289716305697,7632,RVAgene
+RVAgene,24.0,vascular_permeability_edema_proxy,2.104410754099061,7632,RVAgene
+RVAgene,24.0,immune_recruitment,0.7940813470139007,7632,RVAgene
+RVAgene,24.0,tissue_repair,1.817835929799928,7632,RVAgene
+RVAgene,24.0,ECM_remodeling,0.1607085533497392,7632,RVAgene
+RVAgene,48.0,oxidative_stress,-0.8162633921876375,7632,RVAgene
+RVAgene,48.0,inflammation,0.424030409786093,7632,RVAgene
+RVAgene,48.0,NFkB_TNF,0.4435903649366204,7632,RVAgene
+RVAgene,48.0,apoptosis_cell_death,0.24169152615008,7632,RVAgene
+RVAgene,48.0,hypoxia,-1.8810378467915805,7632,RVAgene
+RVAgene,48.0,alveolar_epithelial_injury_barrier,0.1664293213612684,7632,RVAgene
+RVAgene,48.0,vascular_permeability_edema_proxy,-1.08374423389057,7632,RVAgene
+RVAgene,48.0,immune_recruitment,0.7893691898009702,7632,RVAgene
+RVAgene,48.0,tissue_repair,1.400698717392461,7632,RVAgene
+RVAgene,48.0,ECM_remodeling,0.3005328606219999,7632,RVAgene
+RVAgene,72.0,oxidative_stress,-0.4816427449933383,7632,RVAgene
+RVAgene,72.0,inflammation,1.1136902159481807,7632,RVAgene
+RVAgene,72.0,NFkB_TNF,1.0113925577019782,7632,RVAgene
+RVAgene,72.0,apoptosis_cell_death,0.535401542024094,7632,RVAgene
+RVAgene,72.0,hypoxia,-1.6651797835237898,7632,RVAgene
+RVAgene,72.0,alveolar_epithelial_injury_barrier,0.8319313226123346,7632,RVAgene
+RVAgene,72.0,vascular_permeability_edema_proxy,-1.3460637153141664,7632,RVAgene
+RVAgene,72.0,immune_recruitment,1.0288608338529874,7632,RVAgene
+RVAgene,72.0,tissue_repair,0.4584096063644258,7632,RVAgene
+RVAgene,72.0,ECM_remodeling,0.9940255937727612,7632,RVAgene
+BOP-DMD,0.0,oxidative_stress,-2.794205841010644,7632,BOP-DMD
+BOP-DMD,0.0,inflammation,-2.7942058410106174,7632,BOP-DMD
+BOP-DMD,0.0,NFkB_TNF,-2.794205841010598,7632,BOP-DMD
+BOP-DMD,0.0,apoptosis_cell_death,-2.794205841010648,7632,BOP-DMD
+BOP-DMD,0.0,hypoxia,2.7942058410106028,7632,BOP-DMD
+BOP-DMD,0.0,alveolar_epithelial_injury_barrier,2.794205841010487,7632,BOP-DMD
+BOP-DMD,0.0,vascular_permeability_edema_proxy,-2.7942058410106583,7632,BOP-DMD
+BOP-DMD,0.0,immune_recruitment,-2.7942058410106245,7632,BOP-DMD
+BOP-DMD,0.0,tissue_repair,-2.7942058410106454,7632,BOP-DMD
+BOP-DMD,0.0,ECM_remodeling,2.794205841010668,7632,BOP-DMD
+BOP-DMD,0.5,oxidative_stress,-0.0805898229743896,7632,BOP-DMD
+BOP-DMD,0.5,inflammation,-0.080589822974493,7632,BOP-DMD
+BOP-DMD,0.5,NFkB_TNF,-0.080589822974475,7632,BOP-DMD
+BOP-DMD,0.5,apoptosis_cell_death,-0.0805898229743634,7632,BOP-DMD
+BOP-DMD,0.5,hypoxia,0.0805898229747089,7632,BOP-DMD
+BOP-DMD,0.5,alveolar_epithelial_injury_barrier,0.0805898229752055,7632,BOP-DMD
+BOP-DMD,0.5,vascular_permeability_edema_proxy,-0.0805898229742696,7632,BOP-DMD
+BOP-DMD,0.5,immune_recruitment,-0.0805898229745434,7632,BOP-DMD
+BOP-DMD,0.5,tissue_repair,-0.0805898229745217,7632,BOP-DMD
+BOP-DMD,0.5,ECM_remodeling,0.0805898229745007,7632,BOP-DMD
+BOP-DMD,1.0,oxidative_stress,0.3433908462696717,7632,BOP-DMD
+BOP-DMD,1.0,inflammation,0.343390846269678,7632,BOP-DMD
+BOP-DMD,1.0,NFkB_TNF,0.3433908462700233,7632,BOP-DMD
+BOP-DMD,1.0,apoptosis_cell_death,0.3433908462696253,7632,BOP-DMD
+BOP-DMD,1.0,hypoxia,-0.3433908462696981,7632,BOP-DMD
+BOP-DMD,1.0,alveolar_epithelial_injury_barrier,-0.343390846269578,7632,BOP-DMD
+BOP-DMD,1.0,vascular_permeability_edema_proxy,0.3433908462696296,7632,BOP-DMD
+BOP-DMD,1.0,immune_recruitment,0.3433908462697361,7632,BOP-DMD
+BOP-DMD,1.0,tissue_repair,0.3433908462697515,7632,BOP-DMD
+BOP-DMD,1.0,ECM_remodeling,-0.3433908462698902,7632,BOP-DMD
+BOP-DMD,4.0,oxidative_stress,0.421899851185797,7632,BOP-DMD
+BOP-DMD,4.0,inflammation,0.4218998511857596,7632,BOP-DMD
+BOP-DMD,4.0,NFkB_TNF,0.4218998511862339,7632,BOP-DMD
+BOP-DMD,4.0,apoptosis_cell_death,0.4218998511862036,7632,BOP-DMD
+BOP-DMD,4.0,hypoxia,-0.4218998511859799,7632,BOP-DMD
+BOP-DMD,4.0,alveolar_epithelial_injury_barrier,-0.4218998511860244,7632,BOP-DMD
+BOP-DMD,4.0,vascular_permeability_edema_proxy,0.4218998511856686,7632,BOP-DMD
+BOP-DMD,4.0,immune_recruitment,0.4218998511859905,7632,BOP-DMD
+BOP-DMD,4.0,tissue_repair,0.421899851185891,7632,BOP-DMD
+BOP-DMD,4.0,ECM_remodeling,-0.4218998511860992,7632,BOP-DMD
+BOP-DMD,8.0,oxidative_stress,0.4219009933055012,7632,BOP-DMD
+BOP-DMD,8.0,inflammation,0.4219009933056368,7632,BOP-DMD
+BOP-DMD,8.0,NFkB_TNF,0.4219009933055648,7632,BOP-DMD
+BOP-DMD,8.0,apoptosis_cell_death,0.4219009933055634,7632,BOP-DMD
+BOP-DMD,8.0,hypoxia,-0.4219009933055003,7632,BOP-DMD
+BOP-DMD,8.0,alveolar_epithelial_injury_barrier,-0.4219009933053323,7632,BOP-DMD
+BOP-DMD,8.0,vascular_permeability_edema_proxy,0.4219009933053825,7632,BOP-DMD
+BOP-DMD,8.0,immune_recruitment,0.4219009933055457,7632,BOP-DMD
+BOP-DMD,8.0,tissue_repair,0.4219009933053374,7632,BOP-DMD
+BOP-DMD,8.0,ECM_remodeling,-0.4219009933056556,7632,BOP-DMD
+BOP-DMD,12.0,oxidative_stress,0.4219009933060089,7632,BOP-DMD
+BOP-DMD,12.0,inflammation,0.4219009933060228,7632,BOP-DMD
+BOP-DMD,12.0,NFkB_TNF,0.4219009933058846,7632,BOP-DMD
+BOP-DMD,12.0,apoptosis_cell_death,0.4219009933058955,7632,BOP-DMD
+BOP-DMD,12.0,hypoxia,-0.421900993306012,7632,BOP-DMD
+BOP-DMD,12.0,alveolar_epithelial_injury_barrier,-0.4219009933062345,7632,BOP-DMD
+BOP-DMD,12.0,vascular_permeability_edema_proxy,0.4219009933060618,7632,BOP-DMD
+BOP-DMD,12.0,immune_recruitment,0.4219009933059617,7632,BOP-DMD
+BOP-DMD,12.0,tissue_repair,0.4219009933060015,7632,BOP-DMD
+BOP-DMD,12.0,ECM_remodeling,-0.4219009933058058,7632,BOP-DMD
+BOP-DMD,24.0,oxidative_stress,0.4219009933060089,7632,BOP-DMD
+BOP-DMD,24.0,inflammation,0.4219009933060228,7632,BOP-DMD
+BOP-DMD,24.0,NFkB_TNF,0.4219009933058846,7632,BOP-DMD
+BOP-DMD,24.0,apoptosis_cell_death,0.4219009933058955,7632,BOP-DMD
+BOP-DMD,24.0,hypoxia,-0.421900993306012,7632,BOP-DMD
+BOP-DMD,24.0,alveolar_epithelial_injury_barrier,-0.4219009933062345,7632,BOP-DMD
+BOP-DMD,24.0,vascular_permeability_edema_proxy,0.4219009933060618,7632,BOP-DMD
+BOP-DMD,24.0,immune_recruitment,0.4219009933059617,7632,BOP-DMD
+BOP-DMD,24.0,tissue_repair,0.4219009933060015,7632,BOP-DMD
+BOP-DMD,24.0,ECM_remodeling,-0.4219009933058058,7632,BOP-DMD
+BOP-DMD,48.0,oxidative_stress,0.4219009933060089,7632,BOP-DMD
+BOP-DMD,48.0,inflammation,0.4219009933060228,7632,BOP-DMD
+BOP-DMD,48.0,NFkB_TNF,0.4219009933058846,7632,BOP-DMD
+BOP-DMD,48.0,apoptosis_cell_death,0.4219009933058955,7632,BOP-DMD
+BOP-DMD,48.0,hypoxia,-0.421900993306012,7632,BOP-DMD
+BOP-DMD,48.0,alveolar_epithelial_injury_barrier,-0.4219009933062345,7632,BOP-DMD
+BOP-DMD,48.0,vascular_permeability_edema_proxy,0.4219009933060618,7632,BOP-DMD
+BOP-DMD,48.0,immune_recruitment,0.4219009933059617,7632,BOP-DMD
+BOP-DMD,48.0,tissue_repair,0.4219009933060015,7632,BOP-DMD
+BOP-DMD,48.0,ECM_remodeling,-0.4219009933058058,7632,BOP-DMD
+BOP-DMD,72.0,oxidative_stress,0.4219009933060089,7632,BOP-DMD
+BOP-DMD,72.0,inflammation,0.4219009933060228,7632,BOP-DMD
+BOP-DMD,72.0,NFkB_TNF,0.4219009933058846,7632,BOP-DMD
+BOP-DMD,72.0,apoptosis_cell_death,0.4219009933058955,7632,BOP-DMD
+BOP-DMD,72.0,hypoxia,-0.421900993306012,7632,BOP-DMD
+BOP-DMD,72.0,alveolar_epithelial_injury_barrier,-0.4219009933062345,7632,BOP-DMD
+BOP-DMD,72.0,vascular_permeability_edema_proxy,0.4219009933060618,7632,BOP-DMD
+BOP-DMD,72.0,immune_recruitment,0.4219009933059617,7632,BOP-DMD
+BOP-DMD,72.0,tissue_repair,0.4219009933060015,7632,BOP-DMD
+BOP-DMD,72.0,ECM_remodeling,-0.4219009933058058,7632,BOP-DMD
+GPR,0.0,oxidative_stress,-0.9403217036084476,7632,GPR
+GPR,0.0,inflammation,-0.6170619499175541,7632,GPR
+GPR,0.0,NFkB_TNF,-0.7733882011421059,7632,GPR
+GPR,0.0,apoptosis_cell_death,-0.9042231579314376,7632,GPR
+GPR,0.0,hypoxia,0.1651493401621008,7632,GPR
+GPR,0.0,alveolar_epithelial_injury_barrier,0.8703838935938727,7632,GPR
+GPR,0.0,vascular_permeability_edema_proxy,-0.3110990525329236,7632,GPR
+GPR,0.0,immune_recruitment,-0.6735029386948597,7632,GPR
+GPR,0.0,tissue_repair,1.060831491252057,7632,GPR
+GPR,0.0,ECM_remodeling,1.0187391880659664,7632,GPR
+GPR,0.5,oxidative_stress,-0.119673048937396,7632,GPR
+GPR,0.5,inflammation,-0.736796443201226,7632,GPR
+GPR,0.5,NFkB_TNF,-0.4982589532412562,7632,GPR
+GPR,0.5,apoptosis_cell_death,-0.2645098855458378,7632,GPR
+GPR,0.5,hypoxia,0.6902575539649403,7632,GPR
+GPR,0.5,alveolar_epithelial_injury_barrier,0.2318593453850438,7632,GPR
+GPR,0.5,vascular_permeability_edema_proxy,0.0927977403624753,7632,GPR
+GPR,0.5,immune_recruitment,-0.4377230119341293,7632,GPR
+GPR,0.5,tissue_repair,-0.4232267286539295,7632,GPR
+GPR,0.5,ECM_remodeling,-0.5413471164317847,7632,GPR
+GPR,1.0,oxidative_stress,-0.0490564901005632,7632,GPR
+GPR,1.0,inflammation,0.809310436582649,7632,GPR
+GPR,1.0,NFkB_TNF,0.6663756951923062,7632,GPR
+GPR,1.0,apoptosis_cell_death,0.2088886789778035,7632,GPR
+GPR,1.0,hypoxia,-1.5850913100315729,7632,GPR
+GPR,1.0,alveolar_epithelial_injury_barrier,-0.7651101898222357,7632,GPR
+GPR,1.0,vascular_permeability_edema_proxy,-1.8342185622854368,7632,GPR
+GPR,1.0,immune_recruitment,1.1692114999966785,7632,GPR
+GPR,1.0,tissue_repair,-0.1205852453966205,7632,GPR
+GPR,1.0,ECM_remodeling,0.279168818351807,7632,GPR
+GPR,4.0,oxidative_stress,1.827905514977592,7632,GPR
+GPR,4.0,inflammation,2.470272443847415,7632,GPR
+GPR,4.0,NFkB_TNF,2.362575119248356,7632,GPR
+GPR,4.0,apoptosis_cell_death,2.0752362098219472,7632,GPR
+GPR,4.0,hypoxia,-1.942504872172316,7632,GPR
+GPR,4.0,alveolar_epithelial_injury_barrier,-2.218425762190748,7632,GPR
+GPR,4.0,vascular_permeability_edema_proxy,-0.3868339997022271,7632,GPR
+GPR,4.0,immune_recruitment,2.325518433167272,7632,GPR
+GPR,4.0,tissue_repair,-1.3816132109133523,7632,GPR
+GPR,4.0,ECM_remodeling,-0.9670214919102974,7632,GPR
+GPR,8.0,oxidative_stress,1.5101741588252,7632,GPR
+GPR,8.0,inflammation,0.2650368091122522,7632,GPR
+GPR,8.0,NFkB_TNF,0.6468088475670772,7632,GPR
+GPR,8.0,apoptosis_cell_death,1.236090003456347,7632,GPR
+GPR,8.0,hypoxia,1.0552093230037003,7632,GPR
+GPR,8.0,alveolar_epithelial_injury_barrier,-0.7469946988146402,7632,GPR
+GPR,8.0,vascular_permeability_edema_proxy,1.946370808776149,7632,GPR
+GPR,8.0,immune_recruitment,0.0983155180187323,7632,GPR
+GPR,8.0,tissue_repair,-1.6175815600188284,7632,GPR
+GPR,8.0,ECM_remodeling,-1.8777250912317545,7632,GPR
+GPR,12.0,oxidative_stress,0.396505399275295,7632,GPR
+GPR,12.0,inflammation,-0.3562540585329152,7632,GPR
+GPR,12.0,NFkB_TNF,-0.1583807421087752,7632,GPR
+GPR,12.0,apoptosis_cell_death,0.2047492780179075,7632,GPR
+GPR,12.0,hypoxia,0.9724674543375298,7632,GPR
+GPR,12.0,alveolar_epithelial_injury_barrier,0.1153628807841213,7632,GPR
+GPR,12.0,vascular_permeability_edema_proxy,1.1829258920088368,7632,GPR
+GPR,12.0,immune_recruitment,-0.4701333385492361,7632,GPR
+GPR,12.0,tissue_repair,-0.4695345139286608,7632,GPR
+GPR,12.0,ECM_remodeling,-0.7024507837868379,7632,GPR
+GPR,24.0,oxidative_stress,-0.7536599293053529,7632,GPR
+GPR,24.0,inflammation,-0.6008859179276651,7632,GPR
+GPR,24.0,NFkB_TNF,-0.702118624238063,7632,GPR
+GPR,24.0,apoptosis_cell_death,-0.7547396826568592,7632,GPR
+GPR,24.0,hypoxia,0.3071715316589763,7632,GPR
+GPR,24.0,alveolar_epithelial_injury_barrier,0.7764273257949766,7632,GPR
+GPR,24.0,vascular_permeability_edema_proxy,-0.0789451809196154,7632,GPR
+GPR,24.0,immune_recruitment,-0.6648389940579669,7632,GPR
+GPR,24.0,tissue_repair,0.8404864910332517,7632,GPR
+GPR,24.0,ECM_remodeling,0.7652374538892003,7632,GPR
+GPR,48.0,oxidative_stress,-0.9322912245080404,7632,GPR
+GPR,48.0,inflammation,-0.6165981116751721,7632,GPR
+GPR,48.0,NFkB_TNF,-0.770488923357393,7632,GPR
+GPR,48.0,apoptosis_cell_death,-0.8978534372841822,7632,GPR
+GPR,48.0,hypoxia,0.1715929922355167,7632,GPR
+GPR,48.0,alveolar_epithelial_injury_barrier,0.8664712038524736,7632,GPR
+GPR,48.0,vascular_permeability_edema_proxy,-0.3008465665676923,7632,GPR
+GPR,48.0,immune_recruitment,-0.6733541362737959,7632,GPR
+GPR,48.0,tissue_repair,1.0512728154951747,7632,GPR
+GPR,48.0,ECM_remodeling,1.0076801858177218,7632,GPR
+GPR,72.0,oxidative_stress,-0.9395826766183693,7632,GPR
+GPR,72.0,inflammation,-0.6170232082877839,7632,GPR
+GPR,72.0,NFkB_TNF,-0.7731242179199468,7632,GPR
+GPR,72.0,apoptosis_cell_death,-0.9036380068557368,7632,GPR
+GPR,72.0,hypoxia,0.1657479868410666,7632,GPR
+GPR,72.0,alveolar_epithelial_injury_barrier,0.8700260014171362,7632,GPR
+GPR,72.0,vascular_permeability_edema_proxy,-0.3101510791402026,7632,GPR
+GPR,72.0,immune_recruitment,-0.6734930316726943,7632,GPR
+GPR,72.0,tissue_repair,1.0599504611308266,7632,GPR
+GPR,72.0,ECM_remodeling,1.0177188372359136,7632,GPR
+AgentVC Online Agent pilot,0.0,oxidative_stress,-0.8426196144656322,7632,Leca-AC
+AgentVC Online Agent pilot,0.0,inflammation,-0.8621790815395843,7632,Leca-AC
+AgentVC Online Agent pilot,0.0,NFkB_TNF,-1.3382900377100333,7632,Leca-AC
+AgentVC Online Agent pilot,0.0,apoptosis_cell_death,-1.7136716924105313,7632,Leca-AC
+AgentVC Online Agent pilot,0.0,hypoxia,-0.9558210120459056,7632,Leca-AC
+AgentVC Online Agent pilot,0.0,alveolar_epithelial_injury_barrier,0.7345251122718943,7632,Leca-AC
+AgentVC Online Agent pilot,0.0,vascular_permeability_edema_proxy,-0.9970109680042246,7632,Leca-AC
+AgentVC Online Agent pilot,0.0,immune_recruitment,-0.5901277336286955,7632,Leca-AC
+AgentVC Online Agent pilot,0.0,tissue_repair,-0.6038577439550757,7632,Leca-AC
+AgentVC Online Agent pilot,0.0,ECM_remodeling,0.2356290348991409,7632,Leca-AC
+AgentVC Online Agent pilot,0.5,oxidative_stress,-0.5827322279627175,7632,Leca-AC
+AgentVC Online Agent pilot,0.5,inflammation,-0.8505508810146664,7632,Leca-AC
+AgentVC Online Agent pilot,0.5,NFkB_TNF,-1.2045700243279107,7632,Leca-AC
+AgentVC Online Agent pilot,0.5,apoptosis_cell_death,-1.401548196527521,7632,Leca-AC
+AgentVC Online Agent pilot,0.5,hypoxia,-0.6710393143732977,7632,Leca-AC
+AgentVC Online Agent pilot,0.5,alveolar_epithelial_injury_barrier,0.7415419557222502,7632,Leca-AC
+AgentVC Online Agent pilot,0.5,vascular_permeability_edema_proxy,-0.5521745991243135,7632,Leca-AC
+AgentVC Online Agent pilot,0.5,immune_recruitment,-0.605222466340789,7632,Leca-AC
+AgentVC Online Agent pilot,0.5,tissue_repair,-0.5905502049262064,7632,Leca-AC
+AgentVC Online Agent pilot,0.5,ECM_remodeling,0.2411611204782223,7632,Leca-AC
+AgentVC Online Agent pilot,1.0,oxidative_stress,-0.1349306492538778,7632,Leca-AC
+AgentVC Online Agent pilot,1.0,inflammation,-0.830479462733432,7632,Leca-AC
+AgentVC Online Agent pilot,1.0,NFkB_TNF,-0.9740564542319172,7632,Leca-AC
+AgentVC Online Agent pilot,1.0,apoptosis_cell_death,-0.8636457345570109,7632,Leca-AC
+AgentVC Online Agent pilot,1.0,hypoxia,-0.1803415238177636,7632,Leca-AC
+AgentVC Online Agent pilot,1.0,alveolar_epithelial_injury_barrier,0.7536483484817214,7632,Leca-AC
+AgentVC Online Agent pilot,1.0,vascular_permeability_edema_proxy,0.2144090289185451,7632,Leca-AC
+AgentVC Online Agent pilot,1.0,immune_recruitment,-0.6312087138536833,7632,Leca-AC
+AgentVC Online Agent pilot,1.0,tissue_repair,-0.5676070957784164,7632,Leca-AC
+AgentVC Online Agent pilot,1.0,ECM_remodeling,0.2507622226037507,7632,Leca-AC
+AgentVC Online Agent pilot,4.0,oxidative_stress,1.81213855114463,7632,Leca-AC
+AgentVC Online Agent pilot,4.0,inflammation,-0.717335213031489,7632,Leca-AC
+AgentVC Online Agent pilot,4.0,NFkB_TNF,-0.0789255815243223,7632,Leca-AC
+AgentVC Online Agent pilot,4.0,apoptosis_cell_death,1.092929475706676,7632,Leca-AC
+AgentVC Online Agent pilot,4.0,hypoxia,1.8567985805738447,7632,Leca-AC
+AgentVC Online Agent pilot,4.0,alveolar_epithelial_injury_barrier,-1.0393235296366408,7632,Leca-AC
+AgentVC Online Agent pilot,4.0,vascular_permeability_edema_proxy,2.27687556671811,7632,Leca-AC
+AgentVC Online Agent pilot,4.0,immune_recruitment,-0.9105277680115134,7632,Leca-AC
+AgentVC Online Agent pilot,4.0,tissue_repair,-0.7691798811003177,7632,Leca-AC
+AgentVC Online Agent pilot,4.0,ECM_remodeling,-1.178284960139525,7632,Leca-AC
+AgentVC Online Agent pilot,8.0,oxidative_stress,1.6327693057369987,7632,Leca-AC
+AgentVC Online Agent pilot,8.0,inflammation,-0.5842679106385801,7632,Leca-AC
+AgentVC Online Agent pilot,8.0,NFkB_TNF,-0.0421529696264161,7632,Leca-AC
+AgentVC Online Agent pilot,8.0,apoptosis_cell_death,1.0883591516572064,7632,Leca-AC
+AgentVC Online Agent pilot,8.0,hypoxia,1.5955695223424795,7632,Leca-AC
+AgentVC Online Agent pilot,8.0,alveolar_epithelial_injury_barrier,-2.3471372068375462,7632,Leca-AC
+AgentVC Online Agent pilot,8.0,vascular_permeability_edema_proxy,0.6531142230522369,7632,Leca-AC
+AgentVC Online Agent pilot,8.0,immune_recruitment,-0.9729434802033644,7632,Leca-AC
+AgentVC Online Agent pilot,8.0,tissue_repair,-0.970803167066363,7632,Leca-AC
+AgentVC Online Agent pilot,8.0,ECM_remodeling,-2.117570965503986,7632,Leca-AC
+AgentVC Online Agent pilot,12.0,oxidative_stress,0.4347818735418723,7632,Leca-AC
+AgentVC Online Agent pilot,12.0,inflammation,-0.2111653012801936,7632,Leca-AC
+AgentVC Online Agent pilot,12.0,NFkB_TNF,0.0400103593072498,7632,Leca-AC
+AgentVC Online Agent pilot,12.0,apoptosis_cell_death,0.712473615523672,7632,Leca-AC
+AgentVC Online Agent pilot,12.0,hypoxia,0.4216732508560873,7632,Leca-AC
+AgentVC Online Agent pilot,12.0,alveolar_epithelial_injury_barrier,-0.2106065430418466,7632,Leca-AC
+AgentVC Online Agent pilot,12.0,vascular_permeability_edema_proxy,-0.1581665499934137,7632,Leca-AC
+AgentVC Online Agent pilot,12.0,immune_recruitment,-0.3417426642903757,7632,Leca-AC
+AgentVC Online Agent pilot,12.0,tissue_repair,-0.4819876926458411,7632,Leca-AC
+AgentVC Online Agent pilot,12.0,ECM_remodeling,-0.2312103321524397,7632,Leca-AC
+AgentVC Online Agent pilot,24.0,oxidative_stress,-0.7627587620739174,7632,Leca-AC
+AgentVC Online Agent pilot,24.0,inflammation,0.8015020520637898,7632,Leca-AC
+AgentVC Online Agent pilot,24.0,NFkB_TNF,0.6348957429177848,7632,Leca-AC
+AgentVC Online Agent pilot,24.0,apoptosis_cell_death,0.1611730461396558,7632,Leca-AC
+AgentVC Online Agent pilot,24.0,hypoxia,-0.7617055335078278,7632,Leca-AC
+AgentVC Online Agent pilot,24.0,alveolar_epithelial_injury_barrier,0.2188016747412816,7632,Leca-AC
+AgentVC Online Agent pilot,24.0,vascular_permeability_edema_proxy,-1.4155858086465298,7632,Leca-AC
+AgentVC Online Agent pilot,24.0,immune_recruitment,0.7644208695473241,7632,Leca-AC
+AgentVC Online Agent pilot,24.0,tissue_repair,0.5592513992035328,7632,Leca-AC
+AgentVC Online Agent pilot,24.0,ECM_remodeling,0.5035732590254108,7632,Leca-AC
+AgentVC Online Agent pilot,48.0,oxidative_stress,-0.7809581294988265,7632,Leca-AC
+AgentVC Online Agent pilot,48.0,inflammation,1.5783870623392096,7632,Leca-AC
+AgentVC Online Agent pilot,48.0,NFkB_TNF,1.4242854479612803,7632,Leca-AC
+AgentVC Online Agent pilot,48.0,apoptosis_cell_death,0.3792956091594666,7632,Leca-AC
+AgentVC Online Agent pilot,48.0,hypoxia,-0.6658956516933251,7632,Leca-AC
+AgentVC Online Agent pilot,48.0,alveolar_epithelial_injury_barrier,0.5464989277800382,7632,Leca-AC
+AgentVC Online Agent pilot,48.0,vascular_permeability_edema_proxy,-0.0980529844093777,7632,Leca-AC
+AgentVC Online Agent pilot,48.0,immune_recruitment,1.5850159684558445,7632,Leca-AC
+AgentVC Online Agent pilot,48.0,tissue_repair,1.610252269995593,7632,Leca-AC
+AgentVC Online Agent pilot,48.0,ECM_remodeling,1.0837035757535158,7632,Leca-AC
+AgentVC Online Agent pilot,72.0,oxidative_stress,-0.7756903471685479,7632,Leca-AC
+AgentVC Online Agent pilot,72.0,inflammation,1.6760887358355467,7632,Leca-AC
+AgentVC Online Agent pilot,72.0,NFkB_TNF,1.5388035172358143,7632,Leca-AC
+AgentVC Online Agent pilot,72.0,apoptosis_cell_death,0.544634725308015,7632,Leca-AC
+AgentVC Online Agent pilot,72.0,hypoxia,-0.6392383183341924,7632,Leca-AC
+AgentVC Online Agent pilot,72.0,alveolar_epithelial_injury_barrier,0.6020512605189633,7632,Leca-AC
+AgentVC Online Agent pilot,72.0,vascular_permeability_edema_proxy,0.0765920914879023,7632,Leca-AC
+AgentVC Online Agent pilot,72.0,immune_recruitment,1.7023359883253828,7632,Leca-AC
+AgentVC Online Agent pilot,72.0,tissue_repair,1.8144821162729552,7632,Leca-AC
+AgentVC Online Agent pilot,72.0,ECM_remodeling,1.2122370450370084,7632,Leca-AC

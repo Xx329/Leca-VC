@@ -1,0 +1,77 @@
+{
+  "status": "AUTHOR_CONFIRMED_MANUAL_ASSEMBLY_RECOVERED",
+  "canonical_figure": "Figure 6 in Short_Article_Title (6).pdf",
+  "figure_asset": {
+    "archive_member": "outputs/figures/extreme_heterogeneity_with_bar.png",
+    "release_path": "source_data/fig6/figure6_frozen_reference.png",
+    "sha256": "a1d7e849d42c56eb7010f033e5c5103b97c963c4fef2d3f36443ccbf62dcc3cf",
+    "crc32": "26b3198f",
+    "dimensions": [7200, 3600],
+    "dpi": 300,
+    "canonical_alignment": "Visual panel-by-panel match to the final manuscript: A-C summary/spatial panels, D-E enhanced ECM maps, and F quadrant delta-ECM bars.",
+    "assembly_method": "Manual author assembly; a unified six-panel renderer is not an expected source artifact."
+  },
+  "deliveries": {
+    "source_code_archive": {
+      "name": "GSE267904_Fibrosis_CaseStudy.zip",
+      "sha256": "c57ae54b1615158357bac856d0f3de3281ee88f6eb4bc08be0d59e3488ce7abc",
+      "status": "VALID_ZIP"
+    },
+    "small_supplement_archive": {
+      "name": "补充文件.zip",
+      "sha256": "e90c2f08e7e4b535096ff40fae8b97ab78b4aa573be6cf11b14bb9e8d6b116c5",
+      "status": "VALID_ZIP"
+    },
+    "runtime_output_archive": {
+      "name": "outputs.zip",
+      "sha256": "9acfaae2bcac349edaec5cdfbf67abb1eb9925a6a60840335eefb3cb47f16daa",
+      "bytes": 783984640,
+      "status": "TRUNCATED_MISSING_END_OF_CENTRAL_DIRECTORY",
+      "recovery": "Only explicitly allowlisted members were recovered with libarchive. The Figure 6 PNG, summary CSV, run matrix, and four JSON audits match the CRC32 values reconstructed by zip -FF; the damaged archive itself is not a publishable raw-results artifact."
+    }
+  },
+  "included_partial_sources": {
+    "final_optimized_summary.csv": {
+      "rows": 427,
+      "sha256": "2631028ac9446518475a8f29bed949647bb204a8bf704aa7a780a2119a1c3714",
+      "scope": "Supports aggregate intervention summaries including panels A-B, but is not sufficient to regenerate panels C-F."
+    },
+    "physicell_418_run_matrix.csv": {
+      "rows": 418,
+      "sha256": "97bd3dc3f2a6715a4bec067e2b1771eea6ca2d67df0e8063fce32d1d5850f144",
+      "scope": "Requested-run manifest; it is not proof that every run completed successfully."
+    },
+    "audits": [
+      "audits/calibration_audit.json",
+      "audits/llm_cell_agent_policy_audit.json",
+      "audits/pre_benchmark_qualification.json",
+      "audits/pre_benchmark_mechanism_validation.json"
+    ]
+  },
+  "scientific_evidence_review": {
+    "unified_six_panel_renderer_required": false,
+    "manual_assembly_confirmed_by_author": true,
+    "component_level_machine_readable_sources_complete": false,
+    "full_run_success_accepted": false,
+    "reasons": [
+      "The delivered formal logs state 'Freeze skipped (temporary bypass)'.",
+      "Other delivered logs contain unknown-run failures, a 401 model call, a pandas import failure, and a failed result-collection command.",
+      "pre_benchmark_qualification.json marks the >=20% agent-versus-diffusion check true while recording 0.09011247225692984.",
+      "Provider metadata conflict: the policy audit names qwen-plus, whereas recovered raw records and the earlier cache manifest name deepseek-v4-flash."
+    ],
+    "interpretation": "The paper image is the exact author-confirmed manual assembly and is complete for GitHub figure reproduction. The separate runtime evidence does not justify describing this delivery as a newly completed clean rerun; that limitation concerns experimental provenance, not the legitimacy of manual figure assembly."
+  },
+  "raw_logs": {
+    "distributed_in_git": false,
+    "reason": "They contain collaborator workstation paths and failed exploratory runs; hashes are retained for traceability.",
+    "sha256": {
+      "collect_results.log": "a4f751e6377dc4680d65353382e21d4bf7188a03c458c9187e0d126d880c3a4a",
+      "corrected_runs.log": "a67a0517b22946e20e3b81d28cbc29f63609ee90fcde2f7b969deec0ddc9dd8a",
+      "extract_case_study.log": "f17ae42a49460a65ba108d2b2a03adf922790d146eb0d3bb77e418bee80020f2",
+      "formal_final.log": "be9fddfd39fff3abd8a55a284e8392e26e181549c335a01fe74b1934b9337647",
+      "formal_run.log": "be9fddfd39fff3abd8a55a284e8392e26e181549c335a01fe74b1934b9337647",
+      "formal_run_v2.log": "be9fddfd39fff3abd8a55a284e8392e26e181549c335a01fe74b1934b9337647",
+      "quick_runs.log": "b66b75bb2eb8fecb3e73a68aabd3e332642e86745ea367f69b66bb94b6cc5d2c"
+    }
+  }
+}

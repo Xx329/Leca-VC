@@ -1,0 +1,141 @@
+{
+  "schema_version": 2,
+  "canonical_manuscript": {
+    "name": "Short_Article_Title (6).pdf",
+    "sha256": "6d55ff7bec051ad130e38118b9ec49778454f101381250921f75a7b389ffe893",
+    "repository_policy": "The manuscript PDF is not distributed; its recorded SHA256 is the visual authority."
+  },
+  "canonical_supplement": {
+    "name": "Leca_VC_supplemental_overleaf_v1.pdf",
+    "sha256": "843c7124162d4b21cc603c6583e4d0deddd386c8f8c43972404469520ddd46fb",
+    "figure_range": "S1-S8",
+    "repository_policy": "The Supplement PDF is not distributed; its recorded SHA256 is the visual and numbering authority."
+  },
+  "figures": {
+    "fig1": {
+      "title": "Leca-VC framework overview",
+      "type": "design-asset",
+      "status": "DESIGN_ASSET_USER_EXEMPT",
+      "reason": "The author identified Figure 1 as a hand-drawn overview and excluded it from code reproduction."
+    },
+    "fig2": {
+      "title": "GSE2565 bulk time-resolved transcriptomic response benchmark",
+      "panels": ["A-D time-resolved profiles", "E DNB timing", "F late-time expression", "G functional and direction agreement"],
+      "type": "analysis",
+      "status": "READY",
+      "renderer": "figures/main/fig2/render.py",
+      "inputs": ["source_data/fig2/panels_A_to_D_time_resolved_profiles.csv", "source_data/fig2/panels_E_to_G_raw_metrics.csv", "source_data/fig2/leca_vc_formal_fullspace_dnb_metrics.json"],
+      "reference_outputs": ["figures/main/fig2/GSE2565_bulk_time_resolved_transcriptomic_response_benchmark_deidentified_v1_vector.pdf", "figures/main/fig2/GSE2565_bulk_time_resolved_transcriptomic_response_benchmark_deidentified_v1_vector.svg"]
+    },
+    "fig3": {
+      "title": "Communication and expression reconstruction benchmarks",
+      "panels": ["A-B GSE267904 CCI", "C-N GSE120575 expression"],
+      "type": "analysis",
+      "status": "READY",
+      "renderer": "figures/main/fig3/render.py",
+      "inputs": ["source_data/fig3/cci_primary.csv", "source_data/fig3/cci_secondary.csv", "source_data/fig3/expression_gene_values.csv", "source_data/fig3/expression_metrics.csv", "source_data/fig3/expression_bootstrap_summary.csv", "source_data/fig3/expression_deciles.csv"],
+      "reference_outputs": ["figures/main/fig3/Leca_VC_multibenchmark_compact_no_WOT_v4_4_vector.pdf", "figures/main/fig3/Leca_VC_multibenchmark_compact_no_WOT_v4_4_vector.svg"],
+      "experiment": "The CCI panels retain the exact frozen version shown in the canonical manuscript."
+    },
+    "fig4": {
+      "title": "Topological organization and within-cell-type expression heterogeneity recovery across immune populations",
+      "panels": ["A-E UMAP", "F expression fidelity", "G dispersion ratio", "H dispersion error", "I distribution distance"],
+      "type": "analysis",
+      "status": "READY",
+      "renderer": "figures/main/fig4/render.py",
+      "inputs": ["source_data/fig4/cell_expanded_umap_coordinates.csv", "source_data/fig4/response_level_expression_accuracy_metrics.csv", "source_data/fig4/components/GSE120575_cell_expanded_expression_accuracy_UMAP_deidentified_v1_vector.pdf", "source_data/fig4/components/GSE120575_cell_expanded_expression_accuracy_UMAP_deidentified_v1_600dpi.png", "source_data/fig4/dispersion_stratum_summary.csv", "source_data/fig4/energy_distance_by_stratum.csv", "source_data/fig4/overall_metric_summary.csv"],
+      "reference_outputs": ["figures/main/fig4/GSE120575_expression_accuracy_and_heterogeneity_horizontal_vector.pdf"]
+    },
+    "fig5": {
+      "title": "Spatial module-expression recovery across agent granularities",
+      "panels": ["A-F state-recovery metrics", "six module/stage spatial rows across Real and K=20/50/100"],
+      "type": "analysis-and-assembly",
+      "status": "READY",
+      "renderer": "figures/main/fig5/render.py",
+      "inputs": ["source_data/fig5/module_heterogeneity_metrics.csv", "source_data/fig5/cci_heterogeneity_metrics_primary.csv", "source_data/fig5/GSE267904_module_expression_K20_K50_K100_old_style_panel_normalized.png"],
+      "reference_outputs": ["figures/main/fig5/GSE267904_balanced_metrics_and_spatial_maps.pdf", "figures/main/fig5/GSE267904_balanced_metrics_and_spatial_maps_preview.png"],
+      "note": "The spatial source is a frozen panel-normalized raster; scientific metrics and labels remain vector-rendered."
+    },
+    "fig6": {
+      "title": "Pulmonary-fibrosis application and in silico intervention",
+      "panels": ["A mean ECM", "B U-shaped dose response", "C simulated cell coordinates", "D-E ECM spatial maps", "F quadrant-level delta ECM"],
+      "type": "manual-assembly-asset-with-analysis-components",
+      "status": "READY",
+      "renderer": "figures/main/fig6/render.py",
+      "inputs": ["source_data/fig6/figure6_frozen_reference.png", "source_data/fig6/final_optimized_summary.csv", "source_data/fig6/physicell_418_run_matrix.csv", "source_data/fig6/provenance.json"],
+      "reference_outputs": ["figures/main/fig6/GSE267904_fibrosis_application_reference.png", "figures/main/fig6/GSE267904_fibrosis_application.pdf", "figures/main/fig6/GSE267904_fibrosis_application.svg"],
+      "assembly_method": "Manual panel assembly by the authors; no unified six-panel plotting script is expected.",
+      "note": "The exact 7200x3600 manuscript raster was recovered intact and is reproducibly repackaged. Partial numerical tables, the run matrix, application code, and audit files are retained separately; delivered logs are not treated as proof of a clean full rerun.",
+      "code": ["experiments/fibrosis_application/application", "physicell/fibrosis_application"],
+      "provenance": "source_data/fig6/provenance.json"
+    },
+    "figS1": {
+      "title": "GSE120575 cell-type composition benchmark",
+      "type": "analysis",
+      "status": "READY",
+      "renderer": "figures/supplementary/figS1/render.py",
+      "inputs": ["source_data/figS1/plotting_source.csv", "source_data/figS1/rmse_summary.csv"],
+      "reference_outputs": ["figures/supplementary/figS1/GSE120575_celltype_composition_with_CellRank_proxy_vector.pdf"]
+    },
+    "figS2": {
+      "title": "GSE230538 held-out cell-state composition benchmark",
+      "type": "analysis",
+      "status": "READY",
+      "renderer": "figures/supplementary/figS2/render.py",
+      "inputs": ["source_data/figS2/plotting_source.csv", "source_data/figS2/bar_mean_rmse.csv"],
+      "reference_outputs": ["figures/supplementary/figS2/GSE230538_cell_state_composition_multimethod_proxy_vector.pdf"]
+    },
+    "figS3": {
+      "title": "GSE267904 cell-cell communication network reconstruction",
+      "type": "visualization-only",
+      "status": "READY",
+      "renderer": "figures/supplementary/figS3/render.py",
+      "inputs": ["source_data/figS3/GSE267904_CCI_network_heatmaps_source_data.csv"],
+      "reference_outputs": ["figures/supplementary/figS3/GSE267904_CCI_network_heatmaps_Leca_AC_vector.pdf"],
+      "note": "The display label Leca-AC is retained exactly as printed in the canonical Supplement."
+    },
+    "figS4": {
+      "title": "GSE2565 functional-program response profiles",
+      "type": "visualization-only",
+      "status": "READY",
+      "renderer": "figures/supplementary/figS4/render.py",
+      "inputs": ["source_data/figS4/GSE2565_functional_program_heatmaps_source_data.csv"],
+      "reference_outputs": ["figures/supplementary/figS4/GSE2565_functional_program_heatmaps_Leca_AC_vector.pdf"],
+      "note": "The display label Leca-AC is retained exactly as printed in the canonical Supplement."
+    },
+    "figS5": {
+      "title": "GSE267904 K=100 pathway-specific spatial COMMOT hotspots",
+      "type": "analysis",
+      "status": "READY",
+      "renderer": "figures/supplementary/figS5/render.py",
+      "source_builder": "figures/supplementary/figS5/prepare_source.py",
+      "inputs": ["source_data/figS5/spatial_hotspot_arrays.npz", "source_data/figS5/spatial_hotspot_arrays.json"],
+      "reference_outputs": ["figures/supplementary/figS5/gse267904_k100_pathway_specific_spatial_commot_hotspots_smoothed.pdf", "figures/supplementary/figS5/gse267904_k100_pathway_specific_spatial_commot_hotspots_smoothed.png"]
+    },
+    "figS6": {
+      "title": "Mechanistic transparency of LLM-driven single-cell policy generation",
+      "type": "analysis-and-visualization",
+      "status": "READY",
+      "renderer": "figures/supplementary/figS6/render.py",
+      "inputs": ["source_data/figS6/representative_agent_step60.csv", "source_data/figS6/provenance.json", "source_data/figS6/original_delivery/Leca_VC_Case_Study_Step60.png"],
+      "reference_outputs": ["figures/supplementary/figS6/representative_myofibroblast_agent_step60_vector.pdf"],
+      "note": "The collaborator-delivered original renderer, PNG/PDF, and CRC-validated step-60 prompt/response record establish the displayed values; full raw records remain assigned to the runtime-audit artifact rather than Git."
+    },
+    "figS7": {
+      "title": "Exact-Runtime Prompt Contamination Probe",
+      "type": "analysis",
+      "status": "READY",
+      "renderer": "figures/supplementary/figS7/render.py",
+      "inputs": ["source_data/figS7/deidentified_exact_runtime_call_results.csv", "source_data/figS7/response_composition.csv", "source_data/figS7/heldout_outcome_accuracy_with_wilson_ci.csv"],
+      "reference_outputs": ["figures/supplementary/figS7/LecaVC_exact_runtime_prompt_contamination_probe_vector.pdf"]
+    },
+    "figS8": {
+      "title": "Traceable Cellular Program Changes and PhysiCell Execution in GSE267904",
+      "type": "analysis",
+      "status": "READY",
+      "renderer": "figures/supplementary/figS8/render.py",
+      "inputs": ["source_data/figS8/selected_agent_traces.csv", "source_data/figS8/all_K100_communication_writebacks.csv", "source_data/figS8/all_matched_agent_programs_K20_K50_K100.csv", "source_data/figS8/all_observed_program_changes_K20_K50_K100.csv", "source_data/figS8/program_change_summary.csv"],
+      "reference_outputs": ["figures/supplementary/figS8/GSE267904_traceable_cellular_program_changes_clean.pdf", "figures/supplementary/figS8/GSE267904_traceable_cellular_program_changes_clean.svg"]
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "status": "PRIVATE_RC_READY_FOR_GITHUB_WITH_DISCLOSED_FIGURE6_RUN_AUDIT_LIMITATION",
+  "remote_created": false,
+  "git_initialized": false,
+  "public_release_allowed": false,
+  "canonical_documents": {
+    "main": "Short_Article_Title (6).pdf",
+    "supplement": "Leca_VC_supplemental_overleaf_v1.pdf"
+  },
+  "code_organization": {
+    "status": "PASS_FOR_PRIVATE_RC",
+    "entrypoint_manifest": "manifests/code_entrypoints.json",
+    "repository_hygiene": "PASS",
+    "ready_figures_pixel_verified": ["fig2", "fig3", "fig4", "fig5", "fig6", "figS1", "figS2", "figS3", "figS4", "figS5", "figS7", "figS8"],
+    "runtime_validated_supplementary_figure": ["figS6"]
+  },
+  "nonblocking_exemptions_and_limitations": [
+    "Figure 1 is an author-created hand-drawn design asset excluded from code reproduction.",
+    "Figure 6 is an author-confirmed manual assembly asset. Quick reproduction preserves the exact collaborator-delivered 300-DPI raster; no unified six-panel plotting script is expected.",
+    "The delivered outputs.zip is truncated. Allowlisted Figure 6 members were recovered with matching CRC32, but the archive cannot serve as the final Zenodo raw-results package.",
+    "Figure 6 completion logs contain a freeze bypass and several failed exploratory commands, so full-run scientific completion is not accepted from this delivery alone."
+  ],
+  "blocking_gates": [
+    "Zenodo drafts and DOI not yet created.",
+    "fresh-directory environment installation and final license sign-off remain pending."
+  ]
+}

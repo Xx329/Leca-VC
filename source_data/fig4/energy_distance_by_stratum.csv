@@ -1,0 +1,25 @@
+response,broad_cell_type,method,method_label,energy_distance_squared,observed_internal_mean_distance,normalized_energy_distance,pca_dimensions,within_unit_centering,biological_unit_weighting
+Responder,B cell,scGen,scGen,0.9555726143332723,13.369249717746971,0.07147541070048234,50,True,equal
+Responder,B cell,CellRank_terminal_proxy,CellRank,0.7821978780201206,13.369249717746971,0.058507238217100126,50,True,equal
+Responder,B cell,AgentVC_proxy,Leca-VC,0.4421774473231004,13.369249717746971,0.0330742155811581,50,True,equal
+Responder,Monocyte/Macrophage,scGen,scGen,1.0055009230568537,12.647427427838991,0.07950240701469351,50,True,equal
+Responder,Monocyte/Macrophage,CellRank_terminal_proxy,CellRank,0.9245342783283732,12.647427427838991,0.07310057982964399,50,True,equal
+Responder,Monocyte/Macrophage,AgentVC_proxy,Leca-VC,0.9358522580194109,12.647427427838991,0.07399546376992461,50,True,equal
+Responder,NK cell,scGen,scGen,0.5660849724906907,13.341115308588648,0.04243160780765162,50,True,equal
+Responder,NK cell,CellRank_terminal_proxy,CellRank,0.5281127315775009,13.341115308588648,0.039585350951694145,50,True,equal
+Responder,NK cell,AgentVC_proxy,Leca-VC,0.3907110800728333,13.341115308588648,0.029286238146918952,50,True,equal
+Responder,T cell,scGen,scGen,0.28475953171219714,15.017628127609122,0.018961684847468137,50,True,equal
+Responder,T cell,CellRank_terminal_proxy,CellRank,0.24107340477530315,15.017628127609122,0.016052695054560737,50,True,equal
+Responder,T cell,AgentVC_proxy,Leca-VC,0.042487906786462304,15.017628127609122,0.002829202216583757,50,True,equal
+Non-responder,B cell,scGen,scGen,0.6449022445772172,11.06192413419506,0.058299282905373555,50,True,equal
+Non-responder,B cell,CellRank_terminal_proxy,CellRank,0.6102799261108967,11.06192413419506,0.0551694188739168,50,True,equal
+Non-responder,B cell,AgentVC_proxy,Leca-VC,0.6255677870918248,11.06192413419506,0.056551444351172576,50,True,equal
+Non-responder,Monocyte/Macrophage,scGen,scGen,0.22976314071361337,14.586985743430436,0.015751241877856238,50,True,equal
+Non-responder,Monocyte/Macrophage,CellRank_terminal_proxy,CellRank,0.2266380857210759,14.586985743430436,0.01553700604822674,50,True,equal
+Non-responder,Monocyte/Macrophage,AgentVC_proxy,Leca-VC,0.3202172117494939,14.586985743430436,0.021952253699412207,50,True,equal
+Non-responder,NK cell,scGen,scGen,0.2659325428293009,14.340376258332704,0.01854432115578394,50,True,equal
+Non-responder,NK cell,CellRank_terminal_proxy,CellRank,0.28918177649094723,14.340376258332704,0.02016556408852338,50,True,equal
+Non-responder,NK cell,AgentVC_proxy,Leca-VC,0.241790299224661,14.340376258332704,0.01686080580236972,50,True,equal
+Non-responder,T cell,scGen,scGen,0.22025960219977136,16.839618416568605,0.01307984520498734,50,True,equal
+Non-responder,T cell,CellRank_terminal_proxy,CellRank,0.2771864580527108,16.839618416568605,0.016460376428719153,50,True,equal
+Non-responder,T cell,AgentVC_proxy,Leca-VC,0.050615041305817954,16.839618416568605,0.0030057118904795077,50,True,equal

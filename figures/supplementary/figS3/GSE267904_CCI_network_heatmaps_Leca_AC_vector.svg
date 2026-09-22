@@ -1,0 +1,1540 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="1044pt" height="648pt" viewBox="0 0 1044 648" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-08-11T21:12:28.449185</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.8, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 648 
+L 1044 648 
+L 1044 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 87.658361 281.083279 
+L 297.461639 281.083279 
+L 297.461639 71.28 
+L 87.658361 71.28 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g clip-path="url(#pa690f42883)">
+    <image xlink:href="data:image/png;base64,
+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" id="image70535a3a41" transform="scale(1 -1) translate(0 -210.24)" x="87.658361" y="-70.843279" width="210.24" height="210.24"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <defs>
+       <path id="m4033416137" d="M 0 0 
+L 0 3.5 
+" style="stroke: #000000; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#m4033416137" x="99.314098" y="281.083279" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_1">
+      <text style="font-size: 7.4px; font-family: 'DejaVu Sans'" transform="translate(78.145977 314.085094) rotate(-48)">AT1/AT2</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_2">
+      <g>
+       <use xlink:href="#m4033416137" x="122.625574" y="281.083279" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_2">
+      <text style="font-size: 7.4px; font-family: 'DejaVu Sans'" transform="translate(100.778933 314.838666) rotate(-48)">Krt8/ADI</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_3">
+      <g>
+       <use xlink:href="#m4033416137" x="145.937049" y="281.083279" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_3">
+      <text style="font-size: 7.4px; font-family: 'DejaVu Sans'" transform="translate(127.980483 310.518301) rotate(-48)">Airway</text>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_4">
+      <g>
+       <use xlink:href="#m4033416137" x="169.248525" y="281.083279" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_4">
+      <text style="font-size: 7.4px; font-family: 'DejaVu Sans'" transform="translate(137.615577 325.707461) rotate(-48)">Macrophage</text>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_5">
+      <g>
+       <use xlink:href="#m4033416137" x="192.56" y="281.083279" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_5">
+      <text style="font-size: 7.4px; font-family: 'DejaVu Sans'" transform="translate(166.249213 319.796603) rotate(-48)">Mono/Mac</text>
+     </g>
+    </g>
+    <g id="xtick_6">
+     <g id="line2d_6">
+      <g>
+       <use xlink:href="#m4033416137" x="215.871475" y="281.083279" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_6">
+      <text style="font-size: 7.4px; font-family: 'DejaVu Sans'" transform="translate(189.55682 319.8009) rotate(-48)">Fib/Myofib</text>
+     </g>
+    </g>
+    <g id="xtick_7">
+     <g id="line2d_7">
+      <g>
+       <use xlink:href="#m4033416137" x="239.182951" y="281.083279" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_7">
+      <text style="font-size: 7.4px; font-family: 'DejaVu Sans'" transform="translate(210.312049 322.639899) rotate(-48)">Endothelial</text>
+     </g>
+    </g>
+    <g id="xtick_8">
+     <g id="line2d_8">
+      <g>
+       <use xlink:href="#m4033416137" x="262.494426" y="281.083279" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_8">
+      <text style="font-size: 7.4px; font-family: 'DejaVu Sans'" transform="translate(238.759227 316.936123) rotate(-48)">Dendritic</text>
+     </g>
+    </g>
+    <g id="xtick_9">
+     <g id="line2d_9">
+      <g>
+       <use xlink:href="#m4033416137" x="285.805902" y="281.083279" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_9">
+      <text style="font-size: 7.4px; font-family: 'DejaVu Sans'" transform="translate(260.770917 318.379682) rotate(-48)">Lymphoid</text>
+     </g>
+    </g>
+    <g id="text_10">
+     <text style="font-size: 8.2px; font-family: 'DejaVu Sans'; text-anchor: middle" x="192.56" y="336.967951" transform="rotate(-0 192.56 336.967951)">Receiver cell type</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_10">
+      <defs>
+       <path id="m35e3264bc7" d="M 0 0 
+L -3.5 0 
+" style="stroke: #000000; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#m35e3264bc7" x="87.658361" y="82.935738" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_11">
+      <text style="font-size: 7.4px; font-family: 'DejaVu Sans'; text-anchor: end" x="80.658361" y="85.74716" transform="rotate(-0 80.658361 85.74716)">AT1/AT2</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_11">
+      <g>
+       <use xlink:href="#m35e3264bc7" x="87.658361" y="106.247213" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_12">
+      <text style="font-size: 7.4px; font-family: 'DejaVu Sans'; text-anchor: end" x="80.658361" y="109.058635" transform="rotate(-0 80.658361 109.058635)">Krt8/ADI</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_12">
+      <g>
+       <use xlink:href="#m35e3264bc7" x="87.658361" y="129.558689" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_13">
+      <text style="font-size: 7.4px; font-family: 'DejaVu Sans'; text-anchor: end" x="80.658361" y="132.37011" transform="rotate(-0 80.658361 132.37011)">Airway</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_13">
+      <g>
+       <use xlink:href="#m35e3264bc7" x="87.658361" y="152.870164" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_14">
+      <text style="font-size: 7.4px; font-family: 'DejaVu Sans'; text-anchor: end" x="80.658361" y="155.681586" transform="rotate(-0 80.658361 155.681586)">Macrophage</text>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_14">
+      <g>
+       <use xlink:href="#m35e3264bc7" x="87.658361" y="176.181639" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_15">
+      <text style="font-size: 7.4px; font-family: 'DejaVu Sans'; text-anchor: end" x="80.658361" y="178.993061" transform="rotate(-0 80.658361 178.993061)">Mono/Mac</text>
+     </g>
+    </g>
+    <g id="ytick_6">
+     <g id="line2d_15">
+      <g>
+       <use xlink:href="#m35e3264bc7" x="87.658361" y="199.493115" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_16">
+      <text style="font-size: 7.4px; font-family: 'DejaVu Sans'; text-anchor: end" x="80.658361" y="202.304537" transform="rotate(-0 80.658361 202.304537)">Fib/Myofib</text>
+     </g>
+    </g>
+    <g id="ytick_7">
+     <g id="line2d_16">
+      <g>
+       <use xlink:href="#m35e3264bc7" x="87.658361" y="222.80459" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_17">
+      <text style="font-size: 7.4px; font-family: 'DejaVu Sans'; text-anchor: end" x="80.658361" y="225.616012" transform="rotate(-0 80.658361 225.616012)">Endothelial</text>
+     </g>
+    </g>
+    <g id="ytick_8">
+     <g id="line2d_17">
+      <g>
+       <use xlink:href="#m35e3264bc7" x="87.658361" y="246.116066" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_18">
+      <text style="font-size: 7.4px; font-family: 'DejaVu Sans'; text-anchor: end" x="80.658361" y="248.927487" transform="rotate(-0 80.658361 248.927487)">Dendritic</text>
+     </g>
+    </g>
+    <g id="ytick_9">
+     <g id="line2d_18">
+      <g>
+       <use xlink:href="#m35e3264bc7" x="87.658361" y="269.427541" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_19">
+      <text style="font-size: 7.4px; font-family: 'DejaVu Sans'; text-anchor: end" x="80.658361" y="272.238963" transform="rotate(-0 80.658361 272.238963)">Lymphoid</text>
+     </g>
+    </g>
+    <g id="text_20">
+     <text style="font-size: 8.2px; font-family: 'DejaVu Sans'; text-anchor: middle" x="29.387517" y="176.181639" transform="rotate(-90 29.387517 176.181639)">Sender cell type</text>
+    </g>
+   </g>
+   <g id="patch_3">
+    <path d="M 87.658361 281.083279 
+L 87.658361 71.28 
+" style="fill: none; stroke: #333333; stroke-width: 1.35; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 297.461639 281.083279 
+L 297.461639 71.28 
+" style="fill: none; stroke: #333333; stroke-width: 1.35; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 87.658361 281.083279 
+L 297.461639 281.083279 
+" style="fill: none; stroke: #333333; stroke-width: 1.35; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 87.658361 71.28 
+L 297.461639 71.28 
+" style="fill: none; stroke: #333333; stroke-width: 1.35; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_21">
+    <text style="font-weight: 700; font-size: 14px; font-family: 'DejaVu Sans'; text-anchor: start" x="62.481967" y="65.13355" transform="rotate(-0 62.481967 65.13355)">A</text>
+   </g>
+   <g id="text_22">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #333333" x="192.56" y="64.28" transform="rotate(-0 192.56 64.28)">Observed</text>
+   </g>
+  </g>
+  <g id="axes_2">
+   <g id="patch_7">
+    <path d="M 411.878361 281.083279 
+L 621.681639 281.083279 
+L 621.681639 71.28 
+L 411.878361 71.28 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g clip-path="url(#p8f81282ea4)">
+    <image xlink:href="data:image/png;base64,
+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" id="imageb18ac75686" transform="scale(1 -1) translate(0 -210.24)" x="411.878361" y="-70.843279" width="210.24" height="210.24"/>
+   </g>
+   <g id="matplotlib.axis_3">
+    <g id="xtick_10">
+     <g id="line2d_19">
+      <g>
+       <use xlink:href="#m4033416137" x="423.534098" y="281.083279" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_23">
+      <text style="font-size: 7.4px; font-family: 'DejaVu Sans'" transform="translate(402.365977 314.085094) rotate(-48)">AT1/AT2</text>
+     </g>
+    </g>
+    <g id="xtick_11">
+     <g id="line2d_20">
+      <g>
+       <use xlink:href="#m4033416137" x="446.845574" y="281.083279" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_24">
+      <text style="font-size: 7.4px; font-family: 'DejaVu Sans'" transform="translate(424.998933 314.838666) rotate(-48)">Krt8/ADI</text>
+     </g>
+    </g>
+    <g id="xtick_12">
+     <g id="line2d_21">
+      <g>
+       <use xlink:href="#m4033416137" x="470.157049" y="281.083279" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_25">
+      <text style="font-size: 7.4px; font-family: 'DejaVu Sans'" transform="translate(452.200483 310.518301) rotate(-48)">Airway</text>
+     </g>
+    </g>
+    <g id="xtick_13">
+     <g id="line2d_22">
+      <g>
+       <use xlink:href="#m4033416137" x="493.468525" y="281.083279" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_26">
+      <text style="font-size: 7.4px; font-family: 'DejaVu Sans'" transform="translate(461.835577 325.707461) rotate(-48)">Macrophage</text>
+     </g>
+    </g>
+    <g id="xtick_14">
+     <g id="line2d_23">
+      <g>
+       <use xlink:href="#m4033416137" x="516.78" y="281.083279" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_27">
+      <text style="font-size: 7.4px; font-family: 'DejaVu Sans'" transform="translate(490.469213 319.796603) rotate(-48)">Mono/Mac</text>
+     </g>
+    </g>
+    <g id="xtick_15">
+     <g id="line2d_24">
+      <g>
+       <use xlink:href="#m4033416137" x="540.091475" y="281.083279" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_28">
+      <text style="font-size: 7.4px; font-family: 'DejaVu Sans'" transform="translate(513.77682 319.8009) rotate(-48)">Fib/Myofib</text>
+     </g>
+    </g>
+    <g id="xtick_16">
+     <g id="line2d_25">
+      <g>
+       <use xlink:href="#m4033416137" x="563.402951" y="281.083279" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_29">
+      <text style="font-size: 7.4px; font-family: 'DejaVu Sans'" transform="translate(534.532049 322.639899) rotate(-48)">Endothelial</text>
+     </g>
+    </g>
+    <g id="xtick_17">
+     <g id="line2d_26">
+      <g>
+       <use xlink:href="#m4033416137" x="586.714426" y="281.083279" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_30">
+      <text style="font-size: 7.4px; font-family: 'DejaVu Sans'" transform="translate(562.979227 316.936123) rotate(-48)">Dendritic</text>
+     </g>
+    </g>
+    <g id="xtick_18">
+     <g id="line2d_27">
+      <g>
+       <use xlink:href="#m4033416137" x="610.025902" y="281.083279" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_31">
+      <text style="font-size: 7.4px; font-family: 'DejaVu Sans'" transform="translate(584.990917 318.379682) rotate(-48)">Lymphoid</text>
+     </g>
+    </g>
+    <g id="text_32">
+     <text style="font-size: 8.2px; font-family: 'DejaVu Sans'; text-anchor: middle" x="516.78" y="336.967951" transform="rotate(-0 516.78 336.967951)">Receiver cell type</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_4">
+    <g id="ytick_10">
+     <g id="line2d_28">
+      <g>
+       <use xlink:href="#m35e3264bc7" x="411.878361" y="82.935738" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_33">
+      <text style="font-size: 7.4px; font-family: 'DejaVu Sans'; text-anchor: end" x="404.878361" y="85.74716" transform="rotate(-0 404.878361 85.74716)">AT1/AT2</text>
+     </g>
+    </g>
+    <g id="ytick_11">
+     <g id="line2d_29">
+      <g>
+       <use xlink:href="#m35e3264bc7" x="411.878361" y="106.247213" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_34">
+      <text style="font-size: 7.4px; font-family: 'DejaVu Sans'; text-anchor: end" x="404.878361" y="109.058635" transform="rotate(-0 404.878361 109.058635)">Krt8/ADI</text>
+     </g>
+    </g>
+    <g id="ytick_12">
+     <g id="line2d_30">
+      <g>
+       <use xlink:href="#m35e3264bc7" x="411.878361" y="129.558689" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_35">
+      <text style="font-size: 7.4px; font-family: 'DejaVu Sans'; text-anchor: end" x="404.878361" y="132.37011" transform="rotate(-0 404.878361 132.37011)">Airway</text>
+     </g>
+    </g>
+    <g id="ytick_13">
+     <g id="line2d_31">
+      <g>
+       <use xlink:href="#m35e3264bc7" x="411.878361" y="152.870164" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_36">
+      <text style="font-size: 7.4px; font-family: 'DejaVu Sans'; text-anchor: end" x="404.878361" y="155.681586" transform="rotate(-0 404.878361 155.681586)">Macrophage</text>
+     </g>
+    </g>
+    <g id="ytick_14">
+     <g id="line2d_32">
+      <g>
+       <use xlink:href="#m35e3264bc7" x="411.878361" y="176.181639" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_37">
+      <text style="font-size: 7.4px; font-family: 'DejaVu Sans'; text-anchor: end" x="404.878361" y="178.993061" transform="rotate(-0 404.878361 178.993061)">Mono/Mac</text>
+     </g>
+    </g>
+    <g id="ytick_15">
+     <g id="line2d_33">
+      <g>
+       <use xlink:href="#m35e3264bc7" x="411.878361" y="199.493115" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_38">
+      <text style="font-size: 7.4px; font-family: 'DejaVu Sans'; text-anchor: end" x="404.878361" y="202.304537" transform="rotate(-0 404.878361 202.304537)">Fib/Myofib</text>
+     </g>
+    </g>
+    <g id="ytick_16">
+     <g id="line2d_34">
+      <g>
+       <use xlink:href="#m35e3264bc7" x="411.878361" y="222.80459" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_39">
+      <text style="font-size: 7.4px; font-family: 'DejaVu Sans'; text-anchor: end" x="404.878361" y="225.616012" transform="rotate(-0 404.878361 225.616012)">Endothelial</text>
+     </g>
+    </g>
+    <g id="ytick_17">
+     <g id="line2d_35">
+      <g>
+       <use xlink:href="#m35e3264bc7" x="411.878361" y="246.116066" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_40">
+      <text style="font-size: 7.4px; font-family: 'DejaVu Sans'; text-anchor: end" x="404.878361" y="248.927487" transform="rotate(-0 404.878361 248.927487)">Dendritic</text>
+     </g>
+    </g>
+    <g id="ytick_18">
+     <g id="line2d_36">
+      <g>
+       <use xlink:href="#m35e3264bc7" x="411.878361" y="269.427541" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_41">
+      <text style="font-size: 7.4px; font-family: 'DejaVu Sans'; text-anchor: end" x="404.878361" y="272.238963" transform="rotate(-0 404.878361 272.238963)">Lymphoid</text>
+     </g>
+    </g>
+    <g id="text_42">
+     <text style="font-size: 8.2px; font-family: 'DejaVu Sans'; text-anchor: middle" x="353.607517" y="176.181639" transform="rotate(-90 353.607517 176.181639)">Sender cell type</text>
+    </g>
+   </g>
+   <g id="patch_8">
+    <path d="M 411.878361 281.083279 
+L 411.878361 71.28 
+" style="fill: none; stroke: #0072b2; stroke-width: 1.35; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 621.681639 281.083279 
+L 621.681639 71.28 
+" style="fill: none; stroke: #0072b2; stroke-width: 1.35; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 411.878361 281.083279 
+L 621.681639 281.083279 
+" style="fill: none; stroke: #0072b2; stroke-width: 1.35; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 411.878361 71.28 
+L 621.681639 71.28 
+" style="fill: none; stroke: #0072b2; stroke-width: 1.35; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_43">
+    <text style="font-weight: 700; font-size: 14px; font-family: 'DejaVu Sans'; text-anchor: start" x="386.701967" y="65.13355" transform="rotate(-0 386.701967 65.13355)">B</text>
+   </g>
+   <g id="text_44">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #0072b2" x="516.78" y="64.28" transform="rotate(-0 516.78 64.28)">scGPT</text>
+   </g>
+  </g>
+  <g id="axes_3">
+   <g id="patch_12">
+    <path d="M 736.098361 281.083279 
+L 945.901639 281.083279 
+L 945.901639 71.28 
+L 736.098361 71.28 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g clip-path="url(#pb09cfd3c00)">
+    <image xlink:href="data:image/png;base64,
+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" id="imagee5a56f760d" transform="scale(1 -1) translate(0 -210.24)" x="736.098361" y="-70.843279" width="210.24" height="210.24"/>
+   </g>
+   <g id="matplotlib.axis_5">
+    <g id="xtick_19">
+     <g id="line2d_37">
+      <g>
+       <use xlink:href="#m4033416137" x="747.754098" y="281.083279" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_45">
+      <text style="font-size: 7.4px; font-family: 'DejaVu Sans'" transform="translate(726.585977 314.085094) rotate(-48)">AT1/AT2</text>
+     </g>
+    </g>
+    <g id="xtick_20">
+     <g id="line2d_38">
+      <g>
+       <use xlink:href="#m4033416137" x="771.065574" y="281.083279" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_46">
+      <text style="font-size: 7.4px; font-family: 'DejaVu Sans'" transform="translate(749.218933 314.838666) rotate(-48)">Krt8/ADI</text>
+     </g>
+    </g>
+    <g id="xtick_21">
+     <g id="line2d_39">
+      <g>
+       <use xlink:href="#m4033416137" x="794.377049" y="281.083279" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_47">
+      <text style="font-size: 7.4px; font-family: 'DejaVu Sans'" transform="translate(776.420483 310.518301) rotate(-48)">Airway</text>
+     </g>
+    </g>
+    <g id="xtick_22">
+     <g id="line2d_40">
+      <g>
+       <use xlink:href="#m4033416137" x="817.688525" y="281.083279" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_48">
+      <text style="font-size: 7.4px; font-family: 'DejaVu Sans'" transform="translate(786.055577 325.707461) rotate(-48)">Macrophage</text>
+     </g>
+    </g>
+    <g id="xtick_23">
+     <g id="line2d_41">
+      <g>
+       <use xlink:href="#m4033416137" x="841" y="281.083279" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_49">
+      <text style="font-size: 7.4px; font-family: 'DejaVu Sans'" transform="translate(814.689213 319.796603) rotate(-48)">Mono/Mac</text>
+     </g>
+    </g>
+    <g id="xtick_24">
+     <g id="line2d_42">
+      <g>
+       <use xlink:href="#m4033416137" x="864.311475" y="281.083279" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_50">
+      <text style="font-size: 7.4px; font-family: 'DejaVu Sans'" transform="translate(837.99682 319.8009) rotate(-48)">Fib/Myofib</text>
+     </g>
+    </g>
+    <g id="xtick_25">
+     <g id="line2d_43">
+      <g>
+       <use xlink:href="#m4033416137" x="887.622951" y="281.083279" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_51">
+      <text style="font-size: 7.4px; font-family: 'DejaVu Sans'" transform="translate(858.752049 322.639899) rotate(-48)">Endothelial</text>
+     </g>
+    </g>
+    <g id="xtick_26">
+     <g id="line2d_44">
+      <g>
+       <use xlink:href="#m4033416137" x="910.934426" y="281.083279" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_52">
+      <text style="font-size: 7.4px; font-family: 'DejaVu Sans'" transform="translate(887.199227 316.936123) rotate(-48)">Dendritic</text>
+     </g>
+    </g>
+    <g id="xtick_27">
+     <g id="line2d_45">
+      <g>
+       <use xlink:href="#m4033416137" x="934.245902" y="281.083279" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_53">
+      <text style="font-size: 7.4px; font-family: 'DejaVu Sans'" transform="translate(909.210917 318.379682) rotate(-48)">Lymphoid</text>
+     </g>
+    </g>
+    <g id="text_54">
+     <text style="font-size: 8.2px; font-family: 'DejaVu Sans'; text-anchor: middle" x="841" y="336.967951" transform="rotate(-0 841 336.967951)">Receiver cell type</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_6">
+    <g id="ytick_19">
+     <g id="line2d_46">
+      <g>
+       <use xlink:href="#m35e3264bc7" x="736.098361" y="82.935738" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_55">
+      <text style="font-size: 7.4px; font-family: 'DejaVu Sans'; text-anchor: end" x="729.098361" y="85.74716" transform="rotate(-0 729.098361 85.74716)">AT1/AT2</text>
+     </g>
+    </g>
+    <g id="ytick_20">
+     <g id="line2d_47">
+      <g>
+       <use xlink:href="#m35e3264bc7" x="736.098361" y="106.247213" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_56">
+      <text style="font-size: 7.4px; font-family: 'DejaVu Sans'; text-anchor: end" x="729.098361" y="109.058635" transform="rotate(-0 729.098361 109.058635)">Krt8/ADI</text>
+     </g>
+    </g>
+    <g id="ytick_21">
+     <g id="line2d_48">
+      <g>
+       <use xlink:href="#m35e3264bc7" x="736.098361" y="129.558689" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_57">
+      <text style="font-size: 7.4px; font-family: 'DejaVu Sans'; text-anchor: end" x="729.098361" y="132.37011" transform="rotate(-0 729.098361 132.37011)">Airway</text>
+     </g>
+    </g>
+    <g id="ytick_22">
+     <g id="line2d_49">
+      <g>
+       <use xlink:href="#m35e3264bc7" x="736.098361" y="152.870164" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_58">
+      <text style="font-size: 7.4px; font-family: 'DejaVu Sans'; text-anchor: end" x="729.098361" y="155.681586" transform="rotate(-0 729.098361 155.681586)">Macrophage</text>
+     </g>
+    </g>
+    <g id="ytick_23">
+     <g id="line2d_50">
+      <g>
+       <use xlink:href="#m35e3264bc7" x="736.098361" y="176.181639" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_59">
+      <text style="font-size: 7.4px; font-family: 'DejaVu Sans'; text-anchor: end" x="729.098361" y="178.993061" transform="rotate(-0 729.098361 178.993061)">Mono/Mac</text>
+     </g>
+    </g>
+    <g id="ytick_24">
+     <g id="line2d_51">
+      <g>
+       <use xlink:href="#m35e3264bc7" x="736.098361" y="199.493115" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_60">
+      <text style="font-size: 7.4px; font-family: 'DejaVu Sans'; text-anchor: end" x="729.098361" y="202.304537" transform="rotate(-0 729.098361 202.304537)">Fib/Myofib</text>
+     </g>
+    </g>
+    <g id="ytick_25">
+     <g id="line2d_52">
+      <g>
+       <use xlink:href="#m35e3264bc7" x="736.098361" y="222.80459" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_61">
+      <text style="font-size: 7.4px; font-family: 'DejaVu Sans'; text-anchor: end" x="729.098361" y="225.616012" transform="rotate(-0 729.098361 225.616012)">Endothelial</text>
+     </g>
+    </g>
+    <g id="ytick_26">
+     <g id="line2d_53">
+      <g>
+       <use xlink:href="#m35e3264bc7" x="736.098361" y="246.116066" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_62">
+      <text style="font-size: 7.4px; font-family: 'DejaVu Sans'; text-anchor: end" x="729.098361" y="248.927487" transform="rotate(-0 729.098361 248.927487)">Dendritic</text>
+     </g>
+    </g>
+    <g id="ytick_27">
+     <g id="line2d_54">
+      <g>
+       <use xlink:href="#m35e3264bc7" x="736.098361" y="269.427541" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_63">
+      <text style="font-size: 7.4px; font-family: 'DejaVu Sans'; text-anchor: end" x="729.098361" y="272.238963" transform="rotate(-0 729.098361 272.238963)">Lymphoid</text>
+     </g>
+    </g>
+    <g id="text_64">
+     <text style="font-size: 8.2px; font-family: 'DejaVu Sans'; text-anchor: middle" x="677.827517" y="176.181639" transform="rotate(-90 677.827517 176.181639)">Sender cell type</text>
+    </g>
+   </g>
+   <g id="patch_13">
+    <path d="M 736.098361 281.083279 
+L 736.098361 71.28 
+" style="fill: none; stroke: #e69f00; stroke-width: 1.35; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_14">
+    <path d="M 945.901639 281.083279 
+L 945.901639 71.28 
+" style="fill: none; stroke: #e69f00; stroke-width: 1.35; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_15">
+    <path d="M 736.098361 281.083279 
+L 945.901639 281.083279 
+" style="fill: none; stroke: #e69f00; stroke-width: 1.35; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_16">
+    <path d="M 736.098361 71.28 
+L 945.901639 71.28 
+" style="fill: none; stroke: #e69f00; stroke-width: 1.35; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_65">
+    <text style="font-weight: 700; font-size: 14px; font-family: 'DejaVu Sans'; text-anchor: start" x="710.921967" y="65.13355" transform="rotate(-0 710.921967 65.13355)">C</text>
+   </g>
+   <g id="text_66">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #e69f00" x="841" y="64.28" transform="rotate(-0 841 64.28)">scGen</text>
+   </g>
+  </g>
+  <g id="axes_4">
+   <g id="patch_17">
+    <path d="M 87.658361 583.2 
+L 297.461639 583.2 
+L 297.461639 373.396721 
+L 87.658361 373.396721 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g clip-path="url(#p579958c6bf)">
+    <image xlink:href="data:image/png;base64,
+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" id="image4ee0319f41" transform="scale(1 -1) translate(0 -210.24)" x="87.658361" y="-372.96" width="210.24" height="210.24"/>
+   </g>
+   <g id="matplotlib.axis_7">
+    <g id="xtick_28">
+     <g id="line2d_55">
+      <g>
+       <use xlink:href="#m4033416137" x="99.314098" y="583.2" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_67">
+      <text style="font-size: 7.4px; font-family: 'DejaVu Sans'" transform="translate(78.145977 616.201815) rotate(-48)">AT1/AT2</text>
+     </g>
+    </g>
+    <g id="xtick_29">
+     <g id="line2d_56">
+      <g>
+       <use xlink:href="#m4033416137" x="122.625574" y="583.2" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_68">
+      <text style="font-size: 7.4px; font-family: 'DejaVu Sans'" transform="translate(100.778933 616.955387) rotate(-48)">Krt8/ADI</text>
+     </g>
+    </g>
+    <g id="xtick_30">
+     <g id="line2d_57">
+      <g>
+       <use xlink:href="#m4033416137" x="145.937049" y="583.2" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_69">
+      <text style="font-size: 7.4px; font-family: 'DejaVu Sans'" transform="translate(127.980483 612.635022) rotate(-48)">Airway</text>
+     </g>
+    </g>
+    <g id="xtick_31">
+     <g id="line2d_58">
+      <g>
+       <use xlink:href="#m4033416137" x="169.248525" y="583.2" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_70">
+      <text style="font-size: 7.4px; font-family: 'DejaVu Sans'" transform="translate(137.615577 627.824182) rotate(-48)">Macrophage</text>
+     </g>
+    </g>
+    <g id="xtick_32">
+     <g id="line2d_59">
+      <g>
+       <use xlink:href="#m4033416137" x="192.56" y="583.2" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_71">
+      <text style="font-size: 7.4px; font-family: 'DejaVu Sans'" transform="translate(166.249213 621.913325) rotate(-48)">Mono/Mac</text>
+     </g>
+    </g>
+    <g id="xtick_33">
+     <g id="line2d_60">
+      <g>
+       <use xlink:href="#m4033416137" x="215.871475" y="583.2" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_72">
+      <text style="font-size: 7.4px; font-family: 'DejaVu Sans'" transform="translate(189.55682 621.917621) rotate(-48)">Fib/Myofib</text>
+     </g>
+    </g>
+    <g id="xtick_34">
+     <g id="line2d_61">
+      <g>
+       <use xlink:href="#m4033416137" x="239.182951" y="583.2" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_73">
+      <text style="font-size: 7.4px; font-family: 'DejaVu Sans'" transform="translate(210.312049 624.75662) rotate(-48)">Endothelial</text>
+     </g>
+    </g>
+    <g id="xtick_35">
+     <g id="line2d_62">
+      <g>
+       <use xlink:href="#m4033416137" x="262.494426" y="583.2" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_74">
+      <text style="font-size: 7.4px; font-family: 'DejaVu Sans'" transform="translate(238.759227 619.052844) rotate(-48)">Dendritic</text>
+     </g>
+    </g>
+    <g id="xtick_36">
+     <g id="line2d_63">
+      <g>
+       <use xlink:href="#m4033416137" x="285.805902" y="583.2" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_75">
+      <text style="font-size: 7.4px; font-family: 'DejaVu Sans'" transform="translate(260.770917 620.496403) rotate(-48)">Lymphoid</text>
+     </g>
+    </g>
+    <g id="text_76">
+     <text style="font-size: 8.2px; font-family: 'DejaVu Sans'; text-anchor: middle" x="192.56" y="639.084672" transform="rotate(-0 192.56 639.084672)">Receiver cell type</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_8">
+    <g id="ytick_28">
+     <g id="line2d_64">
+      <g>
+       <use xlink:href="#m35e3264bc7" x="87.658361" y="385.052459" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_77">
+      <text style="font-size: 7.4px; font-family: 'DejaVu Sans'; text-anchor: end" x="80.658361" y="387.863881" transform="rotate(-0 80.658361 387.863881)">AT1/AT2</text>
+     </g>
+    </g>
+    <g id="ytick_29">
+     <g id="line2d_65">
+      <g>
+       <use xlink:href="#m35e3264bc7" x="87.658361" y="408.363934" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_78">
+      <text style="font-size: 7.4px; font-family: 'DejaVu Sans'; text-anchor: end" x="80.658361" y="411.175356" transform="rotate(-0 80.658361 411.175356)">Krt8/ADI</text>
+     </g>
+    </g>
+    <g id="ytick_30">
+     <g id="line2d_66">
+      <g>
+       <use xlink:href="#m35e3264bc7" x="87.658361" y="431.67541" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_79">
+      <text style="font-size: 7.4px; font-family: 'DejaVu Sans'; text-anchor: end" x="80.658361" y="434.486832" transform="rotate(-0 80.658361 434.486832)">Airway</text>
+     </g>
+    </g>
+    <g id="ytick_31">
+     <g id="line2d_67">
+      <g>
+       <use xlink:href="#m35e3264bc7" x="87.658361" y="454.986885" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_80">
+      <text style="font-size: 7.4px; font-family: 'DejaVu Sans'; text-anchor: end" x="80.658361" y="457.798307" transform="rotate(-0 80.658361 457.798307)">Macrophage</text>
+     </g>
+    </g>
+    <g id="ytick_32">
+     <g id="line2d_68">
+      <g>
+       <use xlink:href="#m35e3264bc7" x="87.658361" y="478.298361" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_81">
+      <text style="font-size: 7.4px; font-family: 'DejaVu Sans'; text-anchor: end" x="80.658361" y="481.109783" transform="rotate(-0 80.658361 481.109783)">Mono/Mac</text>
+     </g>
+    </g>
+    <g id="ytick_33">
+     <g id="line2d_69">
+      <g>
+       <use xlink:href="#m35e3264bc7" x="87.658361" y="501.609836" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_82">
+      <text style="font-size: 7.4px; font-family: 'DejaVu Sans'; text-anchor: end" x="80.658361" y="504.421258" transform="rotate(-0 80.658361 504.421258)">Fib/Myofib</text>
+     </g>
+    </g>
+    <g id="ytick_34">
+     <g id="line2d_70">
+      <g>
+       <use xlink:href="#m35e3264bc7" x="87.658361" y="524.921311" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_83">
+      <text style="font-size: 7.4px; font-family: 'DejaVu Sans'; text-anchor: end" x="80.658361" y="527.732733" transform="rotate(-0 80.658361 527.732733)">Endothelial</text>
+     </g>
+    </g>
+    <g id="ytick_35">
+     <g id="line2d_71">
+      <g>
+       <use xlink:href="#m35e3264bc7" x="87.658361" y="548.232787" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_84">
+      <text style="font-size: 7.4px; font-family: 'DejaVu Sans'; text-anchor: end" x="80.658361" y="551.044209" transform="rotate(-0 80.658361 551.044209)">Dendritic</text>
+     </g>
+    </g>
+    <g id="ytick_36">
+     <g id="line2d_72">
+      <g>
+       <use xlink:href="#m35e3264bc7" x="87.658361" y="571.544262" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_85">
+      <text style="font-size: 7.4px; font-family: 'DejaVu Sans'; text-anchor: end" x="80.658361" y="574.355684" transform="rotate(-0 80.658361 574.355684)">Lymphoid</text>
+     </g>
+    </g>
+    <g id="text_86">
+     <text style="font-size: 8.2px; font-family: 'DejaVu Sans'; text-anchor: middle" x="29.387517" y="478.298361" transform="rotate(-90 29.387517 478.298361)">Sender cell type</text>
+    </g>
+   </g>
+   <g id="patch_18">
+    <path d="M 87.658361 583.2 
+L 87.658361 373.396721 
+" style="fill: none; stroke: #009e73; stroke-width: 1.35; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_19">
+    <path d="M 297.461639 583.2 
+L 297.461639 373.396721 
+" style="fill: none; stroke: #009e73; stroke-width: 1.35; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_20">
+    <path d="M 87.658361 583.2 
+L 297.461639 583.2 
+" style="fill: none; stroke: #009e73; stroke-width: 1.35; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_21">
+    <path d="M 87.658361 373.396721 
+L 297.461639 373.396721 
+" style="fill: none; stroke: #009e73; stroke-width: 1.35; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_87">
+    <text style="font-weight: 700; font-size: 14px; font-family: 'DejaVu Sans'; text-anchor: start" x="62.481967" y="367.250272" transform="rotate(-0 62.481967 367.250272)">D</text>
+   </g>
+   <g id="text_88">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #009e73" x="192.56" y="366.396721" transform="rotate(-0 192.56 366.396721)">WOT</text>
+   </g>
+  </g>
+  <g id="axes_5">
+   <g id="patch_22">
+    <path d="M 411.878361 583.2 
+L 621.681639 583.2 
+L 621.681639 373.396721 
+L 411.878361 373.396721 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g clip-path="url(#p962344e7f5)">
+    <image xlink:href="data:image/png;base64,
+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" id="imagebfe9a07d22" transform="scale(1 -1) translate(0 -210.24)" x="411.878361" y="-372.96" width="210.24" height="210.24"/>
+   </g>
+   <g id="matplotlib.axis_9">
+    <g id="xtick_37">
+     <g id="line2d_73">
+      <g>
+       <use xlink:href="#m4033416137" x="423.534098" y="583.2" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_89">
+      <text style="font-size: 7.4px; font-family: 'DejaVu Sans'" transform="translate(402.365977 616.201815) rotate(-48)">AT1/AT2</text>
+     </g>
+    </g>
+    <g id="xtick_38">
+     <g id="line2d_74">
+      <g>
+       <use xlink:href="#m4033416137" x="446.845574" y="583.2" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_90">
+      <text style="font-size: 7.4px; font-family: 'DejaVu Sans'" transform="translate(424.998933 616.955387) rotate(-48)">Krt8/ADI</text>
+     </g>
+    </g>
+    <g id="xtick_39">
+     <g id="line2d_75">
+      <g>
+       <use xlink:href="#m4033416137" x="470.157049" y="583.2" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_91">
+      <text style="font-size: 7.4px; font-family: 'DejaVu Sans'" transform="translate(452.200483 612.635022) rotate(-48)">Airway</text>
+     </g>
+    </g>
+    <g id="xtick_40">
+     <g id="line2d_76">
+      <g>
+       <use xlink:href="#m4033416137" x="493.468525" y="583.2" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_92">
+      <text style="font-size: 7.4px; font-family: 'DejaVu Sans'" transform="translate(461.835577 627.824182) rotate(-48)">Macrophage</text>
+     </g>
+    </g>
+    <g id="xtick_41">
+     <g id="line2d_77">
+      <g>
+       <use xlink:href="#m4033416137" x="516.78" y="583.2" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_93">
+      <text style="font-size: 7.4px; font-family: 'DejaVu Sans'" transform="translate(490.469213 621.913325) rotate(-48)">Mono/Mac</text>
+     </g>
+    </g>
+    <g id="xtick_42">
+     <g id="line2d_78">
+      <g>
+       <use xlink:href="#m4033416137" x="540.091475" y="583.2" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_94">
+      <text style="font-size: 7.4px; font-family: 'DejaVu Sans'" transform="translate(513.77682 621.917621) rotate(-48)">Fib/Myofib</text>
+     </g>
+    </g>
+    <g id="xtick_43">
+     <g id="line2d_79">
+      <g>
+       <use xlink:href="#m4033416137" x="563.402951" y="583.2" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_95">
+      <text style="font-size: 7.4px; font-family: 'DejaVu Sans'" transform="translate(534.532049 624.75662) rotate(-48)">Endothelial</text>
+     </g>
+    </g>
+    <g id="xtick_44">
+     <g id="line2d_80">
+      <g>
+       <use xlink:href="#m4033416137" x="586.714426" y="583.2" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_96">
+      <text style="font-size: 7.4px; font-family: 'DejaVu Sans'" transform="translate(562.979227 619.052844) rotate(-48)">Dendritic</text>
+     </g>
+    </g>
+    <g id="xtick_45">
+     <g id="line2d_81">
+      <g>
+       <use xlink:href="#m4033416137" x="610.025902" y="583.2" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_97">
+      <text style="font-size: 7.4px; font-family: 'DejaVu Sans'" transform="translate(584.990917 620.496403) rotate(-48)">Lymphoid</text>
+     </g>
+    </g>
+    <g id="text_98">
+     <text style="font-size: 8.2px; font-family: 'DejaVu Sans'; text-anchor: middle" x="516.78" y="639.084672" transform="rotate(-0 516.78 639.084672)">Receiver cell type</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_10">
+    <g id="ytick_37">
+     <g id="line2d_82">
+      <g>
+       <use xlink:href="#m35e3264bc7" x="411.878361" y="385.052459" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_99">
+      <text style="font-size: 7.4px; font-family: 'DejaVu Sans'; text-anchor: end" x="404.878361" y="387.863881" transform="rotate(-0 404.878361 387.863881)">AT1/AT2</text>
+     </g>
+    </g>
+    <g id="ytick_38">
+     <g id="line2d_83">
+      <g>
+       <use xlink:href="#m35e3264bc7" x="411.878361" y="408.363934" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_100">
+      <text style="font-size: 7.4px; font-family: 'DejaVu Sans'; text-anchor: end" x="404.878361" y="411.175356" transform="rotate(-0 404.878361 411.175356)">Krt8/ADI</text>
+     </g>
+    </g>
+    <g id="ytick_39">
+     <g id="line2d_84">
+      <g>
+       <use xlink:href="#m35e3264bc7" x="411.878361" y="431.67541" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_101">
+      <text style="font-size: 7.4px; font-family: 'DejaVu Sans'; text-anchor: end" x="404.878361" y="434.486832" transform="rotate(-0 404.878361 434.486832)">Airway</text>
+     </g>
+    </g>
+    <g id="ytick_40">
+     <g id="line2d_85">
+      <g>
+       <use xlink:href="#m35e3264bc7" x="411.878361" y="454.986885" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_102">
+      <text style="font-size: 7.4px; font-family: 'DejaVu Sans'; text-anchor: end" x="404.878361" y="457.798307" transform="rotate(-0 404.878361 457.798307)">Macrophage</text>
+     </g>
+    </g>
+    <g id="ytick_41">
+     <g id="line2d_86">
+      <g>
+       <use xlink:href="#m35e3264bc7" x="411.878361" y="478.298361" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_103">
+      <text style="font-size: 7.4px; font-family: 'DejaVu Sans'; text-anchor: end" x="404.878361" y="481.109783" transform="rotate(-0 404.878361 481.109783)">Mono/Mac</text>
+     </g>
+    </g>
+    <g id="ytick_42">
+     <g id="line2d_87">
+      <g>
+       <use xlink:href="#m35e3264bc7" x="411.878361" y="501.609836" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_104">
+      <text style="font-size: 7.4px; font-family: 'DejaVu Sans'; text-anchor: end" x="404.878361" y="504.421258" transform="rotate(-0 404.878361 504.421258)">Fib/Myofib</text>
+     </g>
+    </g>
+    <g id="ytick_43">
+     <g id="line2d_88">
+      <g>
+       <use xlink:href="#m35e3264bc7" x="411.878361" y="524.921311" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_105">
+      <text style="font-size: 7.4px; font-family: 'DejaVu Sans'; text-anchor: end" x="404.878361" y="527.732733" transform="rotate(-0 404.878361 527.732733)">Endothelial</text>
+     </g>
+    </g>
+    <g id="ytick_44">
+     <g id="line2d_89">
+      <g>
+       <use xlink:href="#m35e3264bc7" x="411.878361" y="548.232787" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_106">
+      <text style="font-size: 7.4px; font-family: 'DejaVu Sans'; text-anchor: end" x="404.878361" y="551.044209" transform="rotate(-0 404.878361 551.044209)">Dendritic</text>
+     </g>
+    </g>
+    <g id="ytick_45">
+     <g id="line2d_90">
+      <g>
+       <use xlink:href="#m35e3264bc7" x="411.878361" y="571.544262" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_107">
+      <text style="font-size: 7.4px; font-family: 'DejaVu Sans'; text-anchor: end" x="404.878361" y="574.355684" transform="rotate(-0 404.878361 574.355684)">Lymphoid</text>
+     </g>
+    </g>
+    <g id="text_108">
+     <text style="font-size: 8.2px; font-family: 'DejaVu Sans'; text-anchor: middle" x="353.607517" y="478.298361" transform="rotate(-90 353.607517 478.298361)">Sender cell type</text>
+    </g>
+   </g>
+   <g id="patch_23">
+    <path d="M 411.878361 583.2 
+L 411.878361 373.396721 
+" style="fill: none; stroke: #56b4e9; stroke-width: 1.35; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_24">
+    <path d="M 621.681639 583.2 
+L 621.681639 373.396721 
+" style="fill: none; stroke: #56b4e9; stroke-width: 1.35; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_25">
+    <path d="M 411.878361 583.2 
+L 621.681639 583.2 
+" style="fill: none; stroke: #56b4e9; stroke-width: 1.35; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_26">
+    <path d="M 411.878361 373.396721 
+L 621.681639 373.396721 
+" style="fill: none; stroke: #56b4e9; stroke-width: 1.35; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_109">
+    <text style="font-weight: 700; font-size: 14px; font-family: 'DejaVu Sans'; text-anchor: start" x="386.701967" y="367.250272" transform="rotate(-0 386.701967 367.250272)">E</text>
+   </g>
+   <g id="text_110">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #56b4e9" x="516.78" y="366.396721" transform="rotate(-0 516.78 366.396721)">CellRank</text>
+   </g>
+  </g>
+  <g id="axes_6">
+   <g id="patch_27">
+    <path d="M 736.098361 583.2 
+L 945.901639 583.2 
+L 945.901639 373.396721 
+L 736.098361 373.396721 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g clip-path="url(#pd3ef2526c8)">
+    <image xlink:href="data:image/png;base64,
+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" id="image27ee6c73a3" transform="scale(1 -1) translate(0 -210.24)" x="736.098361" y="-372.96" width="210.24" height="210.24"/>
+   </g>
+   <g id="matplotlib.axis_11">
+    <g id="xtick_46">
+     <g id="line2d_91">
+      <g>
+       <use xlink:href="#m4033416137" x="747.754098" y="583.2" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_111">
+      <text style="font-size: 7.4px; font-family: 'DejaVu Sans'" transform="translate(726.585977 616.201815) rotate(-48)">AT1/AT2</text>
+     </g>
+    </g>
+    <g id="xtick_47">
+     <g id="line2d_92">
+      <g>
+       <use xlink:href="#m4033416137" x="771.065574" y="583.2" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_112">
+      <text style="font-size: 7.4px; font-family: 'DejaVu Sans'" transform="translate(749.218933 616.955387) rotate(-48)">Krt8/ADI</text>
+     </g>
+    </g>
+    <g id="xtick_48">
+     <g id="line2d_93">
+      <g>
+       <use xlink:href="#m4033416137" x="794.377049" y="583.2" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_113">
+      <text style="font-size: 7.4px; font-family: 'DejaVu Sans'" transform="translate(776.420483 612.635022) rotate(-48)">Airway</text>
+     </g>
+    </g>
+    <g id="xtick_49">
+     <g id="line2d_94">
+      <g>
+       <use xlink:href="#m4033416137" x="817.688525" y="583.2" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_114">
+      <text style="font-size: 7.4px; font-family: 'DejaVu Sans'" transform="translate(786.055577 627.824182) rotate(-48)">Macrophage</text>
+     </g>
+    </g>
+    <g id="xtick_50">
+     <g id="line2d_95">
+      <g>
+       <use xlink:href="#m4033416137" x="841" y="583.2" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_115">
+      <text style="font-size: 7.4px; font-family: 'DejaVu Sans'" transform="translate(814.689213 621.913325) rotate(-48)">Mono/Mac</text>
+     </g>
+    </g>
+    <g id="xtick_51">
+     <g id="line2d_96">
+      <g>
+       <use xlink:href="#m4033416137" x="864.311475" y="583.2" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_116">
+      <text style="font-size: 7.4px; font-family: 'DejaVu Sans'" transform="translate(837.99682 621.917621) rotate(-48)">Fib/Myofib</text>
+     </g>
+    </g>
+    <g id="xtick_52">
+     <g id="line2d_97">
+      <g>
+       <use xlink:href="#m4033416137" x="887.622951" y="583.2" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_117">
+      <text style="font-size: 7.4px; font-family: 'DejaVu Sans'" transform="translate(858.752049 624.75662) rotate(-48)">Endothelial</text>
+     </g>
+    </g>
+    <g id="xtick_53">
+     <g id="line2d_98">
+      <g>
+       <use xlink:href="#m4033416137" x="910.934426" y="583.2" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_118">
+      <text style="font-size: 7.4px; font-family: 'DejaVu Sans'" transform="translate(887.199227 619.052844) rotate(-48)">Dendritic</text>
+     </g>
+    </g>
+    <g id="xtick_54">
+     <g id="line2d_99">
+      <g>
+       <use xlink:href="#m4033416137" x="934.245902" y="583.2" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_119">
+      <text style="font-size: 7.4px; font-family: 'DejaVu Sans'" transform="translate(909.210917 620.496403) rotate(-48)">Lymphoid</text>
+     </g>
+    </g>
+    <g id="text_120">
+     <text style="font-size: 8.2px; font-family: 'DejaVu Sans'; text-anchor: middle" x="841" y="639.084672" transform="rotate(-0 841 639.084672)">Receiver cell type</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_12">
+    <g id="ytick_46">
+     <g id="line2d_100">
+      <g>
+       <use xlink:href="#m35e3264bc7" x="736.098361" y="385.052459" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_121">
+      <text style="font-size: 7.4px; font-family: 'DejaVu Sans'; text-anchor: end" x="729.098361" y="387.863881" transform="rotate(-0 729.098361 387.863881)">AT1/AT2</text>
+     </g>
+    </g>
+    <g id="ytick_47">
+     <g id="line2d_101">
+      <g>
+       <use xlink:href="#m35e3264bc7" x="736.098361" y="408.363934" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_122">
+      <text style="font-size: 7.4px; font-family: 'DejaVu Sans'; text-anchor: end" x="729.098361" y="411.175356" transform="rotate(-0 729.098361 411.175356)">Krt8/ADI</text>
+     </g>
+    </g>
+    <g id="ytick_48">
+     <g id="line2d_102">
+      <g>
+       <use xlink:href="#m35e3264bc7" x="736.098361" y="431.67541" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_123">
+      <text style="font-size: 7.4px; font-family: 'DejaVu Sans'; text-anchor: end" x="729.098361" y="434.486832" transform="rotate(-0 729.098361 434.486832)">Airway</text>
+     </g>
+    </g>
+    <g id="ytick_49">
+     <g id="line2d_103">
+      <g>
+       <use xlink:href="#m35e3264bc7" x="736.098361" y="454.986885" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_124">
+      <text style="font-size: 7.4px; font-family: 'DejaVu Sans'; text-anchor: end" x="729.098361" y="457.798307" transform="rotate(-0 729.098361 457.798307)">Macrophage</text>
+     </g>
+    </g>
+    <g id="ytick_50">
+     <g id="line2d_104">
+      <g>
+       <use xlink:href="#m35e3264bc7" x="736.098361" y="478.298361" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_125">
+      <text style="font-size: 7.4px; font-family: 'DejaVu Sans'; text-anchor: end" x="729.098361" y="481.109783" transform="rotate(-0 729.098361 481.109783)">Mono/Mac</text>
+     </g>
+    </g>
+    <g id="ytick_51">
+     <g id="line2d_105">
+      <g>
+       <use xlink:href="#m35e3264bc7" x="736.098361" y="501.609836" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_126">
+      <text style="font-size: 7.4px; font-family: 'DejaVu Sans'; text-anchor: end" x="729.098361" y="504.421258" transform="rotate(-0 729.098361 504.421258)">Fib/Myofib</text>
+     </g>
+    </g>
+    <g id="ytick_52">
+     <g id="line2d_106">
+      <g>
+       <use xlink:href="#m35e3264bc7" x="736.098361" y="524.921311" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_127">
+      <text style="font-size: 7.4px; font-family: 'DejaVu Sans'; text-anchor: end" x="729.098361" y="527.732733" transform="rotate(-0 729.098361 527.732733)">Endothelial</text>
+     </g>
+    </g>
+    <g id="ytick_53">
+     <g id="line2d_107">
+      <g>
+       <use xlink:href="#m35e3264bc7" x="736.098361" y="548.232787" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_128">
+      <text style="font-size: 7.4px; font-family: 'DejaVu Sans'; text-anchor: end" x="729.098361" y="551.044209" transform="rotate(-0 729.098361 551.044209)">Dendritic</text>
+     </g>
+    </g>
+    <g id="ytick_54">
+     <g id="line2d_108">
+      <g>
+       <use xlink:href="#m35e3264bc7" x="736.098361" y="571.544262" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_129">
+      <text style="font-size: 7.4px; font-family: 'DejaVu Sans'; text-anchor: end" x="729.098361" y="574.355684" transform="rotate(-0 729.098361 574.355684)">Lymphoid</text>
+     </g>
+    </g>
+    <g id="text_130">
+     <text style="font-size: 8.2px; font-family: 'DejaVu Sans'; text-anchor: middle" x="677.827517" y="478.298361" transform="rotate(-90 677.827517 478.298361)">Sender cell type</text>
+    </g>
+   </g>
+   <g id="patch_28">
+    <path d="M 736.098361 583.2 
+L 736.098361 373.396721 
+" style="fill: none; stroke: #cc79a7; stroke-width: 1.35; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_29">
+    <path d="M 945.901639 583.2 
+L 945.901639 373.396721 
+" style="fill: none; stroke: #cc79a7; stroke-width: 1.35; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_30">
+    <path d="M 736.098361 583.2 
+L 945.901639 583.2 
+" style="fill: none; stroke: #cc79a7; stroke-width: 1.35; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_31">
+    <path d="M 736.098361 373.396721 
+L 945.901639 373.396721 
+" style="fill: none; stroke: #cc79a7; stroke-width: 1.35; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_131">
+    <text style="font-weight: 700; font-size: 14px; font-family: 'DejaVu Sans'; text-anchor: start" x="710.921967" y="367.250272" transform="rotate(-0 710.921967 367.250272)">F</text>
+   </g>
+   <g id="text_132">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #cc79a7" x="841" y="366.396721" transform="rotate(-0 841 366.396721)">Leca-AC</text>
+   </g>
+  </g>
+  <g id="axes_7">
+   <g id="patch_32">
+    <path d="M 986.58 524.88 
+L 1000.152 524.88 
+L 1000.152 129.6 
+L 986.58 129.6 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <image xlink:href="data:image/png;base64,
+iVBORw0KGgoAAAANSUhEUgAAABMAAAIlCAYAAAA37MNVAAACYElEQVR4nO2dgWnEQBADz8H995diYqcGgcADGhWw6CTt7vn/8V/v+/ueEn5ahc45535PjViZ2TlPrVhZsxeqWdsA6DENbQ5uaNFuUpm91JzNGIBtJ7Bm1NCSNcPmDDu2ZzY61QDbKYc5y8FlttNO1NCCNcMyA2uGzRnWzZ1o9Ip1mfUi2w9tDytukjW7asXAI4hrwGNoU9joObiazexNqgHo0EK3E1gzF8q3xbjHdATlsJ1ymLOPi4H3pvezGNzQgjXj5gy7UEaOeT/Y4fgH1qxXbKfRzdmXxcihlVmK+w/bTlzNwMyKxcAjyNDGkFkO7kYH34KwbpajUSw2YoChzYEeQb1iI8xW2snhGAPNjJoz7OMO182Zb8SoBhjaHI6gHFw3R45paHPoZg6yZsVijqAc5NAWi6246W07BjdnMwZwQ1sspps5RjQbOSb4V6syiwF+Kw9Ys+JGAY8grgEOxxgyy3G/xaCNaDZyTEdQDpnl4N41uDfHmWhgmTkcY6AbvVdshNnIpOUaAGb2YBu9+KLJNjPsg9ih9mb3mBfYgF6xmdBymVHb6S6+I77dm1TNZkLLZUaNBridyJpRmWGvB941cthOOVaGI/auwXVzp516xUaigXaTyuxyCX9ajHtM8v3MRk+hmzl8EMuxEg3w/YyrGZhZr9jIQjEaOUaiQf5cQzdTcDWbGUFGI4Vu5uC6ObOdfKhIQWammym4/49ePmYxGzu/jqZqdrDMyDmT2ZfFjEYOh2MOc5aDy6y8N41GCpnluN/iBxszmlGZjRzTvZkDzIy86hyOXxbjHtMRlOMf7Lnl0/jz7PYAAAAASUVORK5CYII=" id="imagee8d4b6dae2" transform="scale(1 -1) translate(0 -395.28)" x="986.4" y="-129.6" width="13.68" height="395.28"/>
+   <g id="matplotlib.axis_13"/>
+   <g id="matplotlib.axis_14">
+    <g id="ytick_55">
+     <g id="line2d_109">
+      <defs>
+       <path id="mb6f745ed24" d="M 0 0 
+L 3.5 0 
+" style="stroke: #000000; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#mb6f745ed24" x="1000.152" y="524.88" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_133">
+      <text style="font-size: 7.5px; font-family: 'DejaVu Sans'; text-anchor: start" x="1007.152" y="527.729414" transform="rotate(-0 1007.152 527.729414)">0.00</text>
+     </g>
+    </g>
+    <g id="ytick_56">
+     <g id="line2d_110">
+      <g>
+       <use xlink:href="#mb6f745ed24" x="1000.152" y="456.487775" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_134">
+      <text style="font-size: 7.5px; font-family: 'DejaVu Sans'; text-anchor: start" x="1007.152" y="459.33719" transform="rotate(-0 1007.152 459.33719)">0.01</text>
+     </g>
+    </g>
+    <g id="ytick_57">
+     <g id="line2d_111">
+      <g>
+       <use xlink:href="#mb6f745ed24" x="1000.152" y="388.095551" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_135">
+      <text style="font-size: 7.5px; font-family: 'DejaVu Sans'; text-anchor: start" x="1007.152" y="390.944965" transform="rotate(-0 1007.152 390.944965)">0.02</text>
+     </g>
+    </g>
+    <g id="ytick_58">
+     <g id="line2d_112">
+      <g>
+       <use xlink:href="#mb6f745ed24" x="1000.152" y="319.703326" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_136">
+      <text style="font-size: 7.5px; font-family: 'DejaVu Sans'; text-anchor: start" x="1007.152" y="322.55274" transform="rotate(-0 1007.152 322.55274)">0.03</text>
+     </g>
+    </g>
+    <g id="ytick_59">
+     <g id="line2d_113">
+      <g>
+       <use xlink:href="#mb6f745ed24" x="1000.152" y="251.311102" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_137">
+      <text style="font-size: 7.5px; font-family: 'DejaVu Sans'; text-anchor: start" x="1007.152" y="254.160516" transform="rotate(-0 1007.152 254.160516)">0.04</text>
+     </g>
+    </g>
+    <g id="ytick_60">
+     <g id="line2d_114">
+      <g>
+       <use xlink:href="#mb6f745ed24" x="1000.152" y="182.918877" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_138">
+      <text style="font-size: 7.5px; font-family: 'DejaVu Sans'; text-anchor: start" x="1007.152" y="185.768291" transform="rotate(-0 1007.152 185.768291)">0.05</text>
+     </g>
+    </g>
+    <g id="text_139">
+     <text style="font-size: 8.5px; font-family: 'DejaVu Sans'; text-anchor: middle" x="1034.309891" y="327.24" transform="rotate(-90 1034.309891 327.24)">Median normalized CCI edge weight</text>
+    </g>
+   </g>
+   <g id="LineCollection_1"/>
+   <g id="patch_33">
+    <path d="M 986.58 524.88 
+L 993.366 524.88 
+L 1000.152 524.88 
+L 1000.152 129.6 
+L 993.366 129.6 
+L 986.58 129.6 
+L 986.58 524.88 
+z
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+  </g>
+  <g id="text_140">
+   <text style="font-weight: 700; font-size: 18px; font-family: 'DejaVu Sans'; text-anchor: middle" x="522" y="36.357188" transform="rotate(-0 522 36.357188)">GSE267904 cell–cell communication network reconstruction</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pa690f42883">
+   <rect x="87.658361" y="71.28" width="209.803279" height="209.803279"/>
+  </clipPath>
+  <clipPath id="p8f81282ea4">
+   <rect x="411.878361" y="71.28" width="209.803279" height="209.803279"/>
+  </clipPath>
+  <clipPath id="pb09cfd3c00">
+   <rect x="736.098361" y="71.28" width="209.803279" height="209.803279"/>
+  </clipPath>
+  <clipPath id="p579958c6bf">
+   <rect x="87.658361" y="373.396721" width="209.803279" height="209.803279"/>
+  </clipPath>
+  <clipPath id="p962344e7f5">
+   <rect x="411.878361" y="373.396721" width="209.803279" height="209.803279"/>
+  </clipPath>
+  <clipPath id="pd3ef2526c8">
+   <rect x="736.098361" y="373.396721" width="209.803279" height="209.803279"/>
+  </clipPath>
+ </defs>
+</svg>

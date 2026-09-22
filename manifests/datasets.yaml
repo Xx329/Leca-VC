@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "datasets": {
+    "gse2565": {
+      "accession": "GSE2565",
+      "landing_page": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE2565",
+      "role": "bulk time-series benchmark",
+      "split": "first observed time points initialize the simulation; later time points are held out from generation",
+      "processed_inputs_artifact": "lecavc_processed_inputs_v1.tar.zst",
+      "expected_files_and_sha256": "TBD_ZENODO_DRAFT"
+    },
+    "gse120575": {
+      "accession": "GSE120575",
+      "landing_page": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE120575",
+      "role": "melanoma immunotherapy single-cell benchmark",
+      "split": "Pre samples initialize generation; response labels and Post profiles are evaluation-only",
+      "processed_inputs_artifact": "lecavc_processed_inputs_v1.tar.zst",
+      "expected_files_and_sha256": "TBD_ZENODO_DRAFT"
+    },
+    "gse267904": {
+      "accession": "GSE267904",
+      "landing_page": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE267904",
+      "role": "pulmonary-fibrosis spatial benchmark and fibrosis-application initialization/evaluation",
+      "split": "d7 calibration; d21 inaccessible until generation completes",
+      "processed_inputs_artifact": "lecavc_processed_inputs_v1.tar.zst",
+      "expected_files_and_sha256": "TBD_ZENODO_DRAFT"
+    },
+    "gse141259": {
+      "accession": "GSE141259",
+      "landing_page": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE141259",
+      "role": "early pulmonary injury/repair external calibration for the collaborator fibrosis application",
+      "split": "days 0, 3, 7, 10, and 14 only; later days prohibited during calibration",
+      "processed_inputs_artifact": "lecavc_processed_inputs_v1.tar.zst",
+      "expected_files_and_sha256": "TBD_ZENODO_DRAFT"
+    },
+    "gse264278": {
+      "accession": "GSE264278",
+      "landing_page": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE264278",
+      "role": "early pulmonary perturbation external calibration for the collaborator fibrosis application",
+      "split": "days 0, 3, 7, and 14 only",
+      "processed_inputs_artifact": "lecavc_processed_inputs_v1.tar.zst",
+      "expected_files_and_sha256": "TBD_ZENODO_DRAFT"
+    },
+    "s-bsst1409": {
+      "accession": "S-BSST1409",
+      "landing_page": "https://www.ebi.ac.uk/biostudies/studies/S-BSST1409",
+      "role": "official cell2location abundance inputs used by the collaborator fibrosis application",
+      "split": "input annotation resource",
+      "processed_inputs_artifact": "lecavc_processed_inputs_v1.tar.zst",
+      "expected_archive_sha256": "b890ae2031c09ca7ed6365a27141673445c874a6a16920fb07b6202ae5d1695b"
+    }
+  }
+}

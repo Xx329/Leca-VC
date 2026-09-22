@@ -1,0 +1,7 @@
+release=1.0.0-rc1
+python=3.10
+physicell=1.14.2
+commot=0.0.3
+deepseek_model=deepseek-chat
+figure_manifest_schema=1
+

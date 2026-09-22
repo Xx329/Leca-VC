@@ -1,0 +1,9 @@
+response,method,method_label,RMSE
+Responder,scGen,scGen,0.08095678727361252
+Responder,WOT_weighted,WOT*,0.05188107154399238
+Responder,CellRank_terminal_proxy,CellRank†,0.36426726029252615
+Responder,Our_Agent_PhysiCell_V2.1,Leca-VC,0.04333381961008499
+Non-responder,scGen,scGen,0.05461152548906923
+Non-responder,WOT_weighted,WOT*,0.01984077632105668
+Non-responder,CellRank_terminal_proxy,CellRank†,0.39585054818877374
+Non-responder,Our_Agent_PhysiCell_V2.1,Leca-VC,0.017268349820363724

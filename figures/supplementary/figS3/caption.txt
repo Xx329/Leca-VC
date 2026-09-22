@@ -1,0 +1,1 @@
+GSE267904 cell–cell communication network reconstruction. Six 9×9 heatmaps show median normalized CCI edge weights across ten frozen mappings. All methods use the frozen 58-pair COMMOT protocol. This worker-level comparison lacks passed Visium pseudo-spot confirmation; mappings are not biological replicates.

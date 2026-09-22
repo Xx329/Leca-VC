@@ -1,0 +1,9 @@
+response,method,method_label,n_virtual_source_samples,n_observed_post_biopsies,gene_count,expression_scale,lins_ccc,rmse_log1p_tpm
+Non-responder,AgentVC_proxy,AgentVC,3,18,834,log1p(sample-level pseudo-bulk TPM-like expression),0.95244107282408919,0.097671917604910896
+Non-responder,CellRank_terminal_proxy,CellRank†,3,18,834,log1p(sample-level pseudo-bulk TPM-like expression),0.29049236560644509,0.47893384537843608
+Non-responder,WOT_weighted,WOT*,3,18,834,log1p(sample-level pseudo-bulk TPM-like expression),0.98924075919468901,0.045069531693281997
+Non-responder,scGen,scGen,3,18,834,log1p(sample-level pseudo-bulk TPM-like expression),0.52425610560801117,0.41986794216930889
+Responder,AgentVC_proxy,AgentVC,3,5,834,log1p(sample-level pseudo-bulk TPM-like expression),0.88518563187116228,0.16357742918590801
+Responder,CellRank_terminal_proxy,CellRank†,3,5,834,log1p(sample-level pseudo-bulk TPM-like expression),0.38307411218676468,0.44974489461712192
+Responder,WOT_weighted,WOT*,3,5,834,log1p(sample-level pseudo-bulk TPM-like expression),0.87888834300088947,0.1657768251232192
+Responder,scGen,scGen,3,5,834,log1p(sample-level pseudo-bulk TPM-like expression),0.41714042028257481,0.52490964942185836

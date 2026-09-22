@@ -1,0 +1,13 @@
+dataset,response_class,count,n,proportion
+GSE2565,Correct,0,10,0.0
+GSE2565,Incorrect,0,10,0.0
+GSE2565,Unknown,10,10,1.0
+GSE120575,Correct,1,10,0.1
+GSE120575,Incorrect,6,10,0.6
+GSE120575,Unknown,3,10,0.3
+GSE267904,Correct,0,10,0.0
+GSE267904,Incorrect,0,10,0.0
+GSE267904,Unknown,10,10,1.0
+Pooled,Correct,1,30,0.03333333333333333
+Pooled,Incorrect,6,30,0.2
+Pooled,Unknown,23,30,0.7666666666666667

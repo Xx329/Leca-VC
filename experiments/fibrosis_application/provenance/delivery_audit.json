@@ -1,0 +1,70 @@
+{
+  "schema_version": 2,
+  "source_archive": {
+    "original_path": "scripts/GSE267904_Fibrosis_CaseStudy.zip",
+    "sha256": "c57ae54b1615158357bac856d0f3de3281ee88f6eb4bc08be0d59e3488ce7abc",
+    "compressed_bytes": 530447654,
+    "uncompressed_bytes": 531683308,
+    "entries": 75,
+    "distributed_in_git": false,
+    "path_traversal_check": "PASS",
+    "symlink_check": "PASS"
+  },
+  "supplemental_deliveries": [
+    {
+      "original_path": "scripts/补充文件.zip",
+      "sha256": "e90c2f08e7e4b535096ff40fae8b97ab78b4aa573be6cf11b14bb9e8d6b116c5",
+      "status": "VALID_ZIP",
+      "use": "Original Fig. S6 renderer output plus diagnostic logs"
+    },
+    {
+      "original_path": "scripts/outputs.zip",
+      "sha256": "9acfaae2bcac349edaec5cdfbf67abb1eb9925a6a60840335eefb3cb47f16daa",
+      "compressed_bytes": 783984640,
+      "status": "TRUNCATED_MISSING_END_OF_CENTRAL_DIRECTORY",
+      "use": "Allowlisted Figure 6/S6 files recovered with CRC validation; archive rejected as a complete artifact"
+    }
+  ],
+  "integration": {
+    "status": "CODE_AND_AUTHOR_CONFIRMED_MANUAL_PAPER_ASSEMBLY_INTEGRATED",
+    "experiment_executed_during_integration": false,
+    "figure_generated_during_integration": false,
+    "frozen_figure_repackaged_during_integration": true,
+    "portable_change": "Removed one hard-coded collaborator PhysiCell path; PHYSICELL_ROOT or project-relative fallback is now used.",
+    "scientific_parameters_changed": false
+  },
+  "included": {
+    "application_source": true,
+    "physicell_source_and_xml": true,
+    "portable_handoff_entrypoints": true,
+    "empty_local_path_template": true,
+    "policy_cache_metadata_rows": 1200,
+    "policy_cache_reported_model": "deepseek-v4-flash",
+    "original_source_hashes": "contributor_selected_source_sha256.txt",
+    "exact_figure6_raster": "source_data/fig6/figure6_frozen_reference.png",
+    "partial_figure6_tables_and_audits": "source_data/fig6/",
+    "original_figS6_renderer": "provenance/collaborator_renderers/plot_case_study.py",
+    "figure6_provenance": "source_data/fig6/provenance.json"
+  },
+  "excluded": {
+    "raw_GSE141259_and_GSE264278_data": "Public raw data are not stored in Git.",
+    "filled_local_path_configs": "Contained collaborator workstation paths.",
+    "bytecode_and_raw_logs": "Non-source/workstation-specific artifacts; log hashes and findings are recorded without redistributing local paths.",
+    "boxplot_helper_scripts": "Exploratory scripts contain failed run IDs and are not required for the author-confirmed manual six-panel assembly.",
+    "full_outputs_zip": "The archive is truncated and is not safe to advertise as a complete reference-results artifact.",
+    "raw_prompt_response_records": "Reserved for the separately scanned runtime-audit artifact; only hashes and derived Fig. S6 fields are in Git."
+  },
+  "remaining_for_clean_full_runtime_reproduction": [
+    "non-truncated reference-results archive",
+    "reconciled qualification and completion evidence without freeze bypass",
+    "reconciled model/provider provenance"
+  ],
+  "observed_source_issues": [
+    "qualification field-boost helper duplicated and called twice",
+    "field-boost message says 30x while implementation multiplies by 500",
+    "delivered API defaults point to dashscope/qwen despite DeepSeek variable names",
+    "formal logs state that freeze was skipped through a temporary bypass",
+    "several exploratory logs contain failed commands despite trailing completion text",
+    "the qualification audit records 0.09011247225692984 while marking an agent-versus-diffusion >=20% gate true"
+  ]
+}

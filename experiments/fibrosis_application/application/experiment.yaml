@@ -1,0 +1,219 @@
+experiment: GSE267904_fibrosis_application_v3
+progression_time_label: abstract PhysiCell progression time / virtual progression
+  step
+virtual_steps:
+- 0
+- 60
+- 120
+- 240
+policy_checkpoints:
+- 0
+- 60
+- 120
+agent_count_per_section: 50
+random_seeds:
+- 1701
+- 1702
+- 1703
+module_smoothing_alpha: 0.3
+mesh:
+  min: -2500
+  max: 2500
+  spacing: 80
+  tissue_radius_in_spot_spacings: 1.35
+  agent_kernel_sigma: 140.0
+  agent_kernel_radius: 420.0
+development_split:
+  d7_bleo_animals:
+  - d7_bleo_1
+  - d7_bleo_2
+  - d7_bleo_3
+  - d7_bleo_4
+  d7_ctrl_animals:
+  - d7_ctrl_1
+  - d7_ctrl_2
+qualification_split:
+  d7_bleo_animals:
+  - d7_bleo_5
+  - d7_bleo_6
+  d7_ctrl_animals:
+  - d7_ctrl_3
+cell2location:
+  accession: S-BSST1409
+  url: https://www.ebi.ac.uk/biostudies/files/S-BSST1409/cell2location_strunz2020.zip
+  archive_sha256: b890ae2031c09ca7ed6365a27141673445c874a6a16920fb07b6202ae5d1695b
+module_genes:
+  injury_signal:
+  - Krt8
+  - Krt18
+  - Krt19
+  - Krt17
+  - Cldn4
+  - Lgals3
+  - Clu
+  epithelial_homeostasis:
+  - Sftpc
+  - Sftpb
+  - Abca3
+  - Etv5
+  - Ager
+  - Hopx
+  - Pdpn
+  - Cav1
+  inflammatory_signal:
+  - Il1b
+  - Tnf
+  - Cxcl1
+  - Cxcl2
+  - Ccl3
+  - Nfkbia
+  - Ptgs2
+  TGFB_signal:
+  - Serpine1
+  - Smad7
+  - Tgfbi
+  - Ctgf
+  - Pmepa1
+  - Thbs1
+  ECM_fibrosis:
+  - Col1a1
+  - Col1a2
+  - Col3a1
+  - Postn
+  - Fn1
+  - Lox
+  - Timp1
+  macrophage_APOE_SPP1_signal:
+  - Spp1
+  - Apoe
+  - Gpnmb
+  - Trem2
+  - Lpl
+  - Fabp5
+  - Ctsb
+cell_types:
+  alveolar_epithelial_AT1_AT2:
+    minimum_agents: 3
+    cell2location:
+    - AT1 cells
+    - AT2 cells
+  activated_Krt8_ADI_epithelial:
+    minimum_agents: 3
+    cell2location:
+    - Krt8 ADI
+    - Activated AT2 cells
+  airway_epithelial:
+    minimum_agents: 1
+    cell2location:
+    - Ciliated cell subset
+    - Ciliated cells
+    - Club cells
+    - Goblet cells
+  macrophage:
+    minimum_agents: 3
+    cell2location:
+    - AM (Bleo)
+    - AM (PBS)
+    - Cd163+/Cd11c- IMs
+    - Cd163-/Cd11c+ IMs
+    - Fn1+ macrophages
+    - M2 macrophages
+    - Resolution macrophages
+  recruited_monocyte_macrophage:
+    minimum_agents: 3
+    cell2location:
+    - Recruited macrophages
+    - Non-classical monocytes (Ly6c2-)
+    - Neutrophils
+  fibroblast_myofibroblast:
+    minimum_agents: 3
+    cell2location:
+    - Fibroblasts
+    - Myofibroblasts
+  endothelial:
+    minimum_agents: 1
+    cell2location:
+    - CECs
+    - LECs
+    - VECs
+    - Vcam1+ VECs
+  dendritic:
+    minimum_agents: 1
+    cell2location:
+    - DCs
+    - Ccl17+ DCs
+    - Cd103+ DCs
+  lymphoid:
+    minimum_agents: 1
+    cell2location:
+    - B-lymphocytes
+    - NK cells
+    - Plasma cells
+    - T cell subset
+    - T-lymphocytes
+    - Themis+ T-lymphocytes
+  other:
+    minimum_agents: 1
+    cell2location:
+    - Activated mesothelial cells
+    - Mesothelial cells
+    - Mki67+ proliferating cells
+    - Mki67+/Top2a+ proliferating cells
+    - SMCs
+substrates:
+  injury_signal:
+    diffusion: 800.0
+    decay: 0.003
+  epithelial_homeostasis:
+    diffusion: 100.0
+    decay: 0.0005
+  inflammatory_signal:
+    diffusion: 2500.0
+    decay: 0.001
+  TGFB_signal:
+    diffusion: 1000.0
+    decay: 0.0004
+  ECM_fibrosis:
+    diffusion: 0.0
+    decay: 0.0001
+  macrophage_APOE_SPP1_signal:
+    diffusion: 600.0
+    decay: 0.001
+interventions:
+  doses:
+  - 0.25
+  - 0.5
+  - 0.75
+  names:
+  - TGFB_blockade
+  - macrophage_SPP1_APOE_suppression
+  - epithelial_repair_promotion
+  - fibroblast_ECM_suppression
+external_calibration:
+  GSE141259_days:
+  - 0
+  - 3
+  - 7
+  - 10
+  - 14
+  GSE264278_days:
+  - 0
+  - 3
+  - 7
+  - 14
+  forbidden_days:
+  - 21
+  - 28
+  - 42
+  - 54
+  - 60
+  - 63
+qualification_gates:
+  ctrl_max_pathological_increase: 0.1
+  ctrl_min_resolution_change: 0.0
+  injury_decline_min: 0.2
+  injury_decline_max: 0.7
+  ecm_retention_min: 0.9
+  cell_agent_vs_diffusion_min: 0.2
+  llm_vs_rule_min_relative_difference: 0.05
+  llm_vs_rule_min_descriptors: 3

@@ -1,0 +1,30 @@
+{
+  "GSE267904_d21_opened": false,
+  "checks": {
+    "d7_ctrl_stability": true,
+    "natural_not_pure_exponential_decay": true,
+    "cell_agent_vs_diffusion_difference_at_least_10_percent": true,
+    "positive_control_direction": true,
+    "dose_response_monotonic": true,
+    "sensitivity_runs_complete": true
+  },
+  "all_checks_passed": true,
+  "median_d7_ctrl_relative_burden_change": 0.08119631680167329,
+  "maximum_d7_ctrl_pathological_burden_increase": 0.0,
+  "minimum_d7_ctrl_resolution_change": 0.3557301478347626,
+  "d7_ctrl_stability_definition": "no >10% fibrotic-burden increase and no >0.10 resolution deterioration; healthy risk resolution is allowed",
+  "median_agent_vs_diffusion_relative_difference": 0.41445170937816805,
+  "median_nonexponential_midpoint_deviation": 0.027961622719458245,
+  "positive_controls": {
+    "TGFB_blockade": true,
+    "macrophage_SPP1_APOE_suppression": true,
+    "epithelial_repair_promotion": true,
+    "fibroblast_ECM_suppression": true
+  },
+  "dose_trends": {
+    "TGFB_blockade": true,
+    "macrophage_SPP1_APOE_suppression": true,
+    "epithelial_repair_promotion": true,
+    "fibroblast_ECM_suppression": true
+  }
+}

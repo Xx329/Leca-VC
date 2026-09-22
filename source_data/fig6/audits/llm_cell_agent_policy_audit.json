@@ -1,0 +1,144 @@
+{
+  "provider": {
+    "model": "qwen-plus",
+    "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+    "temperature": 0
+  },
+  "temperature": 0,
+  "heldout_d21_visible": false,
+  "intervention_visible_to_llm": false,
+  "samples": [
+    {
+      "sample_id": "GSM8281384_V10A20-072-A1",
+      "n_cell_agent_policies": 50,
+      "n_new_api_calls": 50,
+      "n_validated_cache_hits": 0,
+      "policy_sha256": "a8c6362884d3c595a62d18e62ff1bec34758237b744667256647df41e1a09782",
+      "prompt_set_sha256": "20eced47b276acf53aaf1067ae2291db18d1602929ab1678e2506a8ff03bff9e",
+      "first_person_cell_semantics": true,
+      "global_controller_semantics": false
+    },
+    {
+      "sample_id": "GSM8281385_V10A20-074-A1",
+      "n_cell_agent_policies": 50,
+      "n_new_api_calls": 50,
+      "n_validated_cache_hits": 0,
+      "policy_sha256": "c81dfed2a87f7f2a976ca2341aad08dcbc21da8d8eb17342769321c73afb0a0e",
+      "prompt_set_sha256": "c57f181b120394c033f6cfa08bae688b30ea7a4c47033e883e3450ea0e27749f",
+      "first_person_cell_semantics": true,
+      "global_controller_semantics": false
+    },
+    {
+      "sample_id": "GSM8281386_V10A20-073-A1",
+      "n_cell_agent_policies": 50,
+      "n_new_api_calls": 50,
+      "n_validated_cache_hits": 0,
+      "policy_sha256": "ee5b95c66969a79d269f459ffae21fe8866dc8c3791eaa3f09b97305955dc64c",
+      "prompt_set_sha256": "4a799cf960fe2c2eec61d7c4998d9f3e4fe7a0b3afde223866b8c2ac224b68ab",
+      "first_person_cell_semantics": true,
+      "global_controller_semantics": false
+    },
+    {
+      "sample_id": "GSM8281387_V10A20-072-B1",
+      "n_cell_agent_policies": 50,
+      "n_new_api_calls": 50,
+      "n_validated_cache_hits": 0,
+      "policy_sha256": "4d071bd2d124a4b98b57f6e1c6efb5a28355a822cfeb0349a98d0e7466138eb6",
+      "prompt_set_sha256": "1109ea6a8057d194de246eff0d0f6e05d72b83dc1738f0ea70f8dea9f5881982",
+      "first_person_cell_semantics": true,
+      "global_controller_semantics": false
+    },
+    {
+      "sample_id": "GSM8281388_V10A20-072-C1",
+      "n_cell_agent_policies": 50,
+      "n_new_api_calls": 50,
+      "n_validated_cache_hits": 0,
+      "policy_sha256": "a99abd53e384ac47a4a9e8f2e9a2dfe37b6b1d825b2d5e93472c9fda4f020dd3",
+      "prompt_set_sha256": "2ad0758155dcf3c679a28e98428f7cf3523ad978913f62003280083776cf81a3",
+      "first_person_cell_semantics": true,
+      "global_controller_semantics": false
+    },
+    {
+      "sample_id": "GSM8281389_V10A20-072-D1",
+      "n_cell_agent_policies": 50,
+      "n_new_api_calls": 50,
+      "n_validated_cache_hits": 0,
+      "policy_sha256": "0ee6a3561961d4d0c3cb270a0b54f2348e0bc5f5f0899d7e141103f30d3eab36",
+      "prompt_set_sha256": "b7bbc482dc0a5aa76b5fec8f3be5d99128c9d044f22b97968861e586cd2b357e",
+      "first_person_cell_semantics": true,
+      "global_controller_semantics": false
+    },
+    {
+      "sample_id": "GSM8281390_V10A20-074-B1",
+      "n_cell_agent_policies": 50,
+      "n_new_api_calls": 50,
+      "n_validated_cache_hits": 0,
+      "policy_sha256": "8206f60cad1850128008859a84fa8a2ecf76a29422b47c2bda6fbb3adbedf93f",
+      "prompt_set_sha256": "08340b2060f552a3547e903438d1028abb01217760166d10484a92525dc9b8be",
+      "first_person_cell_semantics": true,
+      "global_controller_semantics": false
+    },
+    {
+      "sample_id": "GSM8281391_V10A20-074-C1",
+      "n_cell_agent_policies": 50,
+      "n_new_api_calls": 50,
+      "n_validated_cache_hits": 0,
+      "policy_sha256": "ade7d8a3a4cf1adc2371888dae380a79da7d87d4a7df52f706495e2ea11ca276",
+      "prompt_set_sha256": "f7ffee54d85d685dc46b0b191b823b72601515cd5bb3a8bb5f9e4ec896725003",
+      "first_person_cell_semantics": true,
+      "global_controller_semantics": false
+    },
+    {
+      "sample_id": "GSM8281392_V10A20-074-D1",
+      "n_cell_agent_policies": 50,
+      "n_new_api_calls": 50,
+      "n_validated_cache_hits": 0,
+      "policy_sha256": "41b83da1d378d6007ee62e172ee7cf6103982608915b20ddd2f2ecf0d2482f05",
+      "prompt_set_sha256": "fed17a93d2e8100898f07eb4250ff558f39b0076b6eab68440d7063579363b4d",
+      "first_person_cell_semantics": true,
+      "global_controller_semantics": false
+    },
+    {
+      "sample_id": "GSM8281393_V10A20-073-B1",
+      "n_cell_agent_policies": 50,
+      "n_new_api_calls": 50,
+      "n_validated_cache_hits": 0,
+      "policy_sha256": "830fcabe82e2a6bafec07d7665d33ef312166bb35daff84886cec9ee8effa2ad",
+      "prompt_set_sha256": "1f825c1607446ba8bb42b6c5e2adcedf27b45d41a9a1cbdb6f2ff6ed86ab1362",
+      "first_person_cell_semantics": true,
+      "global_controller_semantics": false
+    },
+    {
+      "sample_id": "GSM8281394_V10A20-073-C1",
+      "n_cell_agent_policies": 50,
+      "n_new_api_calls": 50,
+      "n_validated_cache_hits": 0,
+      "policy_sha256": "01a9682e1a8cebefc2f0923628d13e7e75e24ff1c341f210eaf3be20c059c4fc",
+      "prompt_set_sha256": "a7a11a0ad0873d304da6d49ca8b75a80ece442df86fdcfe692561df69d5875c4",
+      "first_person_cell_semantics": true,
+      "global_controller_semantics": false
+    },
+    {
+      "sample_id": "GSM8281395_V10A20-073-D1",
+      "n_cell_agent_policies": 50,
+      "n_new_api_calls": 50,
+      "n_validated_cache_hits": 0,
+      "policy_sha256": "071529118d1a4268beb87418f9daf2e42741e2270d3714a8d1cfcdb0713edd1d",
+      "prompt_set_sha256": "a9fe99e160367b39e34237c58ccfcec5e5e8f826bc2ae90a333b77d408a25513",
+      "first_person_cell_semantics": true,
+      "global_controller_semantics": false
+    }
+  ],
+  "policy_fields": [
+    "injury_response",
+    "inflammatory_persistence",
+    "macrophage_activation",
+    "tgfb_response",
+    "ecm_deposition",
+    "homeostasis_repair",
+    "motility",
+    "survival",
+    "proliferation",
+    "memory_gain"
+  ]
+}

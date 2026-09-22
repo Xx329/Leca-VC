@@ -1,0 +1,33 @@
+source_method_id,panel,metric_key,metric_label,lower_is_better,method,raw_value
+chronODE-M,F1,dnb_peak_error,DNB peak error ↓,True,chronODE-M,12.0
+BOP-DMD,F1,dnb_peak_error,DNB peak error ↓,True,BOP-DMD,12.0
+GPR,F1,dnb_peak_error,DNB peak error ↓,True,GPR,4.0
+AgentVC Online Agent pilot,F1,dnb_peak_error,DNB peak error ↓,True,Leca-VC,0.0
+chronODE-M,F1,dnb_pearson,DNB Pearson ↑,False,chronODE-M,-0.251428830982782
+BOP-DMD,F1,dnb_pearson,DNB Pearson ↑,False,BOP-DMD,-0.5426430886045036
+GPR,F1,dnb_pearson,DNB Pearson ↑,False,GPR,0.7862891565806877
+AgentVC Online Agent pilot,F1,dnb_pearson,DNB Pearson ↑,False,Leca-VC,0.5235430284303768
+chronODE-M,F1,dnb_dtw,DNB DTW ↓,True,chronODE-M,3.2158031110179253
+BOP-DMD,F1,dnb_dtw,DNB DTW ↓,True,BOP-DMD,4.223976099076065
+GPR,F1,dnb_dtw,DNB DTW ↓,True,GPR,0.8952508018692753
+AgentVC Online Agent pilot,F1,dnb_dtw,DNB DTW ↓,True,Leca-VC,1.5151700719898844
+chronODE-M,F2,distribution_pearson,Distribution Pearson ↑,False,chronODE-M,-0.0674329550863745
+BOP-DMD,F2,distribution_pearson,Distribution Pearson ↑,False,BOP-DMD,-0.8047848015878489
+GPR,F2,distribution_pearson,Distribution Pearson ↑,False,GPR,0.6168763927302532
+AgentVC Online Agent pilot,F2,distribution_pearson,Distribution Pearson ↑,False,Leca-VC,0.8787383618070621
+chronODE-M,F2,progression_pearson,Progression Pearson ↑,False,chronODE-M,-0.1368877779732635
+BOP-DMD,F2,progression_pearson,Progression Pearson ↑,False,BOP-DMD,-0.8511305431603043
+GPR,F2,progression_pearson,Progression Pearson ↑,False,GPR,0.6702451047668669
+AgentVC Online Agent pilot,F2,progression_pearson,Progression Pearson ↑,False,Leca-VC,0.8363753503926851
+chronODE-M,F2,velocity_pearson,Velocity Pearson ↑,False,chronODE-M,0.4029904117839416
+BOP-DMD,F2,velocity_pearson,Velocity Pearson ↑,False,BOP-DMD,0.6538864492915744
+GPR,F2,velocity_pearson,Velocity Pearson ↑,False,GPR,0.6982294976762555
+AgentVC Online Agent pilot,F2,velocity_pearson,Velocity Pearson ↑,False,Leca-VC,0.8186993954933774
+chronODE-M,F3,mean_module_pearson,Mean module Pearson ↑,False,chronODE-M,0.3083334633588706
+BOP-DMD,F3,mean_module_pearson,Mean module Pearson ↑,False,BOP-DMD,-0.1756299426241048
+GPR,F3,mean_module_pearson,Mean module Pearson ↑,False,GPR,0.5121809848109409
+AgentVC Online Agent pilot,F3,mean_module_pearson,Mean module Pearson ↑,False,Leca-VC,0.4745337831028117
+chronODE-M,F3,gene_direction_agreement,Gene-direction agreement ↑,False,chronODE-M,0.6228249475890986
+BOP-DMD,F3,gene_direction_agreement,Gene-direction agreement ↑,False,BOP-DMD,0.8375
+GPR,F3,gene_direction_agreement,Gene-direction agreement ↑,False,GPR,0.6077044025157232
+AgentVC Online Agent pilot,F3,gene_direction_agreement,Gene-direction agreement ↑,False,Leca-VC,0.5035377358490566
