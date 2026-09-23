@@ -290,24 +290,28 @@
       "size_bytes": 13884
     },
     "figures/main/fig5/GSE267904_balanced_metrics_and_spatial_maps.pdf": {
-      "sha256": "92fa5709f37e24e072380740165331e6f1cc0db5ee65d029fa2f19a3379007ce",
-      "size_bytes": 5675749
+      "sha256": "4fd6530491db2d75f641b4ebd65f5f3aa8741514dde401dea04d511a8f2e8974",
+      "size_bytes": 3595959
+    },
+    "figures/main/fig5/GSE267904_balanced_metrics_and_spatial_maps.svg": {
+      "sha256": "deafe1c86b080c23d599986469e4ed087faa60a11407e90ad865dbeca826e64a",
+      "size_bytes": 5345676
     },
     "figures/main/fig5/GSE267904_balanced_metrics_and_spatial_maps_600dpi.png": {
-      "sha256": "3a8bed9e594e5bdafd8ae88ec74f26f85d6162c1b91045eb77c998fe4affee47",
-      "size_bytes": 6677568
+      "sha256": "fb5772688dd689cc3b8a39c31a1b93ea7863026ca6fe96592dcb38c62b38c114",
+      "size_bytes": 7754917
     },
     "figures/main/fig5/GSE267904_balanced_metrics_and_spatial_maps_preview.png": {
-      "sha256": "97d312f06339a5afeb2c1aadc9858cf7eee0f41a6340174af40bfafec8c8e596",
-      "size_bytes": 834900
+      "sha256": "2dcd48fa35ec4cd0b63caca87da7a5fef19c088e09c28f97a515aff742337700",
+      "size_bytes": 1000082
     },
     "figures/main/fig5/caption.txt": {
-      "sha256": "b1d7e185cad4926b9b5e796a2bd97b9fb2b272245ddc2445534cc94c40eb3a80",
-      "size_bytes": 367
+      "sha256": "0ea0e3c0775d51ea1824cbaa82a90e6d1cf3936a385cb4c5b4385bdce55e5955",
+      "size_bytes": 329
     },
     "figures/main/fig5/render.py": {
-      "sha256": "8639e5caba1d2d4b5e3974ed583e0ce4bc005b2149f7b6d45fda1aa2ff15dd8d",
-      "size_bytes": 6218
+      "sha256": "5248c41761faa2ac521d2bad9bd01709ff44d23ea21e49aa96657b9a45f46c74",
+      "size_bytes": 6781
     },
     "figures/main/fig6/GSE267904_fibrosis_application.pdf": {
       "sha256": "e20fb76bd292480acd3735733b2dfba2f992eae840fa4f720183b6cfc223e48f",
@@ -566,8 +570,8 @@
       "size_bytes": 1262
     },
     "manifests/paper_figures.yaml": {
-      "sha256": "75c5583e38d71390f3b6e563e9aaf046d93ed9fc0359b277d49879ea80629c68",
-      "size_bytes": 10115
+      "sha256": "164aa0b9950e126ce13afbe2b805286955a317d839883e88b8d8962592bd506c",
+      "size_bytes": 10382
     },
     "manifests/release_status.json": {
       "sha256": "6ed7a3e8c158109dadbca0a5116fd8e0f5afffb50382549a2c60c300f676c2f6",

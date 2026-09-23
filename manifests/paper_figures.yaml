@@ -48,13 +48,13 @@
     },
     "fig5": {
       "title": "Spatial module-expression recovery across agent granularities",
-      "panels": ["A-F state-recovery metrics", "six module/stage spatial rows across Real and K=20/50/100"],
+      "panels": ["A-F state-recovery metrics", "four TGF-beta-response and fibrosis/ECM stage rows across Real and K=20/50/100"],
       "type": "analysis-and-assembly",
       "status": "READY",
       "renderer": "figures/main/fig5/render.py",
       "inputs": ["source_data/fig5/module_heterogeneity_metrics.csv", "source_data/fig5/cci_heterogeneity_metrics_primary.csv", "source_data/fig5/GSE267904_module_expression_K20_K50_K100_old_style_panel_normalized.png"],
-      "reference_outputs": ["figures/main/fig5/GSE267904_balanced_metrics_and_spatial_maps.pdf", "figures/main/fig5/GSE267904_balanced_metrics_and_spatial_maps_preview.png"],
-      "note": "The spatial source is a frozen panel-normalized raster; scientific metrics and labels remain vector-rendered."
+      "reference_outputs": ["figures/main/fig5/GSE267904_balanced_metrics_and_spatial_maps.pdf", "figures/main/fig5/GSE267904_balanced_metrics_and_spatial_maps.svg", "figures/main/fig5/GSE267904_balanced_metrics_and_spatial_maps_preview.png", "figures/main/fig5/GSE267904_balanced_metrics_and_spatial_maps_600dpi.png"],
+      "note": "The spatial source is a frozen panel-normalized raster; the display selects the TGF-beta-response and fibrosis/ECM rows and omits the two inflammation rows. Scientific metrics and labels remain vector-rendered."
     },
     "fig6": {
       "title": "Pulmonary-fibrosis application and in silico intervention",

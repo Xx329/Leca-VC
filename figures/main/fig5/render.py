@@ -1,4 +1,4 @@
-"""Equal-width scientific figure using frozen metrics and original map pixels."""
+"""Balanced scientific figure using frozen metrics and original map pixels."""
 from pathlib import Path
 import hashlib
 import json
@@ -32,11 +32,15 @@ def main():
     plt.rcParams.update({'font.family':'DejaVu Sans','font.size':11,'axes.labelsize':10,
                          'pdf.fonttype':42,'svg.fonttype':'none'})
     fig = plt.figure(figsize=(22, 11))
-    # Both blocks occupy exactly 46% of the canvas width and the same height.
+    # Preserve the frozen six-metric block at left and give the spatial block
+    # sufficient width for legible maps and row labels.
     left = fig.add_gridspec(2, 3, left=.035, right=.495, bottom=.09, top=.79,
                            wspace=.38, hspace=.48)
-    right = fig.add_gridspec(6, 4, left=.600, right=.985, bottom=.09, top=.79,
-                            wspace=.06, hspace=.18)
+    # The paper display focuses on the two mechanistically central modules.
+    # The frozen six-row source raster remains unchanged; only its TGF-beta
+    # response and fibrosis/ECM rows are selected for this four-row layout.
+    right = fig.add_gridspec(4, 4, left=.585, right=.990, bottom=.075, top=.820,
+                            wspace=.08, hspace=.14)
     specs = [
         (module,'energy_distance_squared','Module-state distribution distance','Squared energy distance'),
         (module,'observed_state_mass_coverage','Module-state coverage','Observed state mass covered'),
@@ -70,11 +74,12 @@ def main():
         if i==5: ax.axhline(1,color='#7c8390',ls=':',lw=1)
         if i==0: handles,labels=ax.get_legend_handles_labels()
     fig.legend(handles,labels,loc='center',bbox_to_anchor=(.265,.875),ncol=2,frameon=False,fontsize=12)
+    selected_row_indices = (0, 1, 4, 5)
+    selected_rows = [rows[index] for index in selected_row_indices]
     row_names=['TGF-β response\nd7 (early)','TGF-β response\nd21 (late)',
-               'Inflammation\nd7 (early)','Inflammation\nd21 (late)',
                'Fibrosis / ECM\nd7 (early)','Fibrosis / ECM\nd21 (late)']
     boxes=[]
-    for r,(y0,y1) in enumerate(rows):
+    for r,(y0,y1) in enumerate(selected_rows):
         for c,(x0,x1) in enumerate(columns):
             ax=fig.add_subplot(right[r,c])
             # Square extraction includes black background at map edges.
@@ -87,19 +92,23 @@ def main():
             if r==0: ax.set_title(['Real','K=20','K=50','K=100'][c],fontsize=13,weight='bold',pad=10)
             if c==0:
                 pos=ax.get_position()
-                fig.text(.585,(pos.y0+pos.y1)/2,row_names[r],fontsize=11,
+                fig.text(.570,(pos.y0+pos.y1)/2,row_names[r],fontsize=12,
                          ha='right',va='center',weight='bold')
             boxes.append([int(v) for v in box])
     fig.text(.265,.965,'GSE267904 State-Recovery Benchmark\nacross Leca-VC Agent Granularities',ha='center',va='top',fontsize=16,weight='bold')
-    fig.text(.755,.965,'GSE267904 Module-Expression Recovery\nacross Agent Granularities',ha='center',va='top',fontsize=16,weight='bold')
+    fig.text(.787,.965,'GSE267904 Module-Expression Recovery\nacross Agent Granularities',ha='center',va='top',fontsize=16,weight='bold')
     stem=OUT/'GSE267904_balanced_metrics_and_spatial_maps'
     fig.savefig(str(stem)+'_preview.png',dpi=140)
     fig.savefig(str(stem)+'_600dpi.png',dpi=600)
     fig.savefig(str(stem)+'.pdf',metadata={'CreationDate':None})
     fig.savefig(str(stem)+'.svg',metadata={'Date':None})
     plt.close(fig)
-    audit={'status':'PASS','equal_panel_width':.46,'scientific_metrics_recomputed':False,
+    audit={'status':'PASS','left_metric_block_width_fraction':.460,
+           'right_spatial_block_width_fraction':.405,
+           'right_spatial_row_count':4,'scientific_metrics_recomputed':False,
            'spatial_source':str(SOURCE),'spatial_source_sha256':hashlib.sha256(SOURCE.read_bytes()).hexdigest(),
+           'displayed_source_row_indices':list(selected_row_indices),
+           'excluded_display_module':'Inflammation',
            'map_crop_boxes':boxes,'pdf':'vector text and curves with raster spatial maps',
            'svg':str(stem)+'.svg','source_outputs_modified':False}
     (OUT/'COMPLETE.json').write_text(json.dumps(audit,indent=2))
