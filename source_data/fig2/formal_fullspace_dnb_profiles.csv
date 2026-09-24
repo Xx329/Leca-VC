@@ -1,0 +1,13 @@
+source_method_id,method,time_hours,raw_composite_index,normalized_DNB,dnb_scope,gene_count
+Real,Observed,4.0,0.21523875588398819,0.0,formal_full_space,11171
+Real,Observed,8.0,0.37614175141590722,1.0,formal_full_space,11171
+Real,Observed,12.0,0.36715426849166172,0.94414347045227864,formal_full_space,11171
+Real,Observed,24.0,0.23424164204191791,0.11810150640831317,formal_full_space,11171
+Real,Observed,48.0,0.23990178512358781,0.15327886940866248,formal_full_space,11171
+Real,Observed,72.0,0.27549424312638959,0.37448331551073116,formal_full_space,11171
+AgentVC Online Agent pilot,Leca-VC,4.0,0.00043021356528399998,0.65004543083562072,formal_full_space,11171
+AgentVC Online Agent pilot,Leca-VC,8.0,0.00065392411851609999,1.0,formal_full_space,11171
+AgentVC Online Agent pilot,Leca-VC,12.0,0.00027072007439709998,0.40054680378632229,formal_full_space,11171
+AgentVC Online Agent pilot,Leca-VC,24.0,0.00003971319485480348,0.039178455998283755,formal_full_space,11171
+AgentVC Online Agent pilot,Leca-VC,48.0,0.00006572066308849979,0.079862421100889897,formal_full_space,11171
+AgentVC Online Agent pilot,Leca-VC,72.0,0.00001466813232830548,0.0,formal_full_space,11171

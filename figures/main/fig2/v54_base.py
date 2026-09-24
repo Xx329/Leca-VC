@@ -169,15 +169,21 @@ def draw_line_panel(
     for method in DISPLAY_ORDER:
         part = trajectories.loc[trajectories.method.eq(method)].sort_values("time_hours")
         finite = np.isfinite(part[value_column].to_numpy(float))
+        line_style = "-"
+        if value_column == "normalized_DNB" and method not in {"Real", "AgentVC Online Agent pilot"}:
+            line_style = "--"
         ax.plot(
             part.time_hours.to_numpy(float)[finite],
             part[value_column].to_numpy(float)[finite],
             color=COLORS[method],
             lw=2.15 if method == "Real" else 1.9,
-            marker="o",
+            marker="s" if value_column == "normalized_DNB" and method == "AgentVC Online Agent pilot" else "o",
+            markerfacecolor="none" if value_column == "normalized_DNB" and method == "AgentVC Online Agent pilot" else COLORS[method],
+            markeredgecolor=COLORS[method],
             ms=4.1,
-            markeredgewidth=0,
+            markeredgewidth=1.15 if value_column == "normalized_DNB" and method == "AgentVC Online Agent pilot" else 0,
             alpha=0.96,
+            ls=line_style,
             zorder=3,
         )
     ax.axvspan(0, 4, color="#D8DCE0", alpha=0.20, zorder=0)
@@ -186,6 +192,20 @@ def draw_line_panel(
     ax.set_xlabel("Time (h)", fontsize=8.6)
     ax.set_xticks([0, 4, 8, 12, 24, 48, 72])
     ax.set_ylim(-0.065, 1.08)
+    if value_column == "normalized_DNB":
+        ax.axvline(8, color="#5F6368", lw=0.9, ls=":", zorder=1)
+        ax.text(
+            0.98,
+            0.96,
+            "Observed + Leca-VC formal peak: 8 h\n"
+            "solid: 11,171 genes; dashed: 1,601-gene sensitivity",
+            transform=ax.transAxes,
+            ha="right",
+            va="top",
+            fontsize=6.3,
+            color="#4E5357",
+            bbox={"facecolor": "white", "edgecolor": "none", "alpha": 0.82, "pad": 1.5},
+        )
     style_axis(ax)
 
 

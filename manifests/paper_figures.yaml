@@ -24,8 +24,8 @@
       "type": "analysis",
       "status": "READY",
       "renderer": "figures/main/fig2/render.py",
-      "inputs": ["source_data/fig2/panels_A_to_D_time_resolved_profiles.csv", "source_data/fig2/panels_E_to_G_raw_metrics.csv", "source_data/fig2/leca_vc_formal_fullspace_dnb_metrics.json"],
-      "reference_outputs": ["figures/main/fig2/GSE2565_bulk_time_resolved_transcriptomic_response_benchmark_deidentified_v1_vector.pdf", "figures/main/fig2/GSE2565_bulk_time_resolved_transcriptomic_response_benchmark_deidentified_v1_vector.svg"]
+      "inputs": ["source_data/fig2/panels_A_to_D_time_resolved_profiles.csv", "source_data/fig2/formal_fullspace_dnb_profiles.csv", "source_data/fig2/panels_E_to_G_raw_metrics.csv", "source_data/fig2/leca_vc_formal_fullspace_dnb_metrics.json"],
+      "reference_outputs": ["figures/main/fig2/GSE2565_bulk_time_resolved_transcriptomic_response_benchmark_deidentified_v1_vector.pdf", "figures/main/fig2/GSE2565_bulk_time_resolved_transcriptomic_response_benchmark_deidentified_v1_vector.svg", "figures/main/fig2/GSE2565_bulk_time_resolved_transcriptomic_response_benchmark_deidentified_v1_preview.png", "figures/main/fig2/GSE2565_bulk_time_resolved_transcriptomic_response_benchmark_deidentified_v1_600dpi.png"]
     },
     "fig3": {
       "title": "Communication and expression reconstruction benchmarks",

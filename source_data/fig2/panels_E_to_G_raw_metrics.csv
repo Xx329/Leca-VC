@@ -1,8 +1,8 @@
 source_method_id,panel,metric_key,metric_label,lower_is_better,method,raw_value
-chronODE-M,F1,dnb_peak_error,DNB peak error ↓,True,chronODE-M,12.0
-BOP-DMD,F1,dnb_peak_error,DNB peak error ↓,True,BOP-DMD,12.0
-GPR,F1,dnb_peak_error,DNB peak error ↓,True,GPR,4.0
-AgentVC Online Agent pilot,F1,dnb_peak_error,DNB peak error ↓,True,Leca-VC,0.0
+chronODE-M,F1,dnb_peak_error,DNB peak error vs formal 8 h target ↓,True,chronODE-M,8.0
+BOP-DMD,F1,dnb_peak_error,DNB peak error vs formal 8 h target ↓,True,BOP-DMD,8.0
+GPR,F1,dnb_peak_error,DNB peak error vs formal 8 h target ↓,True,GPR,0.0
+AgentVC Online Agent pilot,F1,dnb_peak_error,DNB peak error vs formal 8 h target ↓,True,Leca-VC,0.0
 chronODE-M,F1,dnb_pearson,DNB Pearson ↑,False,chronODE-M,-0.251428830982782
 BOP-DMD,F1,dnb_pearson,DNB Pearson ↑,False,BOP-DMD,-0.5426430886045036
 GPR,F1,dnb_pearson,DNB Pearson ↑,False,GPR,0.7862891565806877
