@@ -38,13 +38,13 @@ SHOW_MAIN_TITLE = False
 PREDICTED_CALIBRATION_LINESTYLE = "--"
 SHOW_SECTION_DIVIDER = False
 CCI_SECTION_TITLE = "GSE267904 · Cell–cell communication reconstruction accuracy and stability"
-PRIMARY_TITLE = "A. CCI reconstruction accuracy"
-SECONDARY_TITLE = "B. Network and biological signaling reconstruction stability"
+PRIMARY_TITLE = "M. CCI reconstruction accuracy"
+SECONDARY_TITLE = "N. Network and biological signaling reconstruction stability"
 SECONDARY_XLABELS = {
     "GNRS_secondary": "Global Network Reconstruction Score ↑",
     "LBSS_secondary": "Local Biological Signaling Score ↑",
 }
-SCATTER_SECTION_TITLE = "GSE120575 · Observed vs reconstructed post-treatment gene expression"
+SCATTER_SECTION_TITLE = "GSE120575 · Post-treatment gene-expression reconstruction"
 SUMMARY_SECTION_TITLE = "GSE120575 · Expression correlation, error, and calibration"
 INTERVAL_TITLE_TEMPLATE = "{letter}. {response} {metric} (95% CI)"
 INTERVAL_TITLE_METRIC_LABELS = {"Pearson": "Pearson correlation", "RMSE": "RMSE"}
@@ -128,8 +128,12 @@ LOWER_PANEL = 2.84
 LOWER_ROW_GAP = 0.66
 LOWER_NORMAL_GAP = 0.325
 LOWER_GROUP_GAP = 0.40
-TOP_BOTTOM = 7.80
-TOP_HEIGHT = 1.88
+EXPRESSION_ROW_BOTTOMS = (6.81, 3.31)
+EXPRESSION_SECTION_TITLE_Y = 10.21
+EXPRESSION_LEGEND_Y = 9.97
+CCI_BOTTOM = 0.52
+CCI_HEIGHT = 1.88
+CCI_SECTION_TITLE_Y = 2.92
 
 
 def load_base():
@@ -455,39 +459,13 @@ def main() -> None:
             fontsize=17.5,
             fontweight="bold",
         )
-    figure_text(
-        fig,
-        FIG_W / 2,
-        10.22,
-        CCI_SECTION_TITLE,
-        ha="center",
-        va="center",
-        fontsize=11.2,
-        fontweight="bold",
-    )
-
-    primary_ax = axes_inches(fig, LEFT, TOP_BOTTOM, 11.20, TOP_HEIGHT)
-    secondary_ax = axes_inches(fig, 12.42, TOP_BOTTOM, 7.00, TOP_HEIGHT)
-    draw_primary(primary_ax, tables["cci_primary"])
-    secondary_children = draw_secondary(secondary_ax, tables["cci_secondary"])
-
-    if SHOW_SECTION_DIVIDER:
-        fig.add_artist(
-            Line2D(
-                [LEFT / FIG_W, RIGHT / FIG_W],
-                [7.61 / FIG_H, 7.61 / FIG_H],
-                transform=fig.transFigure,
-                color="#D9DDE0",
-                lw=0.8,
-            )
-        )
     positions = x_positions()
     scatter_center = (positions[0] + positions[2] + LOWER_PANEL) / 2
     summary_center = (positions[3] + positions[5] + LOWER_PANEL) / 2
     figure_text(
         fig,
         scatter_center,
-        7.42,
+        EXPRESSION_SECTION_TITLE_Y,
         SCATTER_SECTION_TITLE,
         ha="center",
         va="center",
@@ -497,7 +475,7 @@ def main() -> None:
     figure_text(
         fig,
         summary_center,
-        7.42,
+        EXPRESSION_SECTION_TITLE_Y,
         SUMMARY_SECTION_TITLE,
         ha="center",
         va="center",
@@ -505,10 +483,10 @@ def main() -> None:
         fontweight="bold",
     )
 
-    row_bottoms = [LOWER_BOTTOM + LOWER_PANEL + LOWER_ROW_GAP, LOWER_BOTTOM]
+    row_bottoms = list(EXPRESSION_ROW_BOTTOMS)
     lower, upper = base.expression_ranges(tables["expression_gene_values"])
     layout_rows: list[dict[str, Any]] = []
-    panel_letters = iter("CDEFGHIJKLMN")
+    panel_letters = iter("ABCDEFGHIJKL")
     for row, response in enumerate(RESPONSES):
         for column, method in enumerate(EXP_METHODS):
             ax = axes_inches(fig, positions[column], row_bottoms[row], LOWER_PANEL, LOWER_PANEL)
@@ -571,13 +549,28 @@ def main() -> None:
     fig.legend(
         handles=legend_handles,
         loc="center",
-        bbox_to_anchor=(summary_center / FIG_W, 7.18 / FIG_H),
+        bbox_to_anchor=(summary_center / FIG_W, EXPRESSION_LEGEND_Y / FIG_H),
         ncol=4,
         frameon=False,
         fontsize=6.3,
         handlelength=1.6,
         columnspacing=1.1,
     )
+
+    figure_text(
+        fig,
+        FIG_W / 2,
+        CCI_SECTION_TITLE_Y,
+        CCI_SECTION_TITLE,
+        ha="center",
+        va="center",
+        fontsize=11.2,
+        fontweight="bold",
+    )
+    primary_ax = axes_inches(fig, LEFT, CCI_BOTTOM, 11.20, CCI_HEIGHT)
+    secondary_ax = axes_inches(fig, 12.42, CCI_BOTTOM, 7.00, CCI_HEIGHT)
+    draw_primary(primary_ax, tables["cci_primary"])
+    draw_secondary(secondary_ax, tables["cci_secondary"])
 
     layout = []
     for entry in layout_rows:
@@ -597,6 +590,27 @@ def main() -> None:
     height_spread = float(layout_df.height_inches.max() - layout_df.height_inches.min())
     if width_spread > 1e-12 or height_spread > 1e-12:
         raise RuntimeError("Lower panel size equality contract failed")
+
+    panel_mapping = pd.DataFrame(
+        [
+            ("C", "A", "Responder — scGen"),
+            ("D", "B", "Responder — CellRank"),
+            ("E", "C", "Responder — Leca-VC"),
+            ("F", "D", "Responder Pearson correlation (95% CI)"),
+            ("G", "E", "Responder RMSE (95% CI)"),
+            ("H", "F", "Responder expression calibration"),
+            ("I", "G", "Non-responder — scGen"),
+            ("J", "H", "Non-responder — CellRank"),
+            ("K", "I", "Non-responder — Leca-VC"),
+            ("L", "J", "Non-responder Pearson correlation (95% CI)"),
+            ("M", "K", "Non-responder RMSE (95% CI)"),
+            ("N", "L", "Non-responder expression calibration"),
+            ("A", "M", "CCI reconstruction accuracy"),
+            ("B", "N", "Network and biological signaling reconstruction stability"),
+        ],
+        columns=["old_panel", "new_panel", "content"],
+    )
+    panel_mapping.to_csv(OUT / "old_panel_to_new_panel.csv", index=False)
 
     preview = OUT / f"{FILE_PREFIX}_preview.png"
     png = OUT / f"{FILE_PREFIX}_600dpi.png"
@@ -619,20 +633,10 @@ def main() -> None:
         raise RuntimeError(f"Required canvas text missing: {missing}")
 
     layout_df.to_csv(OUT / "panel_layout_audit.csv", index=False)
-    caption = (
-        "GSE267904 CCI and GSE120575 post-treatment expression benchmarks. "
-        "Panel A reports six raw CCI reconstruction metrics, separated by metric "
-        "direction; Panel B reports medians and interquartile ranges for the "
-        "secondary GNRS and LBSS scores. Panels C–N show gene-wise agreement, "
-        "frozen Pearson and RMSE point estimates with sample/biopsy bootstrap 95% "
-        "confidence intervals, and decile calibration. WOT is intentionally excluded "
-        "from this visualization because it uses endpoint information. No metric was "
-        "recalculated and no overall score is defined. The CCI inputs remain the "
-        "Gate-failed V5 diagnostic result; this visualization does not change that "
-        "scientific status. Bootstrap intervals are stability summaries and do not "
-        "create additional biological replicates."
+    (OUT / "caption.txt").write_text(
+        (Path(__file__).resolve().parent / "caption.txt").read_text(encoding="utf-8"),
+        encoding="utf-8",
     )
-    (OUT / "caption.txt").write_text(caption + "\n", encoding="utf-8")
     (OUT / "README.md").write_text(
         f"""# Leca-VC multibenchmark compact no-WOT figure V4
 
@@ -650,9 +654,10 @@ No model, COMMOT task, bootstrap or scientific metric was rerun.
 
 - PASS: WOT, AgentVC and Leca-AC are absent from the canvas.
 - PASS: the display name is Leca-VC throughout.
-- PASS: Panel C local-MAE heatmap and colorbar are absent.
-- PASS: Top-10 Jaccard is absent from Panel A.
-- PASS: Panel A contains a visible divider between four higher-is-better and two lower-is-better metrics.
+- PASS: the former CCI local-MAE heatmap and colorbar are absent.
+- PASS: Top-10 Jaccard is absent from Panel M.
+- PASS: Panel M contains a visible divider between four higher-is-better and two lower-is-better metrics.
+- PASS: expression panels precede CCI panels in Results order (A–L, then M–N).
 - PASS: interval panels use points plus bootstrap 95% CI and contain no violin, box or jitter layer.
 - PASS: all 12 lower axes have identical physical width and height.
 - PASS: titles, labels, intervals, legend and axes are not clipped or obscured.
@@ -666,6 +671,7 @@ No model, COMMOT task, bootstrap or scientific metric was rerun.
         pdf,
         svg,
         OUT / "panel_layout_audit.csv",
+        OUT / "old_panel_to_new_panel.csv",
         OUT / "caption.txt",
         OUT / "README.md",
         OUT / "visual_audit.md",

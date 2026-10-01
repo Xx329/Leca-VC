@@ -8,6 +8,7 @@ from lecavc.llm_client import MissingAPIKeyError, require_api_key
 from lecavc.prompt_firewall import PromptFirewallError, enforce_messages
 from lecavc.schemas import NumericField, ProgramSchema, SchemaValidationError, validate_program
 from workflows.run_benchmark import preflight
+from workflows.reproduce_tables import table1, table2
 
 ROOT=Path(__file__).resolve().parents[1]
 
@@ -30,8 +31,43 @@ class ReleaseTests(unittest.TestCase):
             with self.assertRaises(MissingAPIKeyError): require_api_key()
 
     def test_probe_frozen_result(self):
-        calls=pd.read_csv(ROOT/"source_data/figS7/deidentified_exact_runtime_call_results.csv")
+        calls=pd.read_csv(ROOT/"source_data/figS8/deidentified_exact_runtime_call_results.csv")
         self.assertEqual((len(calls),int(calls.heldout_answer_correct.sum()),int(calls.abstained_unknown.sum())),(30,1,23))
+
+    def test_final_supplement_numbering_points_to_correct_data(self):
+        figures=json.loads((ROOT/"manifests/paper_figures.yaml").read_text())["figures"]
+        for number,filename in {
+            1:"GSE2565_functional_program_heatmaps_source_data.csv",
+            2:"rmse_summary.csv", 3:"bar_mean_rmse.csv",
+            4:"GSE267904_CCI_network_heatmaps_source_data.csv",
+            7:"all_K100_communication_writebacks.csv",
+            8:"deidentified_exact_runtime_call_results.csv",
+        }.items():
+            record=figures[f"figS{number}"]
+            self.assertIn(f"source_data/figS{number}/{filename}",record["inputs"])
+            self.assertTrue((ROOT/f"source_data/figS{number}/{filename}").is_file())
+
+    def test_final_paper_fig2_values_and_actual_scopes(self):
+        profiles=pd.read_csv(ROOT/"source_data/fig2/panels_A_to_D_time_resolved_profiles.csv")
+        metrics=pd.read_csv(ROOT/"source_data/fig2/panels_E_to_G_raw_metrics.csv")
+        leca="AgentVC Online Agent pilot"
+        peaks={name:float(part.loc[part.normalized_DNB.idxmax(),"time_hours"])
+               for name,part in profiles.dropna(subset=["normalized_DNB"]).groupby("source_method_id")}
+        self.assertEqual(peaks,{"Real":12.,leca:8.,"GPR":8.,"BOP-DMD":0.,"chronODE-M":0.})
+        values=metrics[metrics.source_method_id.eq(leca)].set_index("metric_key").raw_value
+        formal=json.loads((ROOT/"source_data/fig2/leca_vc_formal_fullspace_dnb_metrics.json").read_text())
+        self.assertEqual(values.dnb_peak_error,4.)
+        self.assertEqual(formal["dnb_peak_error"],0.)
+        for key in ("dnb_pearson","dnb_dtw"):
+            self.assertAlmostEqual(values[key],formal[key],places=12)
+        scopes=json.loads((ROOT/"source_data/fig2/dnb_metric_scopes.json").read_text())
+        self.assertIn("11171",scopes["panel_E"]["leca_vc_pearson_dtw_scope"])
+
+    def test_final_supplement_tables_recompute_from_frozen_inputs(self):
+        first,first_audit=table1(); second,second_audit=table2()
+        self.assertEqual((len(first),len(second)),(9,8))
+        self.assertLess(first_audit["maximum_recomputation_error"],1e-12)
+        self.assertLess(second_audit["maximum_recomputation_error"],1e-12)
 
     def test_no_large_or_compiled_files(self):
         bad=[]

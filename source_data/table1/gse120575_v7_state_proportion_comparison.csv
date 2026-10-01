@@ -1,0 +1,3 @@
+scenario_name,comparison,state_proportion_rmse,state_proportion_mae,state_proportion_pearson
+virtual_responder_like,real_post_Responder_vs_virtual,0.04457103149483386,0.03330758774958052,0.8757780611038577
+virtual_non_responder_like,real_post_Non-responder_vs_virtual,0.028640404359339247,0.023113097314542773,0.9463981402048075

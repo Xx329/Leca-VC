@@ -1,22 +1,19 @@
 {
-  "date": "2026-09-22",
-  "status": "PASS_PRIVATE_GITHUB_RC_WITH_DISCLOSED_RUNTIME_PROVENANCE_LIMITATION",
+  "date": "2026-10-02",
+  "status": "FINAL_PDF_OFFLINE_RENDER_AND_TABLE_CHECKS_PASS",
   "checks": {
-    "canonical_pdf_mapping": "PASS: final main v6 and final Supplement S1-S8 recorded by SHA256",
-    "ready_figure_renderers": "PASS: fig2-fig6 and figS1-figS8",
-    "reference_pixel_comparison": "PASS: all quick-tier figures pixel-identical to their frozen release references; fig6 is exact raster preservation and figS6 is runtime-record validated",
-    "two_pass_determinism": "PASS: independent Figure 6 renders produced identical PNG, PDF, SVG, and audit hashes; the existing ready-figure preview checks remain deterministic",
-    "figure5_completeness": "PASS: final six metric panels and six-by-four spatial block included",
-    "contamination_probe_offline": "PASS: 30 calls; 1 correct, 6 incorrect, 23 unknown; final numbering figS7",
-    "supported_code_dependency_contract": "PASS",
-    "unit_tests": "PASS: 12 tests",
-    "secret_path_large_file_scan": "PASS after artifact-hash refresh"
+    "canonical_pdf_mapping": "final main v7 and final Supplement S1-S8 recorded by SHA256",
+    "ready_figure_renderers": "Figures 2-6 and S1-S8 regenerated from release source inputs; Figure 6 is author-approved manual assembly",
+    "reference_pixel_comparison": "all 13 figures verified after final Figure 2 reference refresh",
+    "supplementary_tables": "Table 1 and Table 2 independently reconstructed; maximum numerical errors 2.22e-16 and 1.11e-16",
+    "unit_tests": "15 tests passing",
+    "contamination_probe_offline": "30 responses; 1 correct, 6 incorrect, 23 unknown; S8 numbering",
+    "repository_scan": "secret, private-path, forbidden-binary and oversized-file scan passes after hash refresh"
   },
   "not_executed": [
-    "full DeepSeek reruns",
-    "full PhysiCell simulation runs",
-    "COMMOT runtime",
-    "paused collaborator fibrosis-application V3 qualification/formal rerun",
-    "remote GitHub or Zenodo operations"
-  ]
+    "full DeepSeek, PhysiCell simulation and COMMOT experiment reruns",
+    "paused fibrosis application V3",
+    "Zenodo upload"
+  ],
+  "known_manuscript_scope_issue": "Figure 2 has mixed DNB metric spaces; see source_data/fig2/dnb_metric_scopes.json"
 }

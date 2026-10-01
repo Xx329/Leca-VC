@@ -10,15 +10,15 @@
         "figures/main/fig4/render.py",
         "figures/main/fig5/render.py",
         "figures/main/fig6/render.py",
-        "figures/supplementary/figS1/render.py",
         "figures/supplementary/figS2/render.py",
         "figures/supplementary/figS3/render.py",
         "figures/supplementary/figS4/render.py",
+        "figures/supplementary/figS1/render.py",
         "figures/supplementary/heatmap_base.py",
         "figures/supplementary/figS5/render.py",
         "figures/supplementary/figS6/render.py",
-        "figures/supplementary/figS7/render.py",
         "figures/supplementary/figS8/render.py",
+        "figures/supplementary/figS7/render.py",
         "source_data/figS6/provenance.json",
         "source_data/fig6/provenance.json"
       ]
@@ -27,6 +27,8 @@
       "entrypoint": "experiments/gse2565/run_pipeline.py",
       "required_paths": [
         "experiments/gse2565/render_paper_figure.py",
+        "figures/main/fig2/base_plot.py",
+        "figures/main/fig2/v54_base.py",
         "scripts/gse2565_bulk_macro_benchmark_v1/physicell_engine.py",
         "scripts/gse2565_bulk_macro_benchmark_v4_online_agent/online_controller.py",
         "scripts/gse2565_bulk_macro_benchmark_v4_online_agent/runtime_bridge.py",
@@ -78,7 +80,7 @@
         "scripts/leca_vc_prompt_isolation_v1/prompt_firewall.py",
         "scripts/leca_vc_prompt_isolation_v1/run_exact_runtime_probe_v2.py",
         "scripts/leca_vc_prompt_isolation_v1/render_exact_runtime_probe_paper_figure.py",
-        "figures/supplementary/figS7/render.py"
+        "figures/supplementary/figS8/render.py"
       ]
     },
     "supplementary_analysis_lineage": {
@@ -91,6 +93,21 @@
         "scripts/gse267904_spatial_agent_granularity/plot_k100_pathway_commot_smoothed.py",
         "figures/supplementary/figS5/prepare_source.py",
         "source_data/figS6/provenance.json"
+      ]
+    },
+    "supplementary_tables": {
+      "entrypoint": "workflows/reproduce_tables.py",
+      "release_state": "offline verification of frozen final-PDF tables; original evaluation code retained for provenance",
+      "required_paths": [
+        "manifests/paper_tables.json",
+        "source_data/table1/gse120575_v7_full_gene_pseudobulk_real_virtual.csv",
+        "source_data/table2/harmonized_6336_old_scale_expression.npz",
+        "scripts/gse120575_v7_cell_like_agent/common.py",
+        "scripts/gse120575_v7_cell_like_agent/evaluate_and_plot.py",
+        "scripts/gse120575_v7_cell_like_agent/generate_full_gene_pseudobulk_comparison.py",
+        "scripts/gse230538_multimethod_expression_benchmark_v2_old_scale/run_v2.py",
+        "scripts/gse230538_multimethod_expression_benchmark_v1/common.py",
+        "scripts/gse230538_multimethod_expression_benchmark_v1/figures.py"
       ]
     },
     "fibrosis_application": {

@@ -245,16 +245,10 @@ def main() -> int:
     page_size = render_vector_composite(compact_pdf, vector_pdf)
     png_size, preview_size = render_raster_composite(compact_png, png_600, preview)
 
-    caption = (
-        "GSE120575 expression accuracy and within-cell-type heterogeneity recovery. (A–F) UMAP embeddings "
-        "of the observed Post reference and cell-expanded expression proxies, with response-stratified CCC "
-        "and RMSE summaries. (G) Median gene-wise log2 ratio of predicted to observed Post within-biopsy "
-        "standard deviation. (H,I) Across-stratum median absolute dispersion error and normalized energy "
-        "distance; small points denote response-by-cell-type strata and diamonds with whiskers denote "
-        "bootstrap medians and 95% biological-unit cluster-bootstrap confidence intervals. The right block "
-        "is a layout-only re-rendering of the frozen de-identified heterogeneity tables."
+    (figure_dir / "caption.txt").write_text(
+        (Path(__file__).resolve().parent / "caption.txt").read_text(encoding="utf-8"),
+        encoding="utf-8",
     )
-    (figure_dir / "caption.txt").write_text(caption + "\n")
     source_hashes = {str(UMAP_PDF.relative_to(ROOT)): sha256(UMAP_PDF), str(UMAP_PNG.relative_to(ROOT)): sha256(UMAP_PNG)}
     source_hashes.update({str(path.relative_to(ROOT)): sha256(path) for path in table_paths.values()})
     audit = {

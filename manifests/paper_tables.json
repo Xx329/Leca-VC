@@ -1,0 +1,31 @@
+{
+  "canonical_supplement": "Leca_VC_supplemental_overleaf_v1 (1).pdf",
+  "renderer": "workflows/reproduce_tables.py",
+  "tables": {
+    "table1": {
+      "page": 11,
+      "title": "Summary of Leca-VC validation metrics for the GSE120575 external immunotherapy benchmark",
+      "experiment": "GSE120575_v7_cell_like_agent_external_benchmark",
+      "status": "FROZEN_HISTORICAL_V7_RESULTS_NOT_DEIDENTIFIED_834_GENE_RERUN",
+      "original_evaluation_code": ["scripts/gse120575_v7_cell_like_agent/evaluate_and_plot.py", "scripts/gse120575_v7_cell_like_agent/generate_full_gene_pseudobulk_comparison.py", "scripts/gse120575_v7_cell_like_agent/common.py"],
+      "inputs": ["source_data/table1/gse120575_v7_real_vs_virtual_metrics.csv", "source_data/table1/gse120575_v7_state_proportion_comparison.csv", "source_data/table1/gse120575_v7_signature_gene_recovery.csv", "source_data/table1/gse120575_v7_full_gene_pseudobulk_correlation.csv", "source_data/table1/gse120575_v7_full_gene_pseudobulk_real_virtual.csv"],
+      "displayed_values": ["True","0.0366","0.9753","0.0446","0.9931","0.9696","0.0286","0.9957","0.9810"],
+      "independent_checks": "response-score sign, average state/signature metrics, both full-gene correlations from frozen expression vectors"
+    },
+    "table2": {
+      "page": 12,
+      "title": "GSE230538 held-out expression reconstruction under distinct information regimes",
+      "experiment": "GSE230538_multimethod_expression_benchmark_v2_old_scale_v7_frozen",
+      "original_evaluation_code": "scripts/gse230538_multimethod_expression_benchmark_v2_old_scale/run_v2.py",
+      "inputs": ["source_data/table2/expression_metrics.csv", "source_data/table2/harmonized_6336_old_scale_expression.npz"],
+      "gene_count": 6336,
+      "days": [4,33],
+      "method_order": ["scGen","CellRank","Leca-VC","WOT"],
+      "independent_checks": "all 24 displayed Pearson/CCC/RMSE values from frozen harmonized expression arrays",
+      "information_regimes": {"scGen":"external LOCO; Day0-dispersion-adjusted pseudo-bulk proxy", "CellRank":"untreated-only terminal-expression proxy", "Leca-VC":"frozen V7 state-mixture forward reconstruction", "WOT":"target-derived reference"},
+      "source_method_alias": {"AgentVC":"Leca-VC"},
+      "scope_note": "This 6336-gene expression panel differs from the 7576-gene marker-panel composition proxy in final Fig. S3."
+    }
+  },
+  "hash_manifest": "manifests/artifact_sha256.json"
+}

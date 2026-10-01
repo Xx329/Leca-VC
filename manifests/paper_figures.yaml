@@ -1,13 +1,13 @@
 {
   "schema_version": 2,
   "canonical_manuscript": {
-    "name": "Short_Article_Title (6).pdf",
-    "sha256": "6d55ff7bec051ad130e38118b9ec49778454f101381250921f75a7b389ffe893",
+    "name": "Short_Article_Title (7).pdf",
+    "sha256": "c967257f22e6b7ee38748321810b976de57cf7e259fbadcf1ccda582707a927e",
     "repository_policy": "The manuscript PDF is not distributed; its recorded SHA256 is the visual authority."
   },
   "canonical_supplement": {
-    "name": "Leca_VC_supplemental_overleaf_v1.pdf",
-    "sha256": "843c7124162d4b21cc603c6583e4d0deddd386c8f8c43972404469520ddd46fb",
+    "name": "Leca_VC_supplemental_overleaf_v1 (1).pdf",
+    "sha256": "3f344c72d51f8d6e677becf78dd49d6d24c9da55ab015040f5503c15680918a1",
     "figure_range": "S1-S8",
     "repository_policy": "The Supplement PDF is not distributed; its recorded SHA256 is the visual and numbering authority."
   },
@@ -24,18 +24,20 @@
       "type": "analysis",
       "status": "READY",
       "renderer": "figures/main/fig2/render.py",
-      "inputs": ["source_data/fig2/panels_A_to_D_time_resolved_profiles.csv", "source_data/fig2/formal_fullspace_dnb_profiles.csv", "source_data/fig2/panels_E_to_G_raw_metrics.csv", "source_data/fig2/leca_vc_formal_fullspace_dnb_metrics.json"],
+      "inputs": ["source_data/fig2/panels_A_to_D_time_resolved_profiles.csv", "source_data/fig2/panels_E_to_G_raw_metrics.csv", "source_data/fig2/leca_vc_formal_fullspace_dnb_metrics.json", "source_data/fig2/dnb_metric_scopes.json"],
+      "note": "Final-PDF values are preserved. Panel A and peak-time errors use common 1601-gene curves, while Leca-VC Pearson/DTW retain formal 11171-gene metrics. See dnb_metric_scopes.json; the manuscript's formal/common wording is inconsistent with these actual inputs.",
       "reference_outputs": ["figures/main/fig2/GSE2565_bulk_time_resolved_transcriptomic_response_benchmark_deidentified_v1_vector.pdf", "figures/main/fig2/GSE2565_bulk_time_resolved_transcriptomic_response_benchmark_deidentified_v1_vector.svg", "figures/main/fig2/GSE2565_bulk_time_resolved_transcriptomic_response_benchmark_deidentified_v1_preview.png", "figures/main/fig2/GSE2565_bulk_time_resolved_transcriptomic_response_benchmark_deidentified_v1_600dpi.png"]
     },
     "fig3": {
-      "title": "Communication and expression reconstruction benchmarks",
-      "panels": ["A-B GSE267904 CCI", "C-N GSE120575 expression"],
+      "title": "Post-treatment expression and spatial communication benchmarks",
+      "panels": ["A-L GSE120575 expression", "M-N GSE267904 CCI"],
       "type": "analysis",
       "status": "READY",
       "renderer": "figures/main/fig3/render.py",
       "inputs": ["source_data/fig3/cci_primary.csv", "source_data/fig3/cci_secondary.csv", "source_data/fig3/expression_gene_values.csv", "source_data/fig3/expression_metrics.csv", "source_data/fig3/expression_bootstrap_summary.csv", "source_data/fig3/expression_deciles.csv"],
-      "reference_outputs": ["figures/main/fig3/Leca_VC_multibenchmark_compact_no_WOT_v4_4_vector.pdf", "figures/main/fig3/Leca_VC_multibenchmark_compact_no_WOT_v4_4_vector.svg"],
-      "experiment": "The CCI panels retain the exact frozen version shown in the canonical manuscript."
+      "reference_outputs": ["figures/main/fig3/Leca_VC_multibenchmark_compact_no_WOT_v4_4_vector.pdf", "figures/main/fig3/Leca_VC_multibenchmark_compact_no_WOT_v4_4_vector.svg", "figures/main/fig3/Leca_VC_multibenchmark_compact_no_WOT_v4_4_preview.png", "figures/main/fig3/Leca_VC_multibenchmark_compact_no_WOT_v4_4_600dpi.png"],
+      "experiment": "The CCI panels retain the frozen Gate-failed V5 diagnostic version shown in the manuscript, not the newer de-identified rerun.",
+      "panel_mapping": {"C":"A","D":"B","E":"C","F":"D","G":"E","H":"F","I":"G","J":"H","K":"I","L":"J","M":"K","N":"L","A":"M","B":"N"}
     },
     "fig4": {
       "title": "Topological organization and within-cell-type expression heterogeneity recovery across immune populations",
@@ -69,39 +71,39 @@
       "code": ["experiments/fibrosis_application/application", "physicell/fibrosis_application"],
       "provenance": "source_data/fig6/provenance.json"
     },
-    "figS1": {
+    "figS2": {
       "title": "GSE120575 cell-type composition benchmark",
       "type": "analysis",
       "status": "READY",
-      "renderer": "figures/supplementary/figS1/render.py",
-      "inputs": ["source_data/figS1/plotting_source.csv", "source_data/figS1/rmse_summary.csv"],
-      "reference_outputs": ["figures/supplementary/figS1/GSE120575_celltype_composition_with_CellRank_proxy_vector.pdf"]
+      "renderer": "figures/supplementary/figS2/render.py",
+      "inputs": ["source_data/figS2/plotting_source.csv", "source_data/figS2/rmse_summary.csv"],
+      "reference_outputs": ["figures/supplementary/figS2/GSE120575_celltype_composition_with_CellRank_proxy_vector.pdf"]
     },
-    "figS2": {
+    "figS3": {
       "title": "GSE230538 held-out cell-state composition benchmark",
       "type": "analysis",
       "status": "READY",
-      "renderer": "figures/supplementary/figS2/render.py",
-      "inputs": ["source_data/figS2/plotting_source.csv", "source_data/figS2/bar_mean_rmse.csv"],
-      "reference_outputs": ["figures/supplementary/figS2/GSE230538_cell_state_composition_multimethod_proxy_vector.pdf"]
+      "renderer": "figures/supplementary/figS3/render.py",
+      "inputs": ["source_data/figS3/plotting_source.csv", "source_data/figS3/bar_mean_rmse.csv"],
+      "reference_outputs": ["figures/supplementary/figS3/GSE230538_cell_state_composition_multimethod_proxy_vector.pdf"]
     },
-    "figS3": {
+    "figS4": {
       "title": "GSE267904 cell-cell communication network reconstruction",
       "type": "visualization-only",
       "status": "READY",
-      "renderer": "figures/supplementary/figS3/render.py",
-      "inputs": ["source_data/figS3/GSE267904_CCI_network_heatmaps_source_data.csv"],
-      "reference_outputs": ["figures/supplementary/figS3/GSE267904_CCI_network_heatmaps_Leca_AC_vector.pdf"],
-      "note": "The display label Leca-AC is retained exactly as printed in the canonical Supplement."
+      "renderer": "figures/supplementary/figS4/render.py",
+      "inputs": ["source_data/figS4/GSE267904_CCI_network_heatmaps_source_data.csv"],
+      "reference_outputs": ["figures/supplementary/figS4/GSE267904_CCI_network_heatmaps_Leca_VC_vector.pdf"],
+      "note": "The display label is standardized to Leca-VC; scientific values are unchanged."
     },
-    "figS4": {
+    "figS1": {
       "title": "GSE2565 functional-program response profiles",
       "type": "visualization-only",
       "status": "READY",
-      "renderer": "figures/supplementary/figS4/render.py",
-      "inputs": ["source_data/figS4/GSE2565_functional_program_heatmaps_source_data.csv"],
-      "reference_outputs": ["figures/supplementary/figS4/GSE2565_functional_program_heatmaps_Leca_AC_vector.pdf"],
-      "note": "The display label Leca-AC is retained exactly as printed in the canonical Supplement."
+      "renderer": "figures/supplementary/figS1/render.py",
+      "inputs": ["source_data/figS1/GSE2565_functional_program_heatmaps_source_data.csv"],
+      "reference_outputs": ["figures/supplementary/figS1/GSE2565_functional_program_heatmaps_Leca_VC_vector.pdf"],
+      "note": "The display label is standardized to Leca-VC; scientific values are unchanged."
     },
     "figS5": {
       "title": "GSE267904 K=100 pathway-specific spatial COMMOT hotspots",
@@ -121,21 +123,21 @@
       "reference_outputs": ["figures/supplementary/figS6/representative_myofibroblast_agent_step60_vector.pdf"],
       "note": "The collaborator-delivered original renderer, PNG/PDF, and CRC-validated step-60 prompt/response record establish the displayed values; full raw records remain assigned to the runtime-audit artifact rather than Git."
     },
-    "figS7": {
+    "figS8": {
       "title": "Exact-Runtime Prompt Contamination Probe",
       "type": "analysis",
       "status": "READY",
-      "renderer": "figures/supplementary/figS7/render.py",
-      "inputs": ["source_data/figS7/deidentified_exact_runtime_call_results.csv", "source_data/figS7/response_composition.csv", "source_data/figS7/heldout_outcome_accuracy_with_wilson_ci.csv"],
-      "reference_outputs": ["figures/supplementary/figS7/LecaVC_exact_runtime_prompt_contamination_probe_vector.pdf"]
+      "renderer": "figures/supplementary/figS8/render.py",
+      "inputs": ["source_data/figS8/deidentified_exact_runtime_call_results.csv", "source_data/figS8/response_composition.csv", "source_data/figS8/heldout_outcome_accuracy_with_wilson_ci.csv"],
+      "reference_outputs": ["figures/supplementary/figS8/LecaVC_exact_runtime_prompt_contamination_probe_vector.pdf"]
     },
-    "figS8": {
+    "figS7": {
       "title": "Traceable Cellular Program Changes and PhysiCell Execution in GSE267904",
       "type": "analysis",
       "status": "READY",
-      "renderer": "figures/supplementary/figS8/render.py",
-      "inputs": ["source_data/figS8/selected_agent_traces.csv", "source_data/figS8/all_K100_communication_writebacks.csv", "source_data/figS8/all_matched_agent_programs_K20_K50_K100.csv", "source_data/figS8/all_observed_program_changes_K20_K50_K100.csv", "source_data/figS8/program_change_summary.csv"],
-      "reference_outputs": ["figures/supplementary/figS8/GSE267904_traceable_cellular_program_changes_clean.pdf", "figures/supplementary/figS8/GSE267904_traceable_cellular_program_changes_clean.svg"]
+      "renderer": "figures/supplementary/figS7/render.py",
+      "inputs": ["source_data/figS7/selected_agent_traces.csv", "source_data/figS7/all_K100_communication_writebacks.csv", "source_data/figS7/all_matched_agent_programs_K20_K50_K100.csv", "source_data/figS7/all_observed_program_changes_K20_K50_K100.csv", "source_data/figS7/program_change_summary.csv"],
+      "reference_outputs": ["figures/supplementary/figS7/GSE267904_traceable_cellular_program_changes_clean.pdf", "figures/supplementary/figS7/GSE267904_traceable_cellular_program_changes_clean.svg"]
     }
   }
 }

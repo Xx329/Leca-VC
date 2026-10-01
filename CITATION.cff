@@ -2,12 +2,10 @@ cff-version: 1.2.0
 message: "If you use Leca-VC, please cite the software and associated paper."
 title: "Leca-VC"
 type: software
-version: 1.0.0-rc1
-date-released: 2026-09-17
+version: 1.0.0-rc2
+date-released: 2026-10-02
 license: BSD-3-Clause
-repository-code: "TBD_PRIVATE_REPOSITORY"
-doi: "TBD_ZENODO_DOI"
+repository-code: "https://github.com/Xx329/Leca-VC"
 authors:
   - family-names: "Authors"
     given-names: "Leca-VC"
-

@@ -1,0 +1,15 @@
+old_panel,new_panel,content
+C,A,Responder — scGen
+D,B,Responder — CellRank
+E,C,Responder — Leca-VC
+F,D,Responder Pearson correlation (95% CI)
+G,E,Responder RMSE (95% CI)
+H,F,Responder expression calibration
+I,G,Non-responder — scGen
+J,H,Non-responder — CellRank
+K,I,Non-responder — Leca-VC
+L,J,Non-responder Pearson correlation (95% CI)
+M,K,Non-responder RMSE (95% CI)
+N,L,Non-responder expression calibration
+A,M,CCI reconstruction accuracy
+B,N,Network and biological signaling reconstruction stability

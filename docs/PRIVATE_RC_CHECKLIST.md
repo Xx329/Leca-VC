@@ -1,5 +1,9 @@
 # Private release-candidate checklist
 
+Historical 2026-09-22 checklist; this is not the current public release status.
+See `FINAL_PAPER_SYNC.md` and `../manifests/release_status.json` for the
+author-designated final PDFs and current offline reproduction status.
+
 - [x] Isolated release directory; historical project untouched.
 - [x] Canonical manuscript SHA256 recorded.
 - [x] Figures 2–6 and S1–S8 reproduce from frozen release inputs; Figure 6 is an author-confirmed manual assembly asset.

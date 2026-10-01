@@ -1,0 +1,27 @@
+{
+  "policy": "Preserve every value and caption displayed in final manuscript v7. Record actual metric provenance separately; do not relabel full-space metrics as common-space metrics.",
+  "panel_A": {
+    "source": "source_data/fig2/panels_A_to_D_time_resolved_profiles.csv",
+    "gene_count": 1601,
+    "observed_peak_hours": 12,
+    "leca_vc_peak_hours": 8,
+    "method_curves": "solid; normalized within method",
+    "estimable_times": {"Observed": [0,0.5,1,4,8,12,24,48,72], "Leca-VC": [4,8,12,24,48,72]}
+  },
+  "panel_E": {
+    "source": "source_data/fig2/panels_E_to_G_raw_metrics.csv",
+    "peak_error_scope": "common 1601-gene curves relative to observed 12 h",
+    "peak_error_hours": {"chronODE-M":12,"BOP-DMD":12,"GPR":4,"Leca-VC":4},
+    "baseline_pearson_dtw_scope": "common 1601-gene DNB curves",
+    "leca_vc_pearson_dtw_scope": "formal 11171-gene curves on jointly estimable 4-72 h times",
+    "leca_vc_pearson": 0.5235430284303768,
+    "leca_vc_dtw": 1.5151700719898844,
+    "leca_vc_profile_metric_source": "source_data/fig2/leca_vc_formal_fullspace_dnb_metrics.json"
+  },
+  "panels_B_D_F_G_gene_count": 7632,
+  "known_manuscript_inconsistencies": [
+    "The Results call the displayed 4 h peak error a formal 11171-gene result. Formal Observed and Leca-VC peaks both occur at 8 h, so their formal peak error is 0 h.",
+    "Panel E is not a same-space profile comparison: Leca-VC Pearson/DTW use the formal space, whereas baseline profile metrics use the common space.",
+    "The caption describes a dashed reference at the observed 12 h peak, but the retained plotting template places vertical reference lines at 4 h and 8 h. The figure appearance and caption are retained to match the author-designated final PDF."
+  ]
+}

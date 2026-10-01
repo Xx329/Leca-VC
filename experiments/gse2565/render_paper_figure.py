@@ -10,7 +10,7 @@ from scipy.stats import pearsonr
 ROOT = Path(__file__).resolve().parents[2]
 V52 = Path(os.environ["GSE2565_V52_OUT"]).resolve()
 OUT = Path(os.environ["GSE2565_PAPER_FIGURE_OUT"]).resolve()
-BASE_SCRIPT = ROOT / "scripts/gse2565_bulk_transcriptomic_response_benchmark_v5_4_4_no_rvagene/plot_v5_4_4.py"
+BASE_SCRIPT = ROOT / "figures/main/fig2/base_plot.py"
 METHOD = "AgentVC Online Agent pilot"
 
 def minmax(values: np.ndarray) -> np.ndarray:
@@ -67,7 +67,20 @@ def main() -> None:
     if profiles.shape != (45, 8) or metrics.shape[0] != 32:
         raise RuntimeError(f"unexpected paper source shapes: {profiles.shape}, {metrics.shape}")
     formal = formal_dnb_metrics()
-    for key in ("dnb_peak_error", "dnb_pearson", "dnb_dtw"):
+    # The final manuscript keeps common-space timing and formal-space
+    # Leca-VC profile agreement. Record those scopes rather than conflating them.
+    real_common = profiles.loc[profiles.method.eq("Real")].dropna(subset=["normalized_DNB"])
+    observed_peak = float(real_common.loc[real_common.normalized_DNB.idxmax(), "time_hours"])
+    for method in profiles.method.unique():
+        if method == "Real":
+            continue
+        curve = profiles.loc[profiles.method.eq(method)].dropna(subset=["normalized_DNB"])
+        peak = float(curve.loc[curve.normalized_DNB.idxmax(), "time_hours"])
+        mask = metrics.method.eq(method) & metrics.metric_key.eq("dnb_peak_error")
+        if int(mask.sum()) != 1:
+            raise RuntimeError(f"Missing common-space peak-error row for {method}")
+        metrics.loc[mask, "raw_value"] = abs(peak - observed_peak)
+    for key in ("dnb_pearson", "dnb_dtw"):
         mask = metrics.method.eq(METHOD) & metrics.metric_key.eq(key)
         if int(mask.sum()) != 1:
             raise RuntimeError(f"missing unique Leca-VC metric row: {key}")
@@ -80,7 +93,7 @@ def main() -> None:
     base.OVERALL_SUBTITLE = ""
     base.DISPLAY_NAMES[METHOD] = "Leca-VC"
     base.PANEL_SPECS = [
-        ("A", "DNB dynamics and peak timing", "normalized_DNB"),
+        ("A", "DNB peak timing", "normalized_DNB"),
         ("B", "Expression distribution shift over time", "normalized_distribution_shift"),
         ("C", "Transcriptomic deviation from baseline over time", "normalized_progression"),
         ("D", "Transcriptomic change rate over time", "normalized_velocity"),
@@ -100,13 +113,15 @@ def main() -> None:
     )
     paths = base.render(profiles, metrics)
     (OUT / "caption.txt").write_text(
-        "GSE2565 bulk time-resolved transcriptomic response benchmark after the locked de-identified Leca-VC rerun. Observed, chronODE-M, BOP-DMD and GPR are frozen references; only Leca-VC and its direct derivatives were rebuilt.\n",
+        (ROOT / "figures/main/fig2/caption.txt").read_text(encoding="utf-8"),
         encoding="utf-8",
     )
     manifest = {
         "status": base.STATUS, "template": "current A-G layout", "external_baselines_reused": True,
         "source_hashes": {str(profiles_path): sha256(profiles_path), str(metrics_path): sha256(metrics_path)},
         "formal_fullspace_dnb": formal,
+        "displayed_peak_error_scope": "common 1601-gene curves relative to common-space Observed peak",
+        "leca_vc_profile_metric_scope": "formal 11171-gene curves",
         "outputs": {key: {"path": str(path), "sha256": sha256(path)} for key, path in paths.items()},
     }
     (OUT / "figure_manifest.json").write_text(json.dumps(manifest, indent=2) + "\n")

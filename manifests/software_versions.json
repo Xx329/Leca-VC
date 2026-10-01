@@ -1,10 +1,11 @@
 {
-  "release": "1.0.0-rc1",
+  "release": "1.0.0-rc2",
   "python": "3.10",
   "llm_provider": "DeepSeek",
   "llm_model": "deepseek-chat",
   "physicell": "1.14.2",
   "biofvm": "bundled with PhysiCell 1.14.2",
   "commot": "0.0.3",
-  "notes": "Declared release versions are recorded in environment/versions.lock; environment YAML files define the reproducible package constraints."
+  "figure_packages": {"numpy": "1.26.4", "pandas": "2.3.2", "scipy": "1.15.3", "matplotlib": "3.10.8", "Pillow": "12.2.0", "PyYAML": "6.0.3"},
+  "notes": "Figure package versions match the final reference renderer environment and CI. Third-party simulation versions are declared, not evidence of a full experiment rerun."
 }

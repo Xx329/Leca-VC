@@ -15,7 +15,7 @@ ROOT = Path(__file__).resolve().parents[1]
 
 
 def offline() -> int:
-    source = ROOT / "source_data/figS7/deidentified_exact_runtime_call_results.csv"
+    source = ROOT / "source_data/figS8/deidentified_exact_runtime_call_results.csv"
     calls = pd.read_csv(source)
     if len(calls) != 30:
         raise RuntimeError(f"Expected 30 probe calls, found {len(calls)}")
@@ -32,7 +32,7 @@ def offline() -> int:
     mplconfig = ROOT / "build/matplotlib"
     mplconfig.mkdir(parents=True, exist_ok=True)
     subprocess.run(
-        [sys.executable, str(ROOT / "figures/supplementary/figS7/render.py")],
+        [sys.executable, str(ROOT / "workflows/reproduce_figures.py"), "--figure", "figS8"],
         cwd=ROOT, check=True, env={**os.environ, "MPLCONFIGDIR": str(mplconfig)},
     )
     print(json.dumps(result, indent=2))
@@ -47,7 +47,7 @@ def online() -> int:
         raise RuntimeError("Exact production audit contexts are absent. Install the verified runtime-audit artifact first; held-out answers must remain outside model messages.")
     runner = ROOT / "scripts/leca_vc_prompt_isolation_v1/run_exact_runtime_probe_v2.py"
     if not runner.is_file():
-        raise RuntimeError("Exact online probe runner has not yet been synchronized into the private RC")
+        raise RuntimeError("Exact online probe runner is absent from this checkout")
     return subprocess.run([sys.executable, str(runner)], cwd=ROOT).returncode
 
 

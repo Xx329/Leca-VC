@@ -31,6 +31,16 @@ def run_one(figure: str, record: dict) -> dict:
         [sys.executable, str(renderer)], cwd=ROOT, text=True, capture_output=True,
         env={**os.environ, "MPLCONFIGDIR": str(mplconfig)},
     )
+    if completed.returncode == 0:
+        # Captions are transcribed from the final PDFs, independently of the
+        # earlier plotting templates retained for scientific provenance.
+        caption = renderer.parent / "caption.txt"
+        if caption.is_file():
+            target = ROOT / "build/figures" / figure
+            target.mkdir(parents=True, exist_ok=True)
+            text = caption.read_text(encoding="utf-8")
+            for destination in {target / "caption.txt", *target.rglob("caption.txt")}:
+                destination.write_text(text, encoding="utf-8")
     return {"figure": figure, "status": "PASS" if completed.returncode == 0 else "FAILED", "returncode": completed.returncode, "stdout": completed.stdout[-2000:], "stderr": completed.stderr[-4000:]}
 
 
@@ -42,7 +52,8 @@ def main() -> int:
     parser.add_argument("--allow-source-gaps", action="store_true", help="Return success after rendering all READY figures while reporting gaps.")
     args = parser.parse_args()
     figures = load_manifest()["figures"]
-    selected = list(figures) if args.all else [args.figure]
+    selected = ([f"fig{i}" for i in range(1, 7)] +
+                [f"figS{i}" for i in range(1, 9)]) if args.all else [args.figure]
     unknown = [name for name in selected if name not in figures]
     if unknown:
         parser.error(f"Unknown figure(s): {unknown}")

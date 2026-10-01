@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
-"""Render GSE2565 V5.4.4 after excluding RVAgene.
+"""Historical V5.4 canvas implementation reused by the final-paper renderer.
 
-This is a visualization-only derivative of the frozen V5.3 source tables.
-No model, expression profile, DNB result, or evaluation metric is recomputed.
+The supported release entrypoint is ``figures/main/fig2/render.py``. Its
+validated frozen inputs and display overrides supersede this template's old
+direct-run data paths and historical report text.
 """
 
 from __future__ import annotations
@@ -353,6 +354,7 @@ def render(profiles: pd.DataFrame, metrics: pd.DataFrame) -> dict[str, Path]:
             color=COLORS[method],
             marker="o",
             lw=2.0,
+            ls="-",
             ms=4.4,
             label=DISPLAY_NAMES[method],
         )
@@ -550,4 +552,4 @@ def main() -> None:
 
 
 if __name__ == "__main__":
-    main()
+    raise SystemExit("Use python workflows/reproduce_figures.py --figure fig2")

@@ -1,30 +1,34 @@
 {
+  "audit_date": "2026-10-02",
   "main_pdf": {
-    "name": "Short_Article_Title (6).pdf",
-    "sha256": "6d55ff7bec051ad130e38118b9ec49778454f101381250921f75a7b389ffe893",
+    "name": "Short_Article_Title (7).pdf",
+    "sha256": "c967257f22e6b7ee38748321810b976de57cf7e259fbadcf1ccda582707a927e",
     "figures": {
-      "fig1": "DESIGN_ASSET_USER_EXEMPT",
-      "fig2": "VISUALLY_ALIGNED_AND_RELEASE_REFERENCE_PIXEL_VERIFIED",
-      "fig3": "VISUALLY_ALIGNED_AND_RELEASE_REFERENCE_PIXEL_VERIFIED",
-      "fig4": "VISUALLY_ALIGNED_AND_RELEASE_REFERENCE_PIXEL_VERIFIED",
-      "fig5": "VISUALLY_ALIGNED_COMPLETE_COMPOSITE_AND_RELEASE_REFERENCE_PIXEL_VERIFIED",
-      "fig6": "EXACT_AUTHOR_CONFIRMED_MANUAL_ASSEMBLY_ASSET_MAPPED"
+      "fig1": "AUTHOR_HAND_DRAWN_DESIGN_ASSET_EXEMPT",
+      "fig2": "VISUALLY_MATCHES_FINAL_PDF_WITH_MIXED_DNB_METRIC_SCOPES_DISCLOSED",
+      "fig3": "FINAL_A_TO_N_PANEL_ORDER_VISUALLY_VERIFIED_AND_PIXEL_IDENTICAL_TO_RELEASE_REFERENCE",
+      "fig4": "VISUALLY_VERIFIED_AND_PIXEL_IDENTICAL_TO_RELEASE_REFERENCE",
+      "fig5": "FOUR_MODULE_ROWS_AND_SIX_METRIC_PANELS_VISUALLY_VERIFIED_AND_PIXEL_IDENTICAL_TO_RELEASE_REFERENCE",
+      "fig6": "AUTHOR_APPROVED_MANUAL_ASSEMBLY_ASSET_VISUALLY_VERIFIED_AND_PIXEL_IDENTICAL_TO_RELEASE_REFERENCE"
     }
   },
   "supplement_pdf": {
-    "name": "Leca_VC_supplemental_overleaf_v1.pdf",
-    "sha256": "843c7124162d4b21cc603c6583e4d0deddd386c8f8c43972404469520ddd46fb",
+    "name": "Leca_VC_supplemental_overleaf_v1 (1).pdf",
+    "sha256": "3f344c72d51f8d6e677becf78dd49d6d24c9da55ab015040f5503c15680918a1",
     "figure_range": "S1-S8",
-    "renumbering_applied": {"former_release_figS8": "figS7", "former_release_figS9": "figS8"},
+    "final_order": ["GSE2565 functional programs", "GSE120575 composition", "GSE230538 composition", "GSE267904 CCI heatmaps", "Spatial COMMOT hotspots", "Step-60 policy", "Program traces", "Contamination probe"],
     "figures": {
-      "figS1": "EXACT_LOCAL_FROZEN_OUTPUT_MAPPED",
-      "figS2": "EXACT_LOCAL_FROZEN_OUTPUT_MAPPED",
-      "figS3": "EXACT_LOCAL_FROZEN_OUTPUT_MAPPED",
-      "figS4": "EXACT_LOCAL_FROZEN_OUTPUT_MAPPED",
-      "figS5": "EXACT_LOCAL_FROZEN_OUTPUT_MAPPED",
-      "figS6": "COLLABORATOR_RENDERER_AND_RUNTIME_RECORD_VALIDATED",
-      "figS7": "EXACT_LOCAL_FROZEN_OUTPUT_MAPPED",
-      "figS8": "EXACT_LOCAL_FROZEN_OUTPUT_MAPPED"
+      "figS1": "VISUALLY_VERIFIED_LECA_VC_LABEL_AND_PIXEL_IDENTICAL_TO_RELEASE_REFERENCE",
+      "figS2": "VISUALLY_VERIFIED_NO_PHYSICELL_VERSION_FOOTER_AND_PIXEL_IDENTICAL_TO_RELEASE_REFERENCE",
+      "figS3": "VISUALLY_VERIFIED_AND_PIXEL_IDENTICAL_TO_RELEASE_REFERENCE",
+      "figS4": "VISUALLY_VERIFIED_LECA_VC_LABEL_AND_PIXEL_IDENTICAL_TO_RELEASE_REFERENCE",
+      "figS5": "VISUALLY_VERIFIED_AND_PIXEL_IDENTICAL_TO_RELEASE_REFERENCE",
+      "figS6": "COLLABORATOR_RENDERER_AND_STEP_60_RUNTIME_RECORD_VALIDATED",
+      "figS7": "CLEAN_LAYOUT_VISUALLY_VERIFIED_AND_PIXEL_IDENTICAL_TO_RELEASE_REFERENCE",
+      "figS8": "WILSON_INTERVAL_PANEL_VISUALLY_VERIFIED_AND_PIXEL_IDENTICAL_TO_RELEASE_REFERENCE"
     }
-  }
+  },
+  "captions": "Transcribed from the author-designated final PDFs into each figure's caption.txt; no wording corrections were made during this code synchronization.",
+  "supplementary_tables": "Both final tables are independently reconstructed from the frozen original analysis arrays or vectors by workflows/reproduce_tables.py.",
+  "scientific_scope_limitations": "See docs/FINAL_PAPER_SYNC.md and source_data/fig2/dnb_metric_scopes.json. Figure rendering and manuscript matching are distinct from a successful full scientific rerun."
 }

@@ -1,0 +1,4 @@
+metric,value,real_post_delta,virtual_delta
+response_score_direction_agreement,True,0.18721777383193272,2.2873132283603903
+mean_state_proportion_rmse,0.036605717927086556,0.18721777383193272,2.2873132283603903
+mean_marker_gene_pearson,0.9753094968606868,,

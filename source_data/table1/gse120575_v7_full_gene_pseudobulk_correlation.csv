@@ -1,0 +1,3 @@
+response_group,n_genes_tested_in_raw_matrix,n_genes_after_expression_filter,comparison,pearson,spearman,note
+Responder,55737,23848,log1p real post-treatment pseudo-bulk vs virtual post-treatment pseudo-bulk,0.9930763467749514,0.9745198819311657,Virtual full-gene pseudo-bulk is state-mixture projection from pre-treatment state prototypes; not a per-cell full-transcriptome decoder.
+Non-responder,55737,23848,log1p real post-treatment pseudo-bulk vs virtual post-treatment pseudo-bulk,0.9956984864667467,0.9829577635384974,Virtual full-gene pseudo-bulk is state-mixture projection from pre-treatment state prototypes; not a per-cell full-transcriptome decoder.

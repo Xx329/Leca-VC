@@ -11,13 +11,14 @@ manuscript.
 
 ## Release status
 
-This repository is currently maintained as a private release candidate.
-Public release will follow final manuscript, reproducibility, and data-release
-checks.
+This repository is public. Figure numbering and displayed values follow
+`Short_Article_Title (7).pdf` and
+`Leca_VC_supplemental_overleaf_v1 (1).pdf`. Their SHA256 hashes are recorded
+in `manifests/paper_figures.yaml`; the manuscript PDFs are not distributed here.
 
 The manuscript and supplementary PDFs associated with the current release
-candidate are the authoritative references for figure numbering and reported
-numerical results. Release-specific provenance and reproducibility status are
+are the authoritative references for figure numbering and reported
+numerical results. Release provenance and reproducibility status are
 recorded in:
 
 - `manifests/release_status.json`
@@ -50,5 +51,90 @@ conda env create -f environment/figure-environment.yml
 conda activate lecavc-figures
 
 python workflows/reproduce_figures.py --figure fig4
-python workflows/reproduce_figures.py --figure figS8
+python workflows/reproduce_figures.py --figure figS7
 python workflows/reproduce_figures.py --all
+python workflows/reproduce_figures.py --figure figS8
+python workflows/reproduce_tables.py --all
+python workflows/run_contamination_probe.py --offline
+python workflows/verify_figures.py
+python -m unittest discover -s tests -v
+python workflows/audit_release.py
+```
+
+These commands use frozen source data without an API key, LLM calls, or
+simulation runs. Outputs are written to `build/`; reference assets remain
+under `figures/`. Figure 6 preserves the author-approved manual assembly
+raster; its PDF/SVG wrappers do not convert it to vector scientific data.
+
+## Figure and table index
+
+| Figure | Content |
+|---|---|
+| 2 | GSE2565 temporal transcriptomic response |
+| 3 | GSE120575 expression A–L; GSE267904 CCI M–N |
+| 4 | GSE120575 expression organization and heterogeneity |
+| 5 | GSE267904 agent granularity and spatial modules |
+| 6 | Pulmonary-fibrosis intervention; manual panel assembly |
+| S1 | GSE2565 functional-program heatmaps |
+| S2 | GSE120575 cell-type composition |
+| S3 | GSE230538 cell-state composition |
+| S4 | GSE267904 CCI network heatmaps |
+| S5 | GSE267904 spatial COMMOT hotspots |
+| S6 | Representative step-60 myofibroblast policy |
+| S7 | Agent program changes and PhysiCell writeback |
+| S8 | Exact-runtime contamination probe |
+| Supplementary Table 1 | Historical GSE120575 V7 validation |
+| Supplementary Table 2 | GSE230538 expression under distinct information regimes |
+
+Each figure is linked to its renderer and frozen inputs in
+`manifests/paper_figures.yaml`. Table sources and experiment versions are
+recorded in `manifests/paper_tables.json`. Table 1 is a historical V7 result,
+separate from the de-identified 834-gene expression benchmark in Figures 3–4.
+Original source method identifiers remain recorded alongside Leca-VC labels.
+See `docs/FINAL_PAPER_SYNC.md` for synchronization details, scientific source
+scopes, and known manuscript wording inconsistencies. Captions retain the
+final PDFs' wording rather than silently revising the manuscript.
+
+## Full benchmark execution
+
+```bash
+python workflows/run_benchmark.py --dataset gse2565 --preflight
+python workflows/run_benchmark.py --dataset gse120575 --preflight
+python workflows/run_benchmark.py --dataset gse267904 --preflight
+python workflows/run_benchmark.py --dataset fibrosis_application --preflight
+
+export DEEPSEEK_API_KEY='enter-key-in-your-shell-only'
+export PHYSICELL_ROOT=/path/to/PhysiCell-1.14.2
+export COMMOT_PYTHON=/path/to/lecavc-commot/bin/python
+python workflows/run_benchmark.py --dataset gse2565 --run
+python workflows/run_contamination_probe.py --online
+```
+
+Large processed inputs and complete runtime audit records are not included
+in Git. Their external artifact URLs and hashes have not yet been finalized;
+the full-run preflight reports missing dependencies explicitly. The offline
+figure tier is available from the files in this repository. Missing credentials,
+invalid programs, or failed executors stop a run.
+
+The Figure 6 contributor code and partial tables are included, but delivered
+archives and logs do not establish a clean full rerun. The fibrosis-application
+V3 rerun remains paused; see
+`experiments/fibrosis_application/provenance/delivery_audit.json`.
+Figure 3 CCI panels retain the manuscript's frozen V5 diagnostic results and
+their failed scientific qualification status. This is recorded separately from
+successful figure reproduction.
+
+## Data and interpretation
+
+Original datasets are accessed through GEO; see `manifests/datasets.yaml`.
+Planned processed-input, runtime-audit, and reference-result bundles are
+listed in `manifests/artifact_sha256.json`. An external download is not
+available until its URL and SHA256 have been frozen.
+
+The S8 contamination probe observed 1 correct, 6 incorrect, and 23 unknown
+answers among 30 runtime contexts, with 95% Wilson confidence intervals.
+It assesses prompt-enabled outcome retrieval and cannot exclude exposure to
+the underlying studies during model pretraining.
+
+License: BSD-3-Clause. Third-party software and data retain their upstream
+terms; see `THIRD_PARTY_NOTICES.md`.
