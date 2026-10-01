@@ -38,12 +38,12 @@
       "size_bytes": 6271
     },
     "THIRD_PARTY_NOTICES.md": {
-      "sha256": "d2c18651bf8da4d59aca946d0dc3244f23c1305310429a414c38c890ee4ceb4c",
-      "size_bytes": 1161
+      "sha256": "ca12666987818a3a45277a74ee9bd6df5010d0b92c3cfe263f7f7b4e14e7b21e",
+      "size_bytes": 1369
     },
     "docs/FINAL_PAPER_SYNC.md": {
-      "sha256": "641d64ba1c203a982ffe7ea2e28af95c0894dc6e61b29b7491f389201b7e8444",
-      "size_bytes": 3744
+      "sha256": "265f9445e9c8cf001c043441f75650f9d6afe16c795cb43bb8557cbd06b33b6b",
+      "size_bytes": 4108
     },
     "docs/PRIVATE_RC_CHECKLIST.md": {
       "sha256": "57a5561c4ad57b034af2445b8683820b3c32a2d13c8a76b6806bc2c359fc9d89",
@@ -590,8 +590,8 @@
       "size_bytes": 2720
     },
     "manifests/local_validation.json": {
-      "sha256": "71f4fef841b6b8fd6d3c03a2f811912f70412ed06e2d7d24364cf81926bbe891",
-      "size_bytes": 1093
+      "sha256": "c6fe876beea340da14dfe759a1d2670044eeb0dac0e3cc58ea9bfc83ae3a523d",
+      "size_bytes": 1234
     },
     "manifests/paper_figures.yaml": {
       "sha256": "a9d2834b1446a9013035c4ed9b5018ad5d621b3e4666edaaa0ca8467d2f25811",
@@ -618,8 +618,8 @@
       "size_bytes": 118
     },
     "physicell/fibrosis_application/Makefile": {
-      "sha256": "bc3ae9b6d02ff146cdc0ed6f6512e40d9ddcdd17f74c2847d47b860232527d4e",
-      "size_bytes": 1131
+      "sha256": "8523b2bb5ef51d315e32bb7c046ef955f77ce31a4221065b0dcc3faa675289a4",
+      "size_bytes": 1501
     },
     "physicell/fibrosis_application/PhysiCell_settings_base.xml": {
       "sha256": "c6f5f307ac0bacad116443e0bf8316931d2d637c13abdbc721864455e9e79240",
@@ -638,8 +638,8 @@
       "size_bytes": 118
     },
     "physicell/gse120575/Makefile": {
-      "sha256": "7cb245460365e40cc2b8fa35b17d15ba935bbc7d18716821a95e9ccffbbb92aa",
-      "size_bytes": 1089
+      "sha256": "a40b6978d792a4a63d0c662691e74d752a835644f2fc8f772c98b8d9dde82701",
+      "size_bytes": 1448
     },
     "physicell/gse120575/custom.cpp": {
       "sha256": "5679b16b5baecb6a0e02e5ab03e72eee4b69b6fa3dec269d4b7968147778a84f",
@@ -658,8 +658,8 @@
       "size_bytes": 118
     },
     "physicell/gse2565/Makefile": {
-      "sha256": "fde41818feabb4e503f13f0ace52e15991f78832a067a56b13f707918c52a1b2",
-      "size_bytes": 1086
+      "sha256": "52330ff5248eeda4103e981a4b3704720933247367001276cf1b5284dd441889",
+      "size_bytes": 1443
     },
     "physicell/gse2565/PhysiCell_settings_base.xml": {
       "sha256": "efd07dc571109477a40da9f9bd26d0a507be22bef49174f9a32465dcfefd87fb",
@@ -678,8 +678,8 @@
       "size_bytes": 118
     },
     "physicell/gse267904/Makefile": {
-      "sha256": "f7083ca90687cfa4d4a6b64e52b8433a269e5fdfe923d30686f3399979ee3467",
-      "size_bytes": 1098
+      "sha256": "3e848b9983d41865c0a10695dd533189f4597c160b4fb8c29f8315d780a45e04",
+      "size_bytes": 1457
     },
     "physicell/gse267904/PhysiCell_settings.xml": {
       "sha256": "a56b757483ba555210ba09582642f29b2cfa9a1d3a831ece8d19a9462d95a6e5",
@@ -1502,12 +1502,12 @@
       "size_bytes": 2716391
     },
     "tests/test_release.py": {
-      "sha256": "ea9504dafb11ec47d6d3d104405c6f00eb702e0360ddc62191c8d9f4bbd7610e",
-      "size_bytes": 7166
+      "sha256": "c004d151731ca1209d96bd8c836cec71c579359f8081a524bfa8b13c2dd212ca",
+      "size_bytes": 7285
     },
     "workflows/audit_release.py": {
-      "sha256": "9fca0ad47c026da69685f1e2eecdb5a280c410b26eee9f75cb7041abb5578688",
-      "size_bytes": 3438
+      "sha256": "2164c6af4bc5dbed3e5cd15640f0e14bd4244b884e8259cc2a747b079295b522",
+      "size_bytes": 3474
     },
     "workflows/build_artifact_bundles.py": {
       "sha256": "c111ed84df67c1a858872e7abf4eeda0ba2787c867d028409aeb692c2e63fb10",

@@ -67,3 +67,8 @@ checks full-gene Table 1 correlations and all Table 2 Pearson/CCC/RMSE values.
 `workflows/verify_figures.py` compares rendered pixels with the updated frozen
 references; it is a reproducibility test, not an independent scientific gate.
 `manifests/canonical_pdf_alignment.json` records the separate final-PDF audit.
+The four custom C++ scenarios compile against a fresh PhysiCell 1.14.2 checkout.
+Their Makefiles generate a build-only main file from the upstream template so
+they do not depend on the mutable default sample project's `main.cpp`.
+Repository hygiene tests exclude Git's pack files and ignored vendor/build
+directories while continuing to inspect all release files.

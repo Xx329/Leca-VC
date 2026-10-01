@@ -71,8 +71,9 @@ class ReleaseTests(unittest.TestCase):
 
     def test_no_large_or_compiled_files(self):
         bad=[]
+        excluded={".git","build","vendor","data","outputs","runtime","__pycache__"}
         for path in ROOT.rglob("*"):
-            if path.is_symlink() or not path.is_file() or "build" in path.parts or "__pycache__" in path.parts: continue
+            if path.is_symlink() or not path.is_file() or any(part in excluded for part in path.parts): continue
             if path.stat().st_size>50*1024*1024 or path.suffix in {".pyc",".o",".so",".exe"} or path.name.endswith("Zone.Identifier"): bad.append(str(path.relative_to(ROOT)))
         self.assertEqual(bad,[])
 
@@ -107,7 +108,7 @@ class ReleaseTests(unittest.TestCase):
     def test_python_sources_parse_without_bytecode(self):
         failures=[]
         for path in ROOT.rglob("*.py"):
-            if any(part in {"build","__pycache__"} for part in path.parts): continue
+            if any(part in {".git","build","vendor","data","outputs","runtime","__pycache__"} for part in path.parts): continue
             try: ast.parse(path.read_text(encoding="utf-8"),filename=str(path))
             except (SyntaxError,UnicodeDecodeError) as error: failures.append(f"{path.relative_to(ROOT)}: {error}")
         self.assertEqual(failures,[])

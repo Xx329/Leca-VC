@@ -7,7 +7,7 @@ from pathlib import Path
 
 ROOT=Path(__file__).resolve().parents[1]
 HASH_MANIFEST=ROOT/"manifests/artifact_sha256.json"
-EXCLUDED_PARTS={".git","build","__pycache__",".pytest_cache"}
+EXCLUDED_PARTS={".git","build","vendor","data","outputs","runtime","__pycache__",".pytest_cache"}
 EXCLUDED_FILES={HASH_MANIFEST.resolve()}
 BANNED_SUFFIXES={".pyc",".pyo",".o",".so",".dylib",".exe"}
 SECRET_PATTERNS=(

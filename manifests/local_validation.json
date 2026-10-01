@@ -7,6 +7,7 @@
     "reference_pixel_comparison": "all 13 figures verified after final Figure 2 reference refresh",
     "supplementary_tables": "Table 1 and Table 2 independently reconstructed; maximum numerical errors 2.22e-16 and 1.11e-16",
     "unit_tests": "15 tests passing",
+    "physicell_compile_smoke": "four custom scenarios linked successfully against a fresh PhysiCell 1.14.2 checkout; no simulation was run",
     "contamination_probe_offline": "30 responses; 1 correct, 6 incorrect, 23 unknown; S8 numbering",
     "repository_scan": "secret, private-path, forbidden-binary and oversized-file scan passes after hash refresh"
   },
